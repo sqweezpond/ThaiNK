@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- START HEADER -->
+    <?php include_once('inc/header.php'); ?>
+    <!-- END HEADER -->
+  </head>
+    <!-- FOOTER-->
+  <div class="footer-bg1">
+      <div class="container d-none d-lg-block d-md-block">
+        	<div class="row pt-4 pb-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r footer-b-l p-4 text-center">
+                    <i class="flaticon-like"></i>
+                    <div class="footer-font pt-3">สินค้าคุณภาพมากมาย</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
+                    <i class="flaticon-clock"></i>
+                    <div class="footer-font pt-3">บริการออกแบบฉลาก ฝาขวด</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
+                    <i class="flaticon-sketch"></i>
+                    <div class="footer-font pt-3">งานเร็วเสร็จทันเวลา</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
+                    <i class="flaticon-delivery-truck"></i>
+                    <div class="footer-font pt-3">สินค้าส่งทั่วประเทศ</div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+<!-- MOBILE ---------------------------->
+  <div class="footer-bg1">
+      <div class="container d-lg-none d-md-none d-block">
+        	<div class="row pt-4 pb-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 footer-b-b text-center">
+                    <i class="flaticon-like"></i>
+                    <div class="footer-font pt-3">สินค้าคุณภาพมากมาย</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 footer-b-b text-center">
+                    <i class="flaticon-clock"></i>
+                    <div class="footer-font pt-3">บริการออกแบบฉลาก ฝาขวด</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 footer-b-b text-center">
+                    <i class="flaticon-sketch"></i>
+                    <div class="footer-font pt-3">งานเร็วเสร็จทันเวลา</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 text-center">
+                    <i class="flaticon-delivery-truck"></i>
+                    <div class="footer-font pt-3">สินค้าส่งทั่วประเทศ</div>
+                </div>
+          </div>
+      </div>
+  </div>
+  <!-- END MOBILE ----------------------------->
+
+  <div class="footer-bg2">
+      <div class="container">
+        	<div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-12 pt-2 pb-2 pl-0">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-3 px-0 text-md-right text-right">
+                          <i class="flaticon-headset"></i>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-8 col-9 px-0 pl-2">
+                          <div class="footer-font2 pt-1 footer-pl3">หากมีข้อสงสัย หรือ สนใจสินค้า ติดต่อได้ที่ :</div>
+                          <div class="footer-font3 footer-pl3">(800) 8001-8588,(0600) 874 548</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-5 col-12 footer-bg3 px-0">
+                    <div class="footer-font4 text-center footer-p-t">ลงทะเบียนเพื่อรับข่าวสารก่อนใคร</div>
+                </div>
+                <div class="col-xl-5 col-lg-4 col-md-7 col-12 footer-bg3 footer-p-t2  footer-p-r footer-padding">
+                  <div class="input-group">
+                      <input type="text" class="form-control footer-form " aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                        <button class="btn footer-btn" type="button">ลงทะเบียน</button>
+                      </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="footer-bg1">
+      <div class="container">
+        	<div class="row pt-5 pb-5">
+                <div class="col-xl-5 col-lg-5 col-md-12 footer-b w-100 text-md-center text-lg-left text-center">
+                    <div class="footer-font5 pt-3">Facebook Fanpage</div>
+                    <div class="p-3 footer-pl4">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E0%25B8%259A%25E0%25B8%25A3%25E0%25B8%25B4%25E0%25B8%25A9%25E0%25B8%25B1%25E0%25B8%2597-%25E0%25B9%2584%25E0%25B8%2597%25E0%25B8%25A2-%25E0%25B9%2580%25E0%25B8%25AD%25E0%25B9%2587%25E0%25B8%2599-%25E0%25B9%2580%25E0%25B8%2584-%25E0%25B8%259E%25E0%25B8%25A5%25E0%25B8%25B2%25E0
+                        %25B8%25AA%25E0%25B8%2595%25E0%25B8%25B4%25E0%25B8%2581-%25E0%25B8%2588%25E0%25B8%25B3%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%2594-215586438947606%2F&tabs=timeline&width=600&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+                      </iframe>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-12 footer-pl6 footer-p-t3">
+                  <div class="row">
+                      <div class="col-xl-3 col-lg-3 col-12 col-md-3 text-center text-lg-left text-md-left">
+                         <div class="footer-font6 pt-2">หมวดหมู่สินค้า</div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ขวด PET</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ขวดน้ำหวาน</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ขวดน้ำแบบขุ่น</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ถังใส่น้ำ</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ฝาขวด</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ถ้วยน้ำ</a></div>
+                      </div>
+                      <div class="col-xl-5 col-lg-5 col-12 col-md-5 footer-p-t3 text-center text-lg-left text-md-left">
+                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ถ้วย pp ขนาด 16 และ 22 ออนซ์</a></div>
+                        <div class="footer-font pt-3"><a href = "#" class="footer-link">พรีฟอร์ม</a></div>
+                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ถุงร้อน ถุงไฮโซ</a></div>
+                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ช้อนพลาสติก</a></div>
+                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ฉลาก</a></div>
+                        <div class="footer-font pt-3"><a href = "#" class="footer-link">หลอดน้ำดื่ม</a></div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-12 col-md-4 footer-p-t7 px-0 text-center text-lg-left text-md-left">
+                         <div class="footer-font6 pt-2">Help Center</div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">บัญชีของฉัน</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">วิธีการสั่งซื้อ</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">คำถามที่พบบ่อย</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link">นโยบายและเงื่อนไขการให้บริการ</a></div>
+                      </div>
+                  </div>
+                  <div class="row footer-b footer-bg4 mt-4 footer-m-l2">
+                        <div class="col-xl-4 col-lg-3 col-md-3 col-12">
+                            <div class="footer-overlay-logo">
+                              <img class="footer-image-full" src="/thaink/assets/images/logo/logo.png">
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-1 text-right px-0">
+                            <div class="pt-3 p-1">
+                              <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div class="footer-p-t5">
+                              <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="footer-p-t4">
+                              <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 col-11 col-md-8 p-3">
+                          <div class="footer-font7">
+                              8/8 หมู่ 4 ซอย เทศบาล 19 ถนนบางกรวย-ไทรน้อย <br> ตำบลโสนลอย อำเภอ บางบัวทอง จังหวัดนนทบุรี 11110
+                          </div>
+                          <div class="footer-font7 pt-2">
+                              Tel : +66 02-9202500-5 Fax : 02-99202506
+                          </div>
+                          <div class="footer-font7 pt-2">
+                              Email : sale@thainkplastic.co.th
+                          </div>
+                        </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="footer-bg4">
+      <div class="container">
+        	<div class="row pt-4 pb-4">
+                <div class="col-xl-6 col-lg-6 col-md-7 col-12 p-2 px-0 text-center text-lg-left">
+                   <div class="footer-font6">สามารถชำระเงินผ่าน</div>
+                   <div class="pt-3">
+                        <a href="#" class="footer-link">
+                          <img class="footer-payment" src="/thaink/assets/images/payment/cd-06.png">
+                        </a>
+                        <a href="#" class="footer-link">
+                          <img class="footer-payment ml-2" src="/thaink/assets/images/payment/cd-05.png">
+                        </a>
+                        <a href="#" class="footer-link">
+                          <img class="footer-payment ml-2" src="/thaink/assets/images/payment/cd-04.png">
+                        </a>
+                        <a href="#" class="footer-link">
+                          <img class="footer-payment ml-2" src="/thaink/assets/images/payment/cd-03.png">
+                        </a>
+                        <a href="#" class="footer-link">
+                          <img class="footer-payment ml-2" src="/thaink/assets/images/payment/cd-01.png">
+                        </a>
+                        <a href="#" class="footer-link">
+                          <img class="footer-payment ml-2" src="/thaink/assets/images/payment/cd-02.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-5 col-12 pt-2 px-0 text-lg-right text-center">
+                    <div class="footer-font6 footer-p-t7">ติดตามข่าวสารจากเราได้ที่</div>
+                    <div class="pt-2">
+                         <a href="#" class="footer-link p-1">
+                           <i class="fa fa-facebook footer-facebook" aria-hidden="true"></i>
+                         </a>
+                         <a href="#" class="footer-link p-1">
+                           <i class="fa fa-twitter footer-twitter" aria-hidden="true"></i>
+                         </a>
+                         <a href="#" class="footer-link p-1">
+                           <i class="fa fa-google-plus footer-google" aria-hidden="true"></i>
+                         </a>
+                         <a href="#" class="footer-link p-1">
+                           <i class="fa fa-whatsapp footer-whatsapp" aria-hidden="true"></i>
+                         </a>
+                    </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="footer-bg3">
+      <div class="container">
+          <div class="col-12 text-center p-4">
+                <div class="footer-font">© 2018 Thai NK. Plastic All rights reserved. Develop by Workbythai</div>
+          </div>
+      </div>
+  </div>
+
+    <!-- END-FOOTER--->
+</html>
