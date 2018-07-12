@@ -2,8 +2,8 @@
 
 <!-- NAVBAR ------------------------------->
 		<div class="navbar-bg">
-					<nav class="navbar navbar-expand-xl d-lg-none d-md-block w-100 nav-p-r">
-							 <div class="row w-100">
+					<nav class="navbar navbar-expand-xl d-lg-none d-md-block w-100 nav-p-r pr-0">
+							 <div class="row w-100 ">
 								    <!-- <div class="col-1 pt-1">
 										  	<button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 										    	 <i class="fa fa-bars" aria-hidden="true"></i>
@@ -17,7 +17,7 @@
 														</div>
 												</div>
 										</div>
-										<div class="col-md-5 col-12 text-right nav-p-r2">
+										<div class="col-md-5 col-12 text-right nav-p-r2 pr-0">
 													<span class="pr-2" href=".php">
 															<i class="fa fa-user" aria-hidden="true"></i>
 															เข้าสู่ระบบ
@@ -87,10 +87,10 @@
 
 <!--- NAVBAR 1 (XL + iPadPro) ------------------------------------------------->
 
-	   <div class="container d-lg-block d-none">
-				 <nav class="navbar navbar-expand-lg">
+	   <div class="container d-lg-block d-none pr-0">
+				 <nav class="navbar navbar-expand-lg pr-0">
 							<div class="row w-100">
-									<div class="col-xl-6 col-lg-6 navbar-p-t navbar-p-l2">
+									<div class="col-xl-6 col-lg-6 navbar-p-t navbar-p-l2 pl-0">
 											<span class="navbar-font">
 													<i class="fa fa-phone mr-1" aria-hidden="true"></i>
 													+668-5644-2255
@@ -116,7 +116,7 @@
 														 <li class="nav-item">
 														    <div class="nav-link navbar-p-t2 px-0 pl-2" href="#">
 																		<div class="dropdown">
-																				<button class="dropbtn">TH
+																				<button class="dropbtn pr-0">TH
 																					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 																				</button>
 																				<div class="dropdown-content">
