@@ -5,7 +5,6 @@
          url('../fonts/kanit/kanit-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -14,7 +13,6 @@
          url('../fonts/kanit/kanit-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -23,7 +21,6 @@
          url('../fonts/kanit/kanit-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -32,8 +29,9 @@
          url('../fonts/kanit/kanit-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+
 
 body {
     font-family:'kanitregular';
@@ -76,7 +74,7 @@ body {
     padding-top: 8px;
 }
 .navbar-p-t2{
-   margin-top: -9px;
+    margin-top: -9px;
 }
 .navbar-login{
     font-size: 20px;
@@ -165,18 +163,18 @@ body {
     margin-top: -5px;
 }
 .overlay-logo {
-   position: relative;
-   height: 120px;
-   width: 100%;
-   overflow: hidden;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
 }
 .logo-image-full {
-   position: absolute;
-   display: block;
-   width: 100%;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .search-btn2{
     background:#333;
@@ -472,37 +470,30 @@ body {
     backface-visibility: hidden;
     perspective: 1000px;
 }
-
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		-webkit-transform: translateY(0);
 		transform: translateY(0);
 	}
-
 	40% {
 		-webkit-transform: translateY(-10px);
 		transform: translateY(-10px);
 	}
-
 	80% {
 		-webkit-transform: translateY(-10px);
 		transform: translateY(-10px);
 	}
 }
-
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
-
   20%, 80% {
     transform: translate3d(2px, 0, 0);
   }
-
   30%, 50%, 70% {
     transform: translate3d(-4px, 0, 0);
   }
-
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
@@ -511,12 +502,12 @@ body {
 
 
 
-/*-------------------------------------
------------------HOME-----------------
----------------------------------------*/
+/*-----------------------------------
+-------------- HOME -----------------
+-------------------------------------*/
 
 /*-------------------------------------
--------------END HOME-----------------
+------------- END HOME ----------------
 ---------------------------------------*/
 
 
@@ -559,10 +550,13 @@ body {
   .navbar2-p-l{
       padding-left: 60px;
   }
-  /*-----------END NAVBAR (1366)------------------*/
+  /*----------END NAVBAR (1366)------------*/
+
+  /*---------- FOOTER (1366)------------*/
   .footer-p-t3{
       padding-top:34px;
   }
+  /*----------END FOOTER (1366)------------*/
 }
 
 
@@ -644,29 +638,29 @@ body {
 
   /*----------- FOOTER (768) ----------------*/
   .footer-pl3{
-    padding-left: 10px;
+      padding-left: 10px;
   }
   .footer-pl4{
-    padding-left: 100px !important;
+      padding-left: 100px !important;
   }
   .footer-p-t4{
-    padding-top: 5px;
+      padding-top: 5px;
   }
   .footer-p-t3{
-    padding-top: 31px;
+      padding-top: 31px;
   }
   .footer-p-t2{
-    padding-top: 5px;
+      padding-top: 5px;
   }
   .footer-p-t{
-    padding-top: 17px;
+      padding-top: 17px;
   }
   .footer-p-t5{
-    padding-top: 22px;
+      padding-top: 22px;
   }
   .footer-padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
   }
   /*----------- END FOOTER (768) -------------*/
 }
@@ -690,13 +684,13 @@ body {
         color: #333333;
     }
     .navbar2-p-l{
-      padding-left: 20px;
+        padding-left: 20px;
     }
     .shop-m-l{
-       margin-left:25px;
+        margin-left:25px;
     }
     .search-p-t{
-       padding-top: 10px;
+        padding-top: 10px;
     }
     .shop-logo{
         font-size: 30px;
@@ -820,16 +814,16 @@ body {
 @media(max-width: 375px){
   /*----------- NAVBAR (375) ------------------*/
   .shop-m-l{
-     margin-left:20px;
+      margin-left:20px;
   }
   .search-p-t{
-     padding-top: 7px;
+      padding-top: 7px;
   }
   .overlay-logo {
-     position: relative;
-     height:45px;
-     width: 100%;
-     overflow: hidden;
+       position: relative;
+       height:45px;
+       width: 100%;
+       overflow: hidden;
   }
   /*----------- END NAVBAR (375) ------------*/
 
@@ -883,24 +877,24 @@ body {
       color: #333333;
   }
   .search-p-t{
-     padding-top: 4px;
+      padding-top: 4px;
   }
   .overlay-logo {
-     position: relative;
-     height:35px;
-     width: 100%;
-     overflow: hidden;
+      position: relative;
+      height:35px;
+      width: 100%;
+      overflow: hidden;
   }
   .shop-logo{
       font-size: 25px;
       margin-top: 0px;
   }
   .shop-m-l{
-     margin-left:10px;
+      margin-left:10px;
   }
   .shop-p-l-r{
-     padding-left: 0px;
-     padding-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
   }
   /*----------- END NAVBAR (320) ------------*/
 
