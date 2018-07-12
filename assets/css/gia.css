@@ -4,9 +4,10 @@
 /*-------------------------------------
 -----------------about-us-----------------
 ---------------------------------------*/
-
-.about-bg{
-	background-image: url("assets/images/banner/title.png");	
+.about-hr-y{
+	border-bottom: 3px solid #ffcc2b;
+    width: 220px;
+    margin-left: 15px;
 }
 
 
