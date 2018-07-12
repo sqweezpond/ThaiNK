@@ -554,6 +554,11 @@ body {
     font-family: 'kanitlight';
     text-decoration: line-through;
 }
+.home-font11{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'kanitlight';
+}
 .home-btn{
     width: 200px;
     height: 50px;
@@ -597,6 +602,16 @@ body {
     border-radius: 0px;
     margin-left: 10px;
 }
+.home-btn3{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ffcc2b;
+    color: #fff;
+    font-size: 20px;
+    background: #ffcc2b;
+    font-family: 'kanitlight';
+    border-radius: 0px;
+}
 .home-overlay-image{
     position: relative;
     height: 339px;
@@ -636,7 +651,7 @@ body {
 .home-position-a5{
     position: absolute;
     margin-top: 98px;
-    margin-left:36.5em;
+    right:2%;
 }
 .home-position-a6{
     position: absolute;
@@ -731,13 +746,76 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.home-overlay-coulasel{
+    position: relative;
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.home-image-coulasel{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .home-shadow{
     box-shadow: 0px -1px 44px -17px;
 }
 .home-coulasel{
-    box-shadow: 0px 1px 13px -3px;
+    box-shadow: 0px 1px 15px -6px;
+}
+.home-card{
+    box-shadow: 0px 1px 15px -6px;
+}
+.b-n{
     border: none;
     border-radius: 0px;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background: #eeeeee;
+    color: #333333;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    right:-3%;
+    opacity: 0.7;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background:black;
+    color: #fff;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    right:-3%;
+    opacity: 0.7;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: #eeeeee;
+    color: #333333;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    left:-3%;
+    opacity: 0.7;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: black;
+    color: #fff;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    left:-3%;
+    opacity: 0.7;
 }
 /*-------------------------------------
 ------------- END HOME ----------------
