@@ -9,8 +9,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
-<!--     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logofav.png" >
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logofav.png"> -->
     <link rel="shortcut icon" href="/thaink/assets/images/logo/logo.png" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
@@ -22,9 +20,15 @@
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-    <link rel="stylesheet" type="text/css" href="assets/vandor/icon-thainkplastic/font/flaticon.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/vandor/icon-thainkplastic/font/flaticon.css">
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="assets/vandor/OwlCarousel/dist/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="assets/vandor/OwlCarousel/dist/assets/owl.theme.default.min.css">
 
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/gia.css">
     <link rel="stylesheet" type="text/css" href="font-icon/flaticon.css">
