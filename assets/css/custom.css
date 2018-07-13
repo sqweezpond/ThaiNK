@@ -1001,14 +1001,14 @@ body {
 }
 .profile-block{
     border: 2px solid#ffc526;
-    transition: all 0.5s ;
+    transition: all 0.3s ;
 }
 .profile-block:hover{
     border: 2px solid#ffc526;
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
-    transition: all 0.5s ;
+    transition: all 0.3s ;
 }
 .profile-p-t{
     padding-top: -5px;
