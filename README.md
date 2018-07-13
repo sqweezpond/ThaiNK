@@ -1,2 +1,0 @@
-# ThaiNK
-Pond / Gia
