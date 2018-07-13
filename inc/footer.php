@@ -5,24 +5,34 @@
     <?php include_once('inc/header.php'); ?>
     <!-- END HEADER -->
   </head>
-    <!-- FOOTER-->
+
+
+<!-- FOOTER-->
   <div class="footer-bg1">
       <div class="container d-none d-lg-block d-md-block">
         	<div class="row pt-4 pb-3">
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r footer-b-l p-4 text-center">
-                    <i class="flaticon-like"></i>
+                    <div class="footer-overlay-img">
+                      <img src="assets/images/footer-icon/f-icon1.png" class="footer-image-size">
+                    </div>
                     <div class="footer-font pt-3">สินค้าคุณภาพมากมาย</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
-                    <i class="flaticon-clock"></i>
+                    <div class="footer-overlay-img">
+                      <img src="assets/images/footer-icon/f-icon2.png" class="footer-image-size">
+                    </div>
                     <div class="footer-font pt-3">บริการออกแบบฉลาก ฝาขวด</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
-                    <i class="flaticon-sketch"></i>
+                    <div class="footer-overlay-img">
+                      <img src="assets/images/footer-icon/f-icon3.png" class="footer-image-size">
+                    </div>
                     <div class="footer-font pt-3">งานเร็วเสร็จทันเวลา</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
-                    <i class="flaticon-delivery-truck"></i>
+                    <div class="footer-overlay-img">
+                      <img src="assets/images/footer-icon/f-icon4.png" class="footer-image-size">
+                    </div>
                     <div class="footer-font pt-3">สินค้าส่งทั่วประเทศ</div>
                 </div>
           </div>
