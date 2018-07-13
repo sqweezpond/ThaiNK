@@ -13,10 +13,10 @@
 
     <div class="wrapper">
        <!-- CONTENT -->
-        <div class="container pb-5">
+        <div class="container pb-5 fadeIn animated">
 
-            <div class="row mt-5">
-                <div class="col-xl-4">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-5 mt-5">
                     <div class="text-center">
                        <i class="fa fa-user-circle-o profile-icon" aria-hidden="true"></i>
                     </div>
@@ -53,19 +53,46 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-8">
-                    <div class="card profile-shadow p-5">
+                <div class="col-xl-8 col-lg-8 col-md-7 mt-5">
+                    <div class="card profile-shadow profile-padding">
                         <div class="profile-font2">ข้อมูลส่วนตัว</div>
                         <div class="form-group row pt-4">
-                            <label for="staticEmail" class="col-xl-3 col-form-label">ชื่อ-นามสกุล</label>
+                            <label class="col-xl-3 col-form-label profile-font3 profile-p-t2">ชื่อ - นามสกุล</label>
                             <div class="col-xl-9">
-                              <input type="text" class="form-control profile-form" id="staticEmail" placeholder="ชื่อ-นามสกุล">
+                              <input type="text" class="form-control profile-form"  placeholder="ชื่อ-นามสกุล">
                             </div>
                         </div>
                         <div class="form-group row pt-2">
-                            <label for="staticEmail" class="col-xl-3 col-form-label">อีเมล</label>
+                            <label class="col-xl-3 col-form-label profile-font3 profile-p-t2">อีเมล</label>
                             <div class="col-xl-9">
-                              <input type="text" class="form-control profile-form" id="staticEmail" placeholder="อีเมล">
+                              <input type="text" class="form-control profile-form"  placeholder="อีเมล">
+                            </div>
+                        </div>
+                        <div class="form-group row pt-2">
+                            <label class="col-xl-3 col-lg-3 col-md-3 col-12 text-center text-lg-left text-md-left col-form-label profile-font3 profile-p-t2">รหัสผ่าน</label>
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-12 text-center text-lg-left text-md-left">
+                              <button type="button" class="btn profile-btn">
+                                <i class="fa fa-unlock-alt pr-2" aria-hidden="true"></i>เปลี่ยนรหัสผ่าน
+                              </button>
+                            </div>
+                        </div>
+                        <div class="form-group row pt-2">
+                            <label class="col-xl-3 col-form-label profile-font3 profile-p-t2">เบอร์โทรศัพท์</label>
+                            <div class="col-xl-9">
+                              <input type="text" class="form-control profile-form"  placeholder="เบอร์โทรศัพท์">
+                            </div>
+                        </div>
+                        <div class="form-group row pt-2">
+                            <label class="col-xl-3 col-form-label profile-font3 profile-p-t2">ที่อยู่</label>
+                            <div class="col-xl-9">
+                              <textarea class="form-control profile-form2" placeholder="ที่อยู่"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row pt-4">
+                            <div class="col-xl-12 text-center text-lg-right text-md-right">
+                              <button type="button" class="btn profile-btn">
+                                ลงทะเบียน
+                              </button>
                             </div>
                         </div>
                     </div>
