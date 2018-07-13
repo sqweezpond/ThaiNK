@@ -151,7 +151,7 @@
 					<nav class="navbar navbar-expand-lg">
 							<div class="row w-100 navbar2-p-l">
 								  <div class="col-xl-3 col-lg-3 col-md-3 col-5">
-											<a href="#">
+											<a href="home.php">
 													<div class="overlay-logo">
 													  <img class="logo-image-full" src="/thaink/assets/images/logo/logo.png">
 													</div>
