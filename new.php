@@ -34,7 +34,7 @@
     <div class="col-lg-4 col-md-6 col-12">
       <div class="new_card ">
         <div class="new_frame-crad">
-          <a href="#"><img class="new_card-img-top" src="http://www.thailandindustry.com/ex_uploads/9ce762f59e4b08c8091810d12e29a0c5.JPG" alt="Card image cap"></a>
+          <a href="#"><img class="new_card-img-top" src="assets/images/product/007.png" alt="Card image cap"></a>
         </div>
         <div class="card-body">
           <a href="#"><h5 class="new_fix_text">Lorem Ipsum คืออะไร?</h5></a>
@@ -50,7 +50,7 @@
     <div class="col-lg-4 col-md-6 col-12">
       <div class="new_card ">
         <div class="new_frame-crad">
-          <a href="#"><img class="new_card-img-top" src="https://site-assets.mediaoxide.com/workpointnews/2018/02/16085341/%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-1200x630.jpg" alt="Card image cap"></a>
+          <a href="#"><img class="new_card-img-top" src="assets/images/product/006.png" alt="Card image cap"></a>
         </div>
         <div class="card-body">
           <a href="#"><h5 class="new_fix_text">Lorem Ipsum คืออะไร?</h5></a>
@@ -66,7 +66,7 @@
     <div class="col-lg-4 col-md-6 col-12">
       <div class="new_card ">
         <div class="new_frame-crad">
-          <a href="#"><img class="new_card-img-top" src="https://site-assets.mediaoxide.com/workpointnews/2018/02/16085341/%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-1200x630.jpg" alt="Card image cap"></a>
+          <a href="#"><img class="new_card-img-top" src="assets/images/product/005.png" alt="Card image cap"></a>
         </div>
         <div class="card-body">
           <a href="#"><h5 class="new_fix_text">Lorem Ipsum คืออะไร?</h5></a>
@@ -79,10 +79,12 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-12">
+
+    <div class="row mt-4">
+      <div class="col-lg-4 col-md-6 col-12">
       <div class="new_card ">
         <div class="new_frame-crad">
-          <a href="#"><img class="new_card-img-top" src="https://site-assets.mediaoxide.com/workpointnews/2018/02/16085341/%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-1200x630.jpg" alt="Card image cap"></a>
+          <a href="#"><img class="new_card-img-top" src="assets/images/product/004.png" alt="Card image cap"></a>
         </div>
         <div class="card-body">
           <a href="#"><h5 class="new_fix_text">Lorem Ipsum คืออะไร?</h5></a>
@@ -95,10 +97,10 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-12">
+    <div class="col-lg-4 col-md-6 col-12  ">
       <div class="new_card ">
         <div class="new_frame-crad">
-          <a href="#"><img class="new_card-img-top" src="https://site-assets.mediaoxide.com/workpointnews/2018/02/16085341/%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-1200x630.jpg" alt="Card image cap"></a>
+          <a href="#"><img class="new_card-img-top" src="assets/images/product/003.png" alt="Card image cap"></a>
         </div>
         <div class="card-body">
           <a href="#"><h5 class="new_fix_text">Lorem Ipsum คืออะไร?</h5></a>
@@ -111,10 +113,10 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-12">
+    <div class="col-lg-4 col-md-6 col-12 ">
       <div class="new_card ">
         <div class="new_frame-crad">
-          <a href="#"><img class="new_card-img-top" src="https://site-assets.mediaoxide.com/workpointnews/2018/02/16085341/%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-1200x630.jpg" alt="Card image cap"></a>
+          <a href="#"><img class="new_card-img-top" src="assets/images/product/002.png" alt="Card image cap"></a>
         </div>
         <div class="card-body">
           <a href="#"><h5 class="new_fix_text">Lorem Ipsum คืออะไร?</h5></a>
@@ -127,6 +129,18 @@
         </div>
       </div>
     </div>
+    </div>
+    
+
+        <div class="container mt-5">                  
+          <ul class="pagination justify-content-center">
+            <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+            <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);">1</a></li>
+            <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);">2</a></li>
+            <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);">3</a></li>
+            <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>  
     
    </div>
  </div>
