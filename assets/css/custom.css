@@ -346,7 +346,20 @@ body {
    left: 50%;
    transform: translate(-50%, -50%);
 }
-
+.footer-overlay-img{
+   position: relative;
+   height: 119px;
+   width: 100%;
+   overflow: hidden;
+}
+.footer-image-size{
+   position: absolute;
+   display: block;
+   width: 100px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 .hvr-pulse-shrink {
     display: inline-block;
     vertical-align: middle;
@@ -559,6 +572,27 @@ body {
     color: #333333;
     font-family: 'kanitlight';
 }
+.home-font12{
+    font-size: 18px;
+    color: #333333;
+}
+.home-font13{
+    font-size: 16px;
+    color: #f41f27;
+    font-family: 'kanitlight';
+    transition: all 0.5s;
+}
+.home-font13:hover{
+    font-size: 16px;
+    color: #f41f2773;
+    font-family: 'kanitlight';
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.home-font14{
+    font-size: 25px;
+    color: #333333;
+}
 .home-btn{
     width: 200px;
     height: 50px;
@@ -568,6 +602,7 @@ body {
     background: transparent;
     font-family: 'kanitlight';
     border-radius: 0px;
+    transition: all 0.5s;
 }
 .home-btn:hover{
     width: 200px;
@@ -590,6 +625,7 @@ body {
     font-family: 'kanitlight';
     border-radius: 0px;
     margin-left: 10px;
+    transition: all 0.5s;
 }
 .home-btn2:hover{
     width: 130px;
@@ -601,6 +637,7 @@ body {
     font-family: 'kanitlight';
     border-radius: 0px;
     margin-left: 10px;
+    transition: all 0.5s;
 }
 .home-btn3{
     width: 100%;
@@ -611,6 +648,18 @@ body {
     background: #ffcc2b;
     font-family: 'kanitlight';
     border-radius: 0px;
+    transition: all 0.5s;
+}
+.home-btn3:hover{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #123cb2;
+    color: #fff;
+    font-size: 20px;
+    background: #123cb2;
+    font-family: 'kanitlight';
+    border-radius: 0px;
+    transition: all 0.5s;
 }
 .home-overlay-image{
     position: relative;
@@ -620,7 +669,13 @@ body {
 }
 .home-overlay-image2{
     position: relative;
-    height: 161px;
+    height: 141px;
+    width: 100%;
+    overflow: hidden;
+}
+.home-overlay-image3{
+    position: relative;
+    height: 338px;
     width: 100%;
     overflow: hidden;
 }
@@ -632,26 +687,31 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.home-image-full2{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-image-full3{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .home-position-a{
     position: absolute;
     margin-top: 60px;
 }
-.home-position-a2{
-    position: absolute;
-    margin-top: -234px;
-}
-.home-position-a3{
-    position: absolute;
-    margin-top: 21px;
-}
-.home-position-a4{
-    position: absolute;
-    margin-top: 57px;
-}
 .home-position-a5{
     position: absolute;
-    margin-top: 98px;
-    right:2%;
+    margin-top: -234px;
+    right: 4%;
 }
 .home-position-a6{
     position: absolute;
@@ -701,26 +761,33 @@ body {
 .home-b-b2{
     border-bottom: 2px solid #a4a4a4;
 }
+.home-p-t2{
+    padding-top: 27px;
+}
+.home-p-t3{
+    padding-top: 50px;
+}
+.home-p-t4{
+    padding-top: 53px;
+}
+.home-p-t5{
+    padding-top: 27px;
+}
+.home-p-t6{
+    padding-top: 27px;
+}
+.home-p-t7{
+    padding-top: 108px;
+}
 .txt-indent{
     text-indent: 1em;
 }
 .porduct-border{
-    border-bottom:2px solid #d1d2d1;
-    border-right:2px solid #d1d2d1;
+    border:1px solid #d1d2d1;
     border-radius: 0px;
 }
-.porduct-border2{
-    border-bottom:2px solid #d1d2d1;
-    border-left:2px solid #d1d2d1;
-    border-radius: 0px;
-}
-.porduct-border3{
-    border-bottom:2px solid #d1d2d1;
-    border-radius: 0px;
-}
-.porduct-border4{
-    border-right:2px solid #d1d2d1;
-    border-radius: 0px;
+.home-product{
+    transition:  all 0.5s;
 }
 .home-product:hover{
     box-shadow: -1px 1px 22px -3px;
@@ -733,7 +800,7 @@ body {
 }
 .home-overlay-product{
     position: relative;
-    height: 250px;
+    height: 216px;
     width: 100%;
     overflow: hidden;
     background-color: white;
@@ -753,6 +820,13 @@ body {
     overflow: hidden;
     background-color: white;
 }
+.home-overlay-card{
+    position: relative;
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
 .home-image-coulasel{
     position: absolute;
     display: block;
@@ -766,13 +840,29 @@ body {
 }
 .home-coulasel{
     box-shadow: 0px 1px 15px -6px;
+    height: 396px;
 }
 .home-card{
     box-shadow: 0px 1px 15px -6px;
+    height: 396px;
 }
 .b-n{
     border: none;
     border-radius: 0px;
+}
+.new-overlay-image{
+    position: relative;
+    height: 255px;
+    width: 100%;
+    overflow: hidden;
+}
+.new-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .owl-theme .owl-dots .owl-dot {
     display: none;
@@ -816,6 +906,55 @@ body {
     top:40%;
     left:-3%;
     opacity: 0.7;
+}
+.home-gray{
+    background-color: #f6f6f6;
+}
+.home-padding{
+    padding: 8px;
+}
+.home-font8 {
+    font-size: 17px;
+    color: #123cb2;
+}
+.home-position-a6 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 76px;
+    z-index: 1;
+}
+.home-position-a7 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 91px;
+    z-index: 1;
+}
+.home-position-a8 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 90px;
+    z-index: 1;
+}
+.home-position-a9 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 100px;
+    z-index: 1;
+}
+.home-position-a10 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 76px;
+    z-index: 1;
+}
+.home-position-a11 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 82px;
+    z-index: 1;
+}
+.home-p-r{
+    padding-right: 40px;
 }
 /*-------------------------------------
 ------------- END HOME ----------------
@@ -926,6 +1065,223 @@ body {
       padding-right: 20px;
   }
   /*----------- END FOOTER (1024) -------------*/
+
+
+  /*-------------------------------------
+  ------------- HOME 1024 ----------------
+  ---------------------------------------*/
+  .home-font9 {
+      font-size: 22px;
+      color: #f99e0f;
+  }
+  .home-font11 {
+      font-size: 16px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-font13 {
+      font-size: 14px;
+      color: #f41f27;
+      font-family: 'kanitlight';
+      transition: all 0.5s;
+  }
+  .home-font7 {
+      font-size: 14px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-font8 {
+      font-size: 22px;
+      color: #123cb2;
+  }
+  .home-overlay-image{
+      position: relative;
+      height: 293px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-overlay-image2{
+      position: relative;
+      height: 141px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-image-full{
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-image-full2{
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 130px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-position-a {
+      position: absolute;
+      margin-top: 44px;
+  }
+  .home-position-a2 {
+      position: absolute;
+      margin-top: 105px;
+      padding-left: 161px;
+  }
+  .home-position-a4{
+      position: absolute;
+      margin-top: 49px;
+      margin-left: 29em;
+  }
+  .home-position-a5{
+      position: absolute;
+      margin-top: -245px;
+      right: 2%;
+  }
+  .home-position-a6 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 98px;
+      z-index: 1;
+  }
+  .home-position-a7 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 117px;
+      z-index: 1;
+  }
+  .home-position-a8 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 113px;
+      z-index: 1;
+  }
+  .home-position-a9 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 134px;
+      z-index: 1;
+  }
+  .home-position-a10 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 91px;
+      z-index: 1;
+  }
+  .home-position-a11 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 103px;
+      z-index: 1;
+  }
+  .home-overflow{
+      overflow: hidden;
+      height: 50px;
+  }
+  .home-overflow2{
+      overflow: hidden;
+      height: 115px;
+  }
+  .home-p-t2 {
+      padding-top: 21px;
+  }
+  .home-p-t3{
+      padding-top: 40px;
+      margin-left: -15px;
+  }
+  .home-p-t4{
+      padding-top: 30px;
+  }
+  .home-p-t5 {
+      padding-top: 25px;
+  }
+  .home-p-t6{
+      padding-top: 0px;
+  }
+  .home-overlay-coulasel {
+      position: relative;
+      height: 184px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-coulasel {
+      box-shadow: 0px 1px 15px -6px;
+      height: 343px;
+  }
+  .home-overlay-card {
+      position: relative;
+      height: 178px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 337px;
+  }
+  .home-btn2 {
+      width: 130px;
+      height: 45px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 15px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      margin-left: 10px;
+      margin-top: 10px;
+      transition: all 0.5s;
+  }
+  .home-btn2:hover {
+      width: 130px;
+      height: 45px;
+      border: 2px solid #ffcc2b;
+      color: #ffcc2b;
+      font-size: 15px;
+      background: transparent;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      margin-top: 10px;
+      margin-left: 10px;
+      transition: all 0.5s;
+  }
+  .home-btn3 {
+      width: 100%;
+      height: 50px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 18px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+  }
+  .home-btn3:hover {
+      width: 100%;
+      height: 50px;
+      border: 2px solid #123cb2;
+      color: #fff;
+      font-size: 20px;
+      background: #123cb2;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+  }
+  .home-overlay-product {
+      position: relative;
+      height: 362px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  /*-------------------------------------
+  ------------- END HOME 1024 ----------------
+  ---------------------------------------*/
 }
 
 
@@ -943,6 +1299,17 @@ body {
     }
     .search-p-t{
        padding-top: 17px;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 130px;
+        background-size: 15px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-top:15px;
+        margin-left: -45px;
     }
   /*----------- END NAVBAR (768) ------------*/
 
@@ -974,6 +1341,286 @@ body {
       padding-bottom: 10px;
   }
   /*----------- END FOOTER (768) -------------*/
+
+  /*-------------------------------------
+  ------------- HOME 768 ----------------
+  ---------------------------------------*/
+  .home-font1{
+      font-size: 30px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+  }
+  .home-font2{
+      font-size: 20px;
+      color: #333333;
+  }
+  .home-font3 {
+      font-size: 18px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+      line-height: 1.6;
+  }
+  .home-font4 {
+      font-size: 18px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+      line-height: 1;
+  }
+  .home-font5 {
+      font-size: 10px;
+      color: #333333;
+      font-family: 'kanitlight';
+      line-height: 1;
+  }
+  .home-font6 {
+      font-size: 19px;
+      color: #333333;
+  }
+  .home-font7 {
+      font-size: 12px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-font8 {
+      font-size: 16px;
+      color: #123cb2;
+  }
+  .home-font9 {
+      font-size: 21px;
+      color: #f99e0f;
+  }
+  .home-font11 {
+      font-size: 15px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-position-a2{
+      position: absolute;
+      margin-top: -192px;
+      padding-left: 42px;
+  }
+  .home-overlay-image {
+      position: relative;
+      height: 226px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-position-a {
+      position: absolute;
+      margin-top: 38px;
+  }
+  .home-position-a2 {
+      position: absolute;
+      margin-top: 76px;
+      padding-left: 118px;
+  }
+  .home-position-a5 {
+      position: absolute;
+      margin-top: -204px;
+      right: 1%;
+      padding-left: 6px;
+  }
+  .home-position-a6 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 77px;
+      z-index: 1;
+  }
+  .home-position-a7 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 90px;
+      z-index: 1;
+  }
+  .home-position-a8 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 89px;
+      z-index: 1;
+  }
+  .home-position-a9 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 97px;
+      z-index: 1;
+  }
+  .home-position-a10 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 71px;
+      z-index: 1;
+  }
+  .home-position-a11 {
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 78px;
+      z-index: 1;
+  }
+  .home-font14 {
+      font-size: 18px;
+      color: #333333;
+  }
+  .home-p-t3 {
+      padding-top: 36px;
+      margin-left: -15px;
+  }
+  .home-btn {
+      width: 125px;
+      height: 38px;
+      border: 2px solid #123cb2;
+      color: #123cb2;
+      font-size: 15px;
+      background: transparent;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+  }
+  .home-btn:hover {
+      width: 125px;
+      height: 38px;
+      border: 2px solid #123cb2;
+      color: white;
+      font-size: 15px;
+      background: #123cb2;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+  }
+  .home-image-full2 {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 96px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-image-full3 {
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-overlay-image2 {
+      position: relative;
+      height: 92px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-btn2 {
+      width: 86px;
+      height: 30px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 10px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      margin-top: -3px;
+      margin-left: 10px;
+      transition: all 0.5s;
+  }
+  .home-btn2:hover {
+      width: 86px;
+      height: 30px;
+      border: 2px solid #ffcc2b;
+      color: #ffcc2b;
+      font-size: 10px;
+      background: transparent;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      margin-left: 10px;
+      transition: all 0.5s;
+      margin-top: -3px;
+  }
+  .home-btn3 {
+      width: 100%;
+      height: 50px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 16px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+      margin-top: -5px;
+      padding-top: 12px;
+  }
+  .home-btn3:hover {
+      width: 100%;
+      height: 50px;
+      border: 2px solid #123cb2;
+      color: #fff;
+      font-size: 16px;
+      background: #123cb2;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+      margin-top: -5px;
+      padding-top: 12px;
+  }
+  .home-overlay-card {
+      position: relative;
+      height: 300px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-overlay-coulasel {
+      position: relative;
+      height: 184px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-padding{
+      padding: 3px;
+  }
+  .home-p-t2 {
+        padding-top: 9px;
+  }
+  .home-p-t4{
+      padding-top: 30px;
+  }
+  .home-p-t5 {
+      padding-top: 72px;
+  }
+  .home-p-t6{
+      padding-top: 44px;
+  }
+  .home-p-t7 {
+      padding-top: 74px;
+  }
+  .home-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 450px;
+  }
+  .home-coulasel {
+      box-shadow: 0px 1px 15px -6px;
+      height: 334px;
+  }
+  .home-overlay-image3 {
+      position: relative;
+      height: 221px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-overlay-product {
+      position: relative;
+      height: 267px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-overflow {
+      overflow: hidden;
+      height: 39px;
+  }
+  /*------------------------------------
+  ---------- END HOME 768 --------------
+  ---------------------------------------*/
 }
 
 
@@ -1119,6 +1766,241 @@ body {
     }
   /*----------- END FOOTER (414) -------------*/
 
+
+  /*------------------------------------
+  ----------  HOME 414 --------------
+  ---------------------------------------*/
+  .home-font1 {
+      font-size: 23px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+  }
+  .home-font2 {
+      font-size: 17px;
+      color: #333333;
+  }
+  .home-font3 {
+      font-size: 18px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+      line-height: 2.6;
+  }
+  .home-font6 {
+      font-size: 12px;
+      color: #333333;
+  }
+  .home-font7 {
+      font-size: 12px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-font8 {
+      font-size: 18px;
+      color: #123cb2;
+  }
+  .home-font14 {
+      font-size: 19px;
+      color: #333333;
+  }
+  .home-image-full {
+      width: auto;
+      position: absolute;
+      display: block;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-overlay-product {
+      position: relative;
+      height: 375px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-image-product {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 373px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-image-full2 {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 228px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-btn {
+      width: 97px;
+      height: 30px;
+      border: 2px solid #123cb2;
+      color: #123cb2;
+      font-size: 11px;
+      background: transparent;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+  }
+  .home-btn:hover {
+      width: 97px;
+      height: 30px;
+      border: 2px solid #123cb2;
+      color: white;
+      font-size: 11px;
+      background: #123cb2;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+  }
+  .home-position-a {
+      position: absolute;
+      margin-top: 47px;
+  }
+  .home-position-a2 {
+      position: absolute;
+      margin-top: 112px;
+      padding-left: 211px;
+  }
+  .home-position-a5 {
+      position: absolute;
+      margin-top: -183px;
+      right: 1%;
+      padding-left: 0px;
+  }
+  .home-position-a6 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 148px;
+      z-index: 1;
+  }
+  .home-position-a7 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 160px;
+      z-index: 1;
+  }
+  .home-position-a8 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 154px;
+      z-index: 1;
+  }
+  .home-position-a9 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 169px;
+      z-index: 1;
+  }
+  .home-position-a10 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 138px;
+      z-index: 1;
+  }
+  .home-position-a11 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 150px;
+      z-index: 1;
+  }
+  .home-overlay-image3 {
+      position: relative;
+      height: 279px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-image-full3 {
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-overlay-image2 {
+      position: relative;
+      height: 248px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-btn2 {
+      width: 191px;
+      height: 30px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 10px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      margin-top: -41px;
+      margin-left: 10px;
+      transition: all 0.5s;
+  }
+  .home-btn2:hover {
+      width: 191px;
+      height: 30px;
+      border: 2px solid #ffcc2b;
+      color: #ffcc2b;
+      font-size: 10px;
+      background: transparent;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      margin-top: -41px;
+      margin-left: 10px;
+      transition: all 0.5s;
+  }
+  .home-overflow3{
+      overflow: hidden;
+      height: 69px;
+  }
+  .home-overlay-coulasel {
+      position: relative;
+      height: 344px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-coulasel {
+      box-shadow: 0px 1px 15px -6px;
+      height: 494px;
+  }
+  .home-overlay-card {
+      position: relative;
+      height: 352px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 502px;
+  }
+  .home-p-t5 {
+      padding-top: 0px;
+  }
+  .home-p-t6 {
+      padding-top: 0px;
+  }
+  .home-p-r{
+     padding-right: 15px;
+  }
+
+  .new-overlay-image {
+      position: relative;
+      height: 340px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------
+  ---------- END HOME 414 --------------
+  ---------------------------------------*/
+
 }
 
 
@@ -1166,6 +2048,89 @@ body {
       perspective: 1000px;
   }
   /*----------- END FOOTER (375) ------------*/
+
+  /*------------------------------------
+  -------------  HOME 375 --------------
+  ---------------------------------------*/
+  .home-position-a5 {
+      position: absolute;
+      margin-top: -195px;
+      right: 1%;
+      padding-left: 0px;
+  }
+  .home-position-a6 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 125px;
+      z-index: 1;
+  }
+  .home-position-a7 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 144px;
+      z-index: 1;
+  }
+  .home-position-a8 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 140px;
+      z-index: 1;
+  }
+  .home-position-a9 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 149px;
+      z-index: 1;
+  }
+  .home-position-a10 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 123px;
+      z-index: 1;
+  }
+  .home-position-a11 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 131px;
+      z-index: 1;
+  }
+  .home-overlay-coulasel {
+      position: relative;
+      height: 306px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-coulasel {
+      box-shadow: 0px 1px 15px -6px;
+      height: 456px;
+  }
+  .home-overlay-card {
+      position: relative;
+      height: 314px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 464px;
+  }
+  .home-overlay-image3 {
+      position: relative;
+      height: 240px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-font3 {
+      font-size: 18px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+      line-height: 2;
+  }
+  /*------------------------------------
+  ---------- END HOME 375 --------------
+  ---------------------------------------*/
 }
 
 
@@ -1229,4 +2194,115 @@ body {
       perspective: 1000px;
   }
   /*--------- END FOOTER (320) ---------*/
+
+  /*------------------------------------
+  ----------  HOME 320 --------------
+  ---------------------------------------*/
+  .home-font3 {
+      font-size: 18px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+      line-height: 1.8;
+  }
+  .home-p-t7 {
+      padding-top: 59px;
+  }
+  .home-image-full2 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 184px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .home-image-product {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 320px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .home-overlay-product {
+      position: relative;
+      height: 323px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-position-a6 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 99px;
+      z-index: 1;
+  }
+  .home-position-a7 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 118px;
+      z-index: 1;
+  }
+  .home-position-a8 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 114px;
+      z-index: 1;
+  }
+  .home-position-a9 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 125px;
+      z-index: 1;
+  }
+  .home-position-a10 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 96px;
+      z-index: 1;
+  }
+  .home-position-a11 {
+      position: absolute;
+      margin-top: 16px;
+      margin-left: 109px;
+      z-index: 1;
+  }
+  .home-overlay-coulasel {
+      position: relative;
+      height: 250px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-coulasel {
+      box-shadow: 0px 1px 15px -6px;
+      height: 400px;
+  }
+  .home-overlay-card {
+      position: relative;
+      height: 259px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 409px;
+  }
+  .new-overlay-image {
+      position: relative;
+      height: 288px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .home-overlay-image3 {
+      position: relative;
+      height: 209px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------
+  ---------- END HOME 320 --------------
+  ---------------------------------------*/
 }
