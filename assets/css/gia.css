@@ -11,6 +11,9 @@ p,h1,h2,h3,h4,h5{
 .color-80{
   color: #808080;
 }
+.color-rad{
+	color: #ED1C24;
+}
 
 
 /*-------------------------------------
@@ -94,6 +97,56 @@ p,h1,h2,h3,h4,h5{
 /*----------------------------------------
 -------------contact-us end---------------
 ------------------------------------------*/
+
+/*----------------------------------------
+---------------new------------------------
+-----------------------------------------*/
+.new-width-cad{
+    width: 21rem;
+}
+
+.new-card{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.new_frame-crad{
+    position:relative;
+    overflow: hidden;
+    width:100%;
+    height: 250px;
+
+}
+.new_card-img-top {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.new_fix_text{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 48px;
+    font-weight: 600;
+}
+
+
+/*----------------------------------------
+---------------new end--------------------
+-----------------------------------------*/
 
 
 
