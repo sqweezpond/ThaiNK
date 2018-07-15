@@ -1267,6 +1267,111 @@ body {
 ------------- END FILTER ----------------
 ---------------------------------------*/
 
+/*-------------------------------------
+----------- PRODUCT-DETAIL ------------
+---------------------------------------*/
+.owl-carousel .owl-nav button.owl-next {
+    background: #eeeeee;
+    color: #333333;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    right:-3%;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background:black;
+    color: #fff;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    right:-3%;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: #eeeeee;
+    color: #333333;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    left:-3%;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: black;
+    color: #fff;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:40%;
+    left:-3%;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.product-overlay-coulasel{
+    position: relative;
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+}
+.product-overlay-coulasel:hover{
+    position: relative;
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.5s;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.product-image-coulasel{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+.product-image-coulasel:hover{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+.mySlides{
+    display:none
+}
+.demo {
+    cursor:pointer
+}
+.product-overlay-slide{
+    position: relative;
+    height: 425px;
+    width: 100%;
+    overflow: hidden;
+}
+.product-image-slide{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*-------------------------------------
+-----------END PRODUCT-DETAIL ------------
+---------------------------------------*/
+
 
 @media(max-width: 1366px){
   /*----------- NAVBAR (1366)------------------*/
