@@ -70,6 +70,18 @@ body {
     font-size: 15px;
     color: #333333;
 }
+.navbar-font5{
+    font-size: 15px;
+    color: #333333;
+    font-family: 'kanitlight';
+    text-align: right;
+}
+.navbar-font5:hover{
+    font-size: 15px;
+    color: #808080;
+    font-family: 'kanitlight';
+    text-align: right;text-decoration: none;
+}
 .navbar-p-t{
     padding-top: 8px;
 }
