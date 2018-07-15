@@ -65,8 +65,43 @@
 
         <div class="login-display my-4">
           <div class="col-6">
-            <p class="text-left">ลืมรหัสผ่าน? <a href="#"><span class="login-color-org">คลิกที่นี้</span></a> </p>
+            <p class="text-left">ลืมรหัสผ่าน? <a href="#"><span class="login-color-org" data-toggle="modal" data-target="#exampleModal">คลิกที่นี้</span></a> </p>
           </div>
+
+          <!-- Modal -->
+          <div class="modal fade  bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="re-modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="text-center">
+                    <h4>Forget Password</h4>
+                  </div>
+                  <div class="text-center">
+                    <p>ในการรัเซ็ตรหัสผ่านของคุณให้ป้อนอีเมลของคุณเราจะส่งลิ้งค์เพื่อรีเซ็ตรหัสผ่านของคุณ</p>
+                  </div>
+                  <form>
+                    <div class="form-group row">
+                      <label for="inputPassword3" class="col-sm-2 col-form-label">อีเมล</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
+                      </div>
+                    </div>
+                  </form>
+                    <div class="mt-5 text-center">
+                      <button type="button" class="btn re-login-btn ">ยืนยัน</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
           <!-- text to Modal -->
           <div class="col-6">
             <p class="text-right">หากยังไม่ได้เป็นสมาชิคคลิก <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal">ลงทะเบียน</span></a></p>
