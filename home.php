@@ -495,7 +495,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <div class="new-overlay-image">
-                       <img src = "assets/images/banner/banner-1.png" class="new-image-full">
+                       <img src = "assets/images/banner/plastic.png" class="new-image-full">
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -510,7 +510,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <div class="new-overlay-image">
-                       <img src = "assets/images/banner/banner-1.png" class="new-image-full">
+                       <img src = "assets/images/banner/plastic.png" class="new-image-full">
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -519,7 +519,7 @@
                         Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
                         มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                     </div>
-                    <div class="home-p-t5 text-right text-lg-left text-md-left">
+                    <div class="home-p-t4 text-right text-lg-left text-md-left">
                       <a href="#" class="home-font13">ดูรายละเอียด</a>
                     </div>
                 </div>
@@ -527,7 +527,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <div class="new-overlay-image">
-                       <img src = "assets/images/banner/banner-1.png" class="new-image-full">
+                       <img src = "assets/images/banner/plastic.png" class="new-image-full">
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -542,7 +542,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <div class="new-overlay-image">
-                       <img src = "assets/images/banner/banner-1.png" class="new-image-full">
+                       <img src = "assets/images/banner/plastic.png" class="new-image-full">
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -551,7 +551,7 @@
                         Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
                         มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                     </div>
-                    <div class="home-p-t5 text-right text-lg-left text-md-left">
+                    <div class="home-p-t8 text-right text-lg-left text-md-left">
                       <a href="#" class="home-font13">ดูรายละเอียด</a>
                     </div>
                 </div>
