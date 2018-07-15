@@ -549,7 +549,7 @@ body {
     color: #333333;
 }
 .home-font7{
-    font-size: 16px;
+    font-size: 13px;
     color: #333333;
     font-family: 'kanitlight';
 }
@@ -573,17 +573,17 @@ body {
     font-family: 'kanitlight';
 }
 .home-font12{
-    font-size: 18px;
+    font-size: 16px;
     color: #333333;
 }
 .home-font13{
-    font-size: 16px;
+    font-size: 14px;
     color: #f41f27;
     font-family: 'kanitlight';
     transition: all 0.5s;
 }
 .home-font13:hover{
-    font-size: 16px;
+    font-size: 14px;
     color: #f41f2773;
     font-family: 'kanitlight';
     text-decoration: none;
@@ -768,16 +768,19 @@ body {
     padding-top: 50px;
 }
 .home-p-t4{
-    padding-top: 53px;
+    padding-top: 45px;
 }
 .home-p-t5{
-    padding-top: 27px;
+    padding-top: 20px;
 }
 .home-p-t6{
-    padding-top: 27px;
+    padding-top: 22px;
 }
 .home-p-t7{
     padding-top: 108px;
+}
+.home-p-t8{
+    padding-top: 46px;
 }
 .txt-indent{
     text-indent: 1em;
@@ -852,7 +855,7 @@ body {
 }
 .new-overlay-image{
     position: relative;
-    height: 255px;
+    height: 200px;
     width: 100%;
     overflow: hidden;
 }
@@ -1062,6 +1065,207 @@ body {
 ------------- END PROFILE ----------------
 ---------------------------------------*/
 
+
+/*-------------------------------------
+----------------- NEW ----------------
+---------------------------------------*/
+.new-font{
+    color: #333333;
+    font-size: 18px;
+    font-family: "kanitlight";
+}
+.detail-overlay-img{
+    position: relative;
+    height: 470px;
+    width: 100%;
+    overflow: hidden;
+}
+.detail-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.new-indent{
+    text-indent: 2em;
+}
+.new-m-t{
+    margin-top: 50px;
+}
+/*-------------------------------------
+------------- END NEW ----------------
+---------------------------------------*/
+
+/*-------------------------------------
+------------- FILTER ----------------
+---------------------------------------*/
+.filter-font1{
+    color: #333333;
+    font-size: 20px;
+}
+.filter-font2{
+    color: #333333;
+    font-size: 15px;
+    font-family: "kanitlight";
+}
+.filter-font3{
+    color: #a8a8a8;
+    font-size: 15px;
+    font-family: "kanitlight";
+}
+.filter-font4{
+    color: #333333;
+    font-size: 30px;
+    font-family: "kanitlight";
+}
+.filter-font5{
+    color: #333333;
+    font-size: 20px;
+    font-family: "kanitlight";
+}
+.filter-font6{
+    font-size: 25px;
+    color: #f99e0f;
+}
+.filter-font7{
+    font-size: 12px;
+    color: #333333;
+    font-family: 'kanitlight';
+    text-decoration: line-through;
+}
+.filter-font8{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'kanitlight';
+}
+.filter-m-t{
+    margin-top: 50px;
+}
+.filter-border{
+    border: 1px solid #dedede;
+}
+.filter-p-t{
+    padding-top: 5px;
+}
+.filter-p-tt{
+    padding-top: 8px;
+}
+.filter-p-l{
+    padding-left: 30px;
+}
+.filter-p-l2{
+    padding-left: 20px;
+}
+.filter-padding{
+    padding: 10px;
+}
+.filter-form{
+    border-radius: 0px;
+    font-size: 15px;
+    width: 100%;
+}
+.filter-overlay-card{
+    position: relative;
+    height: 232px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.filter-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.filter-card {
+    box-shadow: 0px 1px 15px -6px;
+    height: 386px;
+}
+.check {
+    display: block;
+    position: relative;
+}
+/* Hide the browser's default checkbox */
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:#fff;
+    margin-top: 7px;
+    border:  1px solid #d2d2d2;
+}
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+    left: 5px;
+    top: 0px;
+    width: 8px;
+    height: 15px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.filter-page{
+    border: 2px solid #ffcc2b;
+    width: 50px;
+    font-size: 20px;
+    color: #093ae6;
+    transition: all 0.5s;
+    text-align: center;
+    border-radius: 0px;
+}
+.filter-page:hover{
+    background-color: #ffcc2b;
+    width: 50px;
+    font-size: 20px;
+    color: #093ae6;
+    transition: all 0.5s;
+    border-radius: 0px;
+}
+.filter-txt-dec{
+    color: #093ae6;
+}
+.filter-txt-dec:hover{
+    text-decoration: none;
+    color: #093ae6;
+}
+.filter-p-r2{
+    padding-right: 0px;
+}
+.filter-p-l3{
+    padding-left: 0px;
+}
+/*-------------------------------------
+------------- END FILTER ----------------
+---------------------------------------*/
 
 
 @media(max-width: 1366px){
@@ -1296,13 +1500,16 @@ body {
       margin-left: -15px;
   }
   .home-p-t4{
-      padding-top: 30px;
+      padding-top: 25px;
   }
   .home-p-t5 {
       padding-top: 25px;
   }
   .home-p-t6{
-      padding-top: 0px;
+      padding-top: 25px;
+  }
+  .home-p-t8{
+      padding-top: 25px;
   }
   .home-overlay-coulasel {
       position: relative;
@@ -1352,7 +1559,7 @@ body {
       margin-left: 10px;
       transition: all 0.5s;
   }
-  .home-btn3 {
+  .home-btn3{
       width: 100%;
       height: 50px;
       border: 2px solid #ffcc2b;
@@ -1382,7 +1589,90 @@ body {
       background-color: white;
   }
   /*-------------------------------------
-  ------------- END HOME 1024 ----------------
+  ----------- END HOME 1024 ------------
+  ---------------------------------------*/
+
+
+  /*-------------------------------------
+  -------------- NEW 1024 --------------
+  ---------------------------------------*/
+  .detail-overlay-img {
+      position: relative;
+      height: 438px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*-------------------------------------
+  ----------- END NEW 1024 ------------
+  ---------------------------------------*/
+
+
+
+  /*-------------------------------------
+  ------------ FILTER 1024 -------------
+  ---------------------------------------*/
+  .filter-font6{
+      font-size: 20px;
+      color: #f99e0f;
+  }
+  .filter-font7{
+      font-size: 12px;
+      color: #333333;
+      font-family: 'kanitlight';
+      text-decoration: line-through;
+  }
+  .filter-font8{
+      font-size: 14px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .filter-p-l2 {
+      padding-left: 0px;
+  }
+  .filter-p-l {
+      padding-left: 29px;
+  }
+  .filter-overlay-card{
+      position: relative;
+      height: 190px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .filter-image-full{
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .filter-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 331px;
+  }
+  .filter-p-r2{
+      padding-right: 0px;
+  }
+  .filter-page {
+      border: 2px solid #ffcc2b;
+      width: 40px;
+      font-size: 15px;
+      color: #093ae6;
+      transition: all 0.5s;
+      text-align: center;
+      border-radius: 0px;
+  }
+  .filter-page:hover {
+      background-color: #ffcc2b;
+      width: 40px;
+      font-size: 15px;
+      color: #093ae6;
+      transition: all 0.5s;
+      border-radius: 0px;
+  }
+  /*-------------------------------------
+  ---------- END FILTER 1024 -------------
   ---------------------------------------*/
 }
 
@@ -1684,16 +1974,19 @@ body {
         padding-top: 9px;
   }
   .home-p-t4{
-      padding-top: 30px;
+      padding-top: 20px;
   }
   .home-p-t5 {
-      padding-top: 72px;
+      padding-top: 20px;
   }
   .home-p-t6{
-      padding-top: 44px;
+      padding-top: 0px;
   }
   .home-p-t7 {
       padding-top: 74px;
+  }
+  .home-p-t8{
+      padding-top: 20px;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
@@ -1722,6 +2015,113 @@ body {
   }
   /*------------------------------------
   ---------- END HOME 768 --------------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  -------------- NEW 768 --------------
+  ---------------------------------------*/
+  .detail-overlay-img {
+      position: relative;
+      height: 424px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .new-m-t{
+      margin-top: 50px;
+  }
+  /*-------------------------------------
+  ----------- END NEW 768 ------------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  ------------ FILTER 768 -------------
+  ---------------------------------------*/
+  .filter-font1 {
+      color: #333333;
+      font-size: 16px;
+  }
+  .filter-font2 {
+      color: #333333;
+      font-size: 13px;
+      font-family: "kanitlight";
+  }
+  .filter-font3 {
+      color: #a8a8a8;
+      font-size: 13px;
+      font-family: "kanitlight";
+  }
+  .filter-font4 {
+      color: #333333;
+      font-size: 23px;
+      font-family: "kanitlight";
+  }
+  .filter-font5 {
+      color: #333333;
+      font-size: 15px;
+      font-family: "kanitlight";
+  }
+  .filter-font6{
+      font-size: 17px;
+      color: #f99e0f;
+  }
+  .filter-font7{
+      font-size: 9px;
+      color: #333333;
+      font-family: 'kanitlight';
+      text-decoration: line-through;
+  }
+  .filter-font8 {
+      font-size: 12px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .filter-overlay-card{
+      position: relative;
+      height: 140px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .filter-image-full{
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .filter-card{
+      box-shadow: 0px 1px 15px -6px;
+      height: 258px;
+  }
+  .filter-padding{
+      padding: 5px;
+  }
+  .filter-page{
+      border: 2px solid #ffcc2b;
+      width: 40px;
+      font-size: 16px;
+      color: #093ae6;
+      transition: all 0.5s;
+      text-align: center;
+      border-radius: 0px;
+  }
+  .filter-page:hover {
+      background-color: #ffcc2b;
+      width: 40px;
+      font-size: 16px;
+      color: #093ae6;
+      transition: all 0.5s;
+      border-radius: 0px;
+  }
+  .filter-p-l3 {
+      padding-left: 15px;
+  }
+  .filter-p-r2 {
+      padding-right: 15px;
+  }
+  /*-------------------------------------
+  ---------- END FILTER 768 -------------
   ---------------------------------------*/
 }
 
@@ -2083,10 +2483,16 @@ body {
       box-shadow: 0px 1px 15px -6px;
       height: 502px;
   }
+  .home-p-t4{
+      padding-top: 0px;
+  }
   .home-p-t5 {
       padding-top: 0px;
   }
   .home-p-t6 {
+      padding-top: 0px;
+  }
+  .home-p-t8{
       padding-top: 0px;
   }
   .home-p-r{
@@ -2120,7 +2526,54 @@ body {
       padding: 20px;
   }
   /*------------------------------------
-  ---------- END PROFILE 414 --------------
+  ---------- END PROFILE 414 -----------
+  --------------------------------------*/
+
+  /*-------------------------------------
+  -------------- NEW 414 --------------
+  ---------------------------------------*/
+  .new-font{
+      color: #333333;
+      font-size: 15px;
+      font-family: "kanitlight";
+  }
+  .detail-overlay-img {
+      position: relative;
+      height: 287px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .new-m-t{
+      margin-top: 40px;
+  }
+  /*-------------------------------------
+  ----------- END NEW 414 ------------
+  ---------------------------------------*/
+  /*-------------------------------------
+  -----------  FILTER 414 ------------
+  ---------------------------------------*/
+  .filter-margin{
+      margin: 20px;
+  }
+  .filter-p-t3{
+      padding-top: 50px;
+  }
+  .filter-overlay-card {
+      position: relative;
+      height: 168px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .filter-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 286px;
+  }
+  .filter-m-t {
+      margin-top: 10px;
+  }
+  /*-------------------------------------
+  ----------- END FILTER 414 ------------
   ---------------------------------------*/
 }
 
@@ -2251,6 +2704,30 @@ body {
   }
   /*------------------------------------
   ---------- END HOME 375 --------------
+  ---------------------------------------*/
+
+  /*------------------------------------
+  ---------- FILTER 375 --------------
+  ---------------------------------------*/
+  .filter-font4 {
+      color: #333333;
+      font-size: 22px;
+      font-family: "kanitlight";
+  }
+  .filter-font5 {
+      color: #333333;
+      font-size: 14px;
+      font-family: "kanitlight";
+  }
+  .filter-p-rl{
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  .filter-margin {
+      margin: 10px;
+  }
+  /*------------------------------------
+  ---------- END FILTER 375 --------------
   ---------------------------------------*/
 }
 
@@ -2434,6 +2911,39 @@ body {
       padding: 10px;
   }
   /*------------------------------------
-  ---------- END PROFILE 320 --------------
+  ---------- END PROFILE 320 ------------
+  --------------------------------------*/
+
+  /*-------------------------------------
+  -------------- NEW 320 --------------
+  ---------------------------------------*/
+  .detail-overlay-img {
+      position: relative;
+      height: 217px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .new-m-t{
+      margin-top: 40px;
+  }
+  /*-------------------------------------
+  ----------- END NEW 320 --------------
+  ---------------------------------------*/
+
+  /*------------------------------------
+  ---------- FILTER 320 --------------
+  ---------------------------------------*/
+  .filter-font4 {
+      color: #333333;
+      font-size: 18px;
+      font-family: "kanitlight";
+  }
+  .filter-font5 {
+      color: #333333;
+      font-size: 12px;
+      font-family: "kanitlight";
+  }
+  /*------------------------------------
+  ---------- END FILTER 320 --------------
   ---------------------------------------*/
 }
