@@ -241,11 +241,77 @@ p,h1,h2,h3,h4,h5{
 ----------------login end----------------
 ----------------------------------------*/
 
+/*---------------------------------------
+---------------login-register------------
+----------------------------------------*/
+.re-login-btn {
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #123CB2;
+    width: 50%
+}
+.re-modal-content {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 150%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin-left: -75px;
+}
+
+.re-login-from {
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+/*---------------------------------------
+---------------login-register end--------
+----------------------------------------*/
+
 
 
 
 
 @media(max-width: 1366px){
+    /*-----------------------------
+    ------------re-login 1366--------
+    -------------------------------*/
+    .re-modal-content {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 150%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin-left: -140px;
+    }
+ /*-----------------------------
+    ------------re-login 1366--------
+    -------------------------------*/
 
 }
 
@@ -272,11 +338,55 @@ p,h1,h2,h3,h4,h5{
     -------------login end 1024--------
     ----------------------------------*/
 
+    /*---------------------------------
+    -------------re-login 1024---------
+    ----------------------------------*/
+    .re-modal-content {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 150%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin-left: -130px;
+    }
+    /*---------------------------------
+    -------------re-login 1024---------
+    ----------------------------------*/
+
 }
 
 
 
 @media(max-width: 768px){
+
+    /*-----------------------
+    --------re-login---------
+    ------------------------*/
+    .re-modal-content {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 150%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin-left: -125px;
+}
+    /*-----------------------
+    --------re-login---------
+    ------------------------*/
 
 
 
@@ -313,6 +423,22 @@ p,h1,h2,h3,h4,h5{
 
 @media(max-width: 414px){
 
+    .re-modal-content {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin-left: 0px;
+}
+ 
 
 
 
