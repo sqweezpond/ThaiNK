@@ -61,19 +61,31 @@
                 </div>
                   <!-- END SLIDE ------------------------------------------->
                 <div class="col-xl-5">
-                  dbbsbs
+                    <div class="product-font2">Code#00211</div>
+                    <div class="product-font1">ขวดน้ำ</div>
+                    <div class="product-font3 mt-3">
+                      Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                      มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                       เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง
+                    </div>
                 </div>
             </div>
 
 
             <!-- Coulasel ------------------------------------------------------->
+            <div class="row mt-5 mx-0">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-5 pl-0 home-b-b">
+                  <div class="home-font14">สินค้าที่เกี่ยวข้อง (Related Product)</div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6 col-7 home-b-b2"></div>
+            </div>
             <div class="row mt-5">
                   <div class="row owl-carousel owl-theme mt-5 mx-0">
                           <div class="item p-1">
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
                                       <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                        <img src = "assets/images/slide/s1.jpg" class="home-image-coulasel">
                                       </div>
                                       <div class="card-body px-0 pb-0">
                                         <span class="home-font9">200 บาท</span>
@@ -90,7 +102,7 @@
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
                                       <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                        <img src = "assets/images/slide/s2.jpg" class="home-image-coulasel">
                                       </div>
                                       <div class="card-body px-0 pb-0">
                                         <span class="home-font9">200 บาท</span>
@@ -107,7 +119,7 @@
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
                                       <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                        <img src = "assets/images/slide/s3.jpg" class="home-image-coulasel">
                                       </div>
                                       <div class="card-body px-0 pb-0">
                                         <span class="home-font9">200 บาท</span>
@@ -124,7 +136,7 @@
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
                                       <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                        <img src = "assets/images/slide/s4.jpg" class="home-image-coulasel">
                                       </div>
                                       <div class="card-body px-0 pb-0">
                                         <span class="home-font9">200 บาท</span>
@@ -141,7 +153,7 @@
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
                                       <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                        <img src = "assets/images/slide/s5.jpg" class="home-image-coulasel">
                                       </div>
                                       <div class="card-body px-0 pb-0">
                                         <span class="home-font9">200 บาท</span>
@@ -158,7 +170,7 @@
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
                                       <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                        <img src = "assets/images/slide/s6.jpg" class="home-image-coulasel">
                                       </div>
                                       <div class="card-body px-0 pb-0">
                                         <span class="home-font9">200 บาท</span>
@@ -174,12 +186,6 @@
                     </div>
             </div>
              <!-- END Coulasel ------------------------------------------->
-
-
-
-
-
-
             <!-- END CONTANER ------>
         </div>
         <!-- END CONTENT ---------->
@@ -193,33 +199,33 @@
     <?php include_once('inc/footer-script.php'); ?>
     <!-- END FOOOTER SCRIPT -->
 
-    <script type="text/javascript">
-        var slideIndex = 1;
-        showDivs(slideIndex);
+      <script type="text/javascript">
+            var slideIndex = 1;
+            showDivs(slideIndex);
 
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
 
-        function currentDiv(n) {
-          showDivs(slideIndex = n);
-        }
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
 
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-             dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-          }
-          x[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " w3-opacity-off";
-        }
-    </script>
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-opacity-off";
+            }
+      </script>
   </body>
 </html>

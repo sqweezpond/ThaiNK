@@ -234,7 +234,7 @@
                           <div class="home-coulasel">
                               <div class="card p-3 b-n">
                                   <div class="home-overlay-coulasel">
-                                    <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                    <img src = "assets/images/slide/s1.jpg" class="home-image-coulasel">
                                   </div>
                                   <div class="card-body px-0 pb-0">
                                     <span class="home-font9">200 บาท</span>
@@ -251,7 +251,7 @@
                           <div class="home-coulasel">
                               <div class="card p-3 b-n">
                                   <div class="home-overlay-coulasel">
-                                    <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                    <img src = "assets/images/slide/s2.jpg" class="home-image-coulasel">
                                   </div>
                                   <div class="card-body px-0 pb-0">
                                     <span class="home-font9">200 บาท</span>
@@ -268,7 +268,7 @@
                           <div class="home-coulasel">
                               <div class="card p-3 b-n">
                                   <div class="home-overlay-coulasel">
-                                    <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                    <img src = "assets/images/slide/s3.jpg" class="home-image-coulasel">
                                   </div>
                                   <div class="card-body px-0 pb-0">
                                     <span class="home-font9">200 บาท</span>
@@ -285,7 +285,7 @@
                           <div class="home-coulasel">
                               <div class="card p-3 b-n">
                                   <div class="home-overlay-coulasel">
-                                    <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                    <img src = "assets/images/slide/s4.jpg" class="home-image-coulasel">
                                   </div>
                                   <div class="card-body px-0 pb-0">
                                     <span class="home-font9">200 บาท</span>
@@ -302,7 +302,7 @@
                           <div class="home-coulasel">
                               <div class="card p-3 b-n">
                                   <div class="home-overlay-coulasel">
-                                    <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                    <img src = "assets/images/slide/s5.jpg" class="home-image-coulasel">
                                   </div>
                                   <div class="card-body px-0 pb-0">
                                     <span class="home-font9">200 บาท</span>
@@ -319,7 +319,7 @@
                           <div class="home-coulasel">
                               <div class="card p-3 b-n">
                                   <div class="home-overlay-coulasel">
-                                    <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
+                                    <img src = "assets/images/slide/s6.jpg" class="home-image-coulasel">
                                   </div>
                                   <div class="card-body px-0 pb-0">
                                     <span class="home-font9">200 บาท</span>
