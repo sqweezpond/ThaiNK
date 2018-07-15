@@ -165,6 +165,83 @@ p,h1,h2,h3,h4,h5{
 ---------------new end--------------------
 -----------------------------------------*/
 
+/*---------------------------------------
+----------------login--------------------
+----------------------------------------*/
+
+.login_frame-crad{
+    position:relative;
+    overflow: hidden;
+    width:100%;
+    height: 445px;
+
+}
+.login_card-img-top {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.login-text-shado{
+    background-color: white;
+    box-shadow: -1px 1px 13px #00000042;
+}
+.login-mar-15{
+    margin-left: -15px;
+}
+.login-position-a {
+    position: absolute;
+    margin: 110px 30px 0px 78px;
+  }
+.login-color-org{
+    color: #f36006e8;
+}
+.login-color-green{
+    font-size: 25px;
+    color: #50b23f;
+}
+.login-from {
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.login-btn {
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #123CB2;
+    width: 70%
+}
+.login-btn2 {
+    background-color: #3F51B5;
+    border-radius: 0px;
+    color: #fff;
+    width: 70%;
+}
+
+.login-display{
+    display: flex;
+    font-size: 14px;
+}
+.login-font-32{
+   font-size: 32px;
+}
+
+
+
+
+/*---------------------------------------
+----------------login end----------------
+----------------------------------------*/
+
+
 
 
 
@@ -175,11 +252,57 @@ p,h1,h2,h3,h4,h5{
 
 @media(max-width: 1024px){
 
+    /*--------------------------------
+    ------------login 1024-------------
+    ----------------------------------*/
+
+    .login_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 430px;
+    }
+    .login-position-a {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+    /*---------------------------------
+    -------------login end 1024--------
+    ----------------------------------*/
+
 }
 
 
 
 @media(max-width: 768px){
+
+
+
+
+    /*--------------------------------
+    ------------login 768-------------
+    ----------------------------------*/
+    .login_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 104%;
+    height: 600px;
+}
+.login-position-a {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+
+
+
+    /*---------------------------------
+    -------------login end 768--------
+    ----------------------------------*/
+
+
 	.about_pad_frame {
     	padding: 0px 0px 0px 0px; 
 }
@@ -189,6 +312,45 @@ p,h1,h2,h3,h4,h5{
 
 
 @media(max-width: 414px){
+
+
+
+
+
+    /*-----------------------
+    --------login 414--------
+    -------------------------*/
+
+.login-position-a {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.login_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 108%;
+    height: 350px;
+}
+.login-from {
+    width: 100%;
+}
+.login-btn{
+    width: 100%;
+}
+.login-btn2{
+    width: 100%;
+}
+   /*-----------------------
+    --------login 414 end--------
+    -------------------------*/
+
+
+
+/*-------------------------------
+---------about 414---------------
+--------------------------------*/
+
 .about_pad_frame {
     padding: 0px 0px 0px 0px; 
 }
@@ -201,12 +363,19 @@ p,h1,h2,h3,h4,h5{
 .about-hr-y {
     margin-top: 0px;
 }
+/*-------------------------------
+---------about 414 end-----------
+--------------------------------*/
 
 
 }
 
 
 @media(max-width: 375px){
+
+/*-------------------------------
+---------about 375---------------
+--------------------------------*/
 	.about_pad_frame {
      	padding: 0px 0px 0px 0px; 
 }
@@ -219,13 +388,69 @@ p,h1,h2,h3,h4,h5{
     margin-left: 15px;
 }
 
+/*-------------------------------
+---------about 375 end------------
+--------------------------------*/
+
+    /*-----------------------
+    --------login 375--------
+    -------------------------*/
+
+
+.login_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 109%;
+    height: 340px;
+}
+.login-position-a {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.login-font-32 {
+    font-size: 25px;
+}
+
+   /*-----------------------
+    --------login 375 end--------
+    -------------------------*/
+
 }
 
 
 
 @media (max-width: 320px ){
+
+/*-------------------------------
+---------about 320---------------
+--------------------------------*/
 	.about_pad_frame {
     	padding: 0px 0px 0px 0px; 
 }
+
+/*-------------------------------
+---------about 320---------------
+--------------------------------*/
+
+/*---------------------------
+----------login 320----------
+----------------------------*/
+.login_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 112%;
+    height: 284px;
+}
+.login-position-a {
+    position: absolute;
+    margin-top: 5px;
+}
+.login-font-32 {
+    font-size: 20px;
+}
+/*---------------------------
+----------login 320----------
+----------------------------*/
 
 }
