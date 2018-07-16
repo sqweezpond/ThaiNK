@@ -1032,6 +1032,27 @@ body {
     padding-top: 20px;
     transition: all 0.5s;
 }
+.profile-font7{
+    font-size: 17px;
+    color: #333333;
+}
+.profile-font8{
+    font-size: 14px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.profile-font9{
+    font-size: 14px;
+    color: #adadad;
+    font-family: "kanitlight";
+    transition: all 0.5s;
+}
+.profile-font9:hover{
+    font-size: 14px;
+    color: #333333;
+    font-family: "kanitlight";
+    transition: all 0.5s;
+}
 .profile-block{
     border: 2px solid#ffc526;
     transition: all 0.3s ;
@@ -1104,6 +1125,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.profile-bg-address{
+    background-color: #ffc526;
+    padding: 10px;
+}
+.form-profile-m-b2 {
+    margin-bottom: 0rem;
 }
 /*-------------------------------------
 ------------- END PROFILE ----------------

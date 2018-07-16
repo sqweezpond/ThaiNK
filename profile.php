@@ -59,7 +59,7 @@
             <!-- Content ------------------------------------------------------->
                 <div class="col-xl-8 col-lg-8 col-md-7 mt-5">
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="tab-pane fadeIn animated show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                           <div class="card profile-shadow profile-padding">
                               <div class="profile-font2">ข้อมูลส่วนตัว</div>
                               <div class="form-group form-profile-m-b row pt-4">
@@ -101,61 +101,146 @@
                                     </button>
                                   </div>
                               </div>
-                          <!-- Modal Change Password ----------------------------------->
-                                <div class="modal fade  bd-example-modal-lg" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                  <div class="modal-dialog" role="document">
-                                    <div class="re-modal-content">
-                                      <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                          <span aria-hidden="true">&times;</span>
-                                        </button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <div class="text-center my-5">
-                                          <h4>Change Password</h4>
-                                        </div>
-                                        <form>
-                                          <div class="form-group row">
-                                            <div class="col-sm-2"></div>
-                                            <div class="col-sm-8 ">
-                                              <input type="Password" class="re-login-from" id="inputPassword3" placeholder="Enter All Password">
-                                            </div>
-                                            <div class="col-sm-2"></div>
-                                            <div class="col-sm-2"></div>
-                                            <div class="col-sm-8 mt-4">
-                                              <input type="Password" class="re-login-from" id="inputPassword3" placeholder="Comfirm Password">
-                                            </div>
-                                            <div class="col-sm-2"></div>
-                                          </div>
-                                        </form>
-                                          <div class="mt-5 text-center">
-                                            <button type="button" class="btn profile-btn ">ยืนยัน</button>
-                                          </div>
-                                      </div>
-                                        <div class="modal-footer" style="padding-top: 35px;">
-                                        </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              <!-- End Modal Change Password ---------------------------->
                           </div>
                       </div>
+                      <!-- Modal Change Password ----------------------------------->
+                            <div class="modal fade  bd-example-modal-lg" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="re-modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="text-center my-5">
+                                      <h4>Change Password</h4>
+                                    </div>
+                                    <form>
+                                      <div class="form-group row">
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-8 ">
+                                          <input type="Password" class="re-login-from" id="inputPassword3" placeholder="Enter All Password">
+                                        </div>
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-8 mt-4">
+                                          <input type="Password" class="re-login-from" id="inputPassword3" placeholder="Comfirm Password">
+                                        </div>
+                                        <div class="col-sm-2"></div>
+                                      </div>
+                                    </form>
+                                      <div class="mt-5 text-center">
+                                        <button type="button" class="btn profile-btn ">ยืนยัน</button>
+                                      </div>
+                                  </div>
+                                    <div class="modal-footer" style="padding-top: 35px;">
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                      <!-- End Modal Change Password ---------------------------->
                       <div class="tab-pane fadeIn animated" id="address" role="tabpanel" aria-labelledby="address-tab">
                           <div class="card profile-shadow profile-padding">
                               <div class="profile-font2">ที่อยู่จัดส่งสินค้า</div>
-                              <div class="form-group row">
-                                  <div class="col-xl-2 text-center">
-                                      <div class="profile-font4">Visa</div>
+                              <div class="form-group row profile-bg-address form-profile-m-b2 mt-4">
+                                  <div class="col-xl-4 text-center">
+                                      <div class="profile-font7">ชื่อ</div>
                                   </div>
-                                  <div class="col-xl-2 text-center">
-                                      <div class="profile-font4">Visa</div>
+                                  <div class="col-xl-4 text-center">
+                                      <div class="profile-font7">ที่อยู่</div>
                                   </div>
-                                  <div class="col-xl-6 text-center">
-                                      <div class="profile-font4">**** **** **** 6958</div>
+                                  <div class="col-xl-4 text-center">
+                                      <div class="profile-font7">เบอร์โทรศัพท์</div>
                                   </div>
+                              </div>
+                              <div class="form-group row form-profile-m-b2 pt-3">
+                                  <div class="col-xl-4">
+                                      <div class="profile-font8">นาย สมปอง เวิร์คบายไทย</div>
+                                  </div>
+                                  <div class="col-xl-4 px-0">
+                                      <div class="profile-font8">หอ vip ห้อง 1215</div>
+                                      <div class="profile-font8">29/174-175 ม.1</div>
+                                      <div class="profile-font8">ต.คลองหก อ.คลองหลวง จ.ปทุมธานี</div>
+                                  </div>
+                                  <div class="col-xl-4">
+                                      <span class="profile-font8">081-123-4567</span>
+                                      <span class="pl-3"><a href="#" class="profile-font9"><u>แก้ไข</u></a></span>
+                                      <span class="pl-1"><a href="#" class="profile-font9"><u>ลบ</u></a></span>
+                                  </div>
+                              </div>
+                              <hr>
+                              <div class="form-group row form-profile-m-b2 pt-3">
+                                  <div class="col-xl-4">
+                                      <div class="profile-font8">นาย สมปอง เวิร์คบายไทย</div>
+                                  </div>
+                                  <div class="col-xl-4 px-0">
+                                      <div class="profile-font8">หอ vip ห้อง 1215</div>
+                                      <div class="profile-font8">29/174-175 ม.1</div>
+                                      <div class="profile-font8">ต.คลองหก อ.คลองหลวง จ.ปทุมธานี</div>
+                                  </div>
+                                  <div class="col-xl-4">
+                                      <span class="profile-font8">081-123-4567</span>
+                                      <span class="pl-3"><a href="#" class="profile-font9"><u>แก้ไข</u></a></span>
+                                      <span class="pl-1"><a href="#" class="profile-font9"><u>ลบ</u></a></span>
+                                  </div>
+                              </div>
+                              <hr>
+                              <div class="mt-5 text-left">
+                                  <button type="button" class="btn profile-btn" data-toggle="modal" data-target="#exampleModal5">
+                                      <i class="fa fa-plus pr-2" aria-hidden="true"></i>เพิ่มที่อยู่
+                                  </button>
                               </div>
                            </div>
                       </div>
+                  <!-- Modal Add Address --------------------------------------------->
+                      <div class="modal fade  bd-example-modal-lg" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                              <div class="re-modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="text-center mb-5">
+                                      <h4>เพิ่มที่อยู่</h4>
+                                    </div>
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label">ชื่อ-นามสกุล</label>
+                                        <div class="col-sm-10">
+                                          <input type="email" class="re-login-from" id="inputEmail3" placeholder="สมปอง สมปอง">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">เบอร์โทรศัพท์</label>
+                                        <div class="col-sm-10">
+                                          <input type="tel" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group row">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">ที่อยู่</label>
+                                        <div class="col-sm-10">
+                                           <textarea type="text" class="re-login-from" id="exampleFormControlTextarea1" rows="5" placeholder="8/8 ม.5 ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000"></textarea>
+                                        </div>
+                                      </div>
+                                    </form>
+                                    <div class="row">
+                                      <div class=" col-6 mt-5 text-right">
+                                        <button type="button" class="btn gray-btn">ยกเลิก</button>
+                                      </div>
+                                      <div class="col-6 mt-5 text-left">
+                                        <button type="button" class="btn profile-btn ">ลงทะเบียน</button>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer" style="padding-top: 35px;"></div>
+                              </div>
+                          </div>
+                      </div>
+                  <!-- End Modal Add Address -------------------------------->
                       <div class="tab-pane fadeIn animated" id="credit" role="tabpanel" aria-labelledby="credit-tab">
                           <div class="card profile-shadow profile-padding">
                               <div class="form-group row">
