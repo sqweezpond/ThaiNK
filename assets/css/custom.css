@@ -1024,13 +1024,16 @@ body {
     font-size: 20px;
     color: #333333;
     padding-top: 20px;
-    transition: all 0.5s;s
+    transition: all 0.5s;
 }
 .profile-font5:hover{
     font-size: 20px;
     color: red;
     padding-top: 20px;
     transition: all 0.5s;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
 }
 .profile-font7{
     font-size: 17px;
@@ -2387,6 +2390,15 @@ body {
       color: #333333;
       padding-top: 6px;
       transition: all 0.5s;
+  }
+  .profile-font5:hover{
+      font-size: 16px;
+      color: red;
+      padding-top: 6px;
+      transition: all 0.5s;
+      -ms-transform: scale(1.05); /* IE 9 */
+      -webkit-transform: scale(1.05); /* Safari 3-8 */
+      transform: scale(1.05);
   }
   .profile-font7 {
       font-size: 14px;
