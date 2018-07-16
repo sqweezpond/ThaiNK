@@ -15,9 +15,9 @@
        <!-- CONTENT -->
         <div class="container pb-5">
             <div class="row mt-5">
-                <div class="col-xl-7">
-                  <!-- BLOCK SLIDE --------------------------------------------------->
-                      <div class="product-overlay-slide">
+                <div class="col-xl-7 col-lg-7">
+                <!-- BLOCK SLIDE --------------------------------------------------->
+                      <div class="product-overlay-slide d-none d-lg-block d-md-block">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s1.jpg">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s2.jpg">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s3.jpg">
@@ -25,7 +25,7 @@
                             <img class="mySlides product-image-slide" src="assets/images/slide/s5.jpg">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s6.jpg">
                       </div>
-                  <!-- SLIDE ------------------------------------------------------->
+                <!-- SLIDE ------------------------------------------------------->
                       <div class="owl-carousel owl-theme">
                               <div class="item p-1">
                                   <div class="product-overlay-coulasel">
@@ -59,8 +59,8 @@
                               </div>
                       </div>
                 </div>
-                  <!-- END SLIDE ------------------------------------------->
-                <div class="col-xl-5">
+          <!-- END SLIDE ------------------------------------------->
+                <div class="col-xl-5 col-lg-5">
                     <div class="product-font2">Code#00211</div>
                     <div class="product-font1">ขวดน้ำ</div>
                     <div class="product-font3 mt-3">
@@ -70,43 +70,53 @@
                     </div>
                     <div class="product-font4 mt-4">เลือกซื้อแบบแพ็คเกจ</div>
                     <div class="row mt-2">
-                        <div class="col-xl-6 pr-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pr-0">
                           <div class="product-bg product-font3">จำนวน</div>
                         </div>
-                        <div class="col-xl-6 pl-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pl-0">
                           <div class="product-bg product-font3">ราคา</div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-6 pr-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pr-0">
                           <div class="product-bg2 product-font5">5</div>
                         </div>
-                        <div class="col-xl-6 pl-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pl-0">
                           <div class="product-bg2 product-font5">550</div>
                         </div>
-                        <div class="col-xl-6 pr-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pr-0">
                           <div class="product-bg2 product-font5">10</div>
                         </div>
-                        <div class="col-xl-6 pl-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pl-0">
                           <div class="product-bg2 product-font5">1,000</div>
                         </div>
-                        <div class="col-xl-6 pr-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pr-0">
                           <div class="product-bg2 product-font5">15</div>
                         </div>
-                        <div class="col-xl-6 pl-0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 pl-0">
                           <div class="product-bg2 product-font5">1,500</div>
                         </div>
                     </div>
-                </div>
+                    <div class="form-group row mt-5">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                          <input type="text" class="form-control product-form" placeholder="จำนวน">
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                          <div class="product-font5 pt-3">ขวด/ชิ้น/แพ็ค</div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                          <button class="btn product-btn">สั่งซื้อ</button>
+                        </div>
+                    </div>
+               </div>
             </div>
-
 
             <!-- Coulasel ------------------------------------------------------->
             <div class="row mt-5 mx-0">
-                <div class="col-xl-5 col-lg-5 col-md-6 col-5 pl-0 home-b-b">
-                  <div class="home-font14">สินค้าที่เกี่ยวข้อง (Related Product)</div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-10 pl-0 home-b-b">
+                  <div class="product-font-h">สินค้าที่เกี่ยวข้อง (Related Product)</div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-6 col-7 home-b-b2"></div>
+                <div class="col-xl-7 col-lg-7 col-md-6 col-2 home-b-b2"></div>
             </div>
             <div class="row mt-4">
                   <div class="row owl-carousel owl-theme mx-0">
