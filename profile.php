@@ -186,8 +186,61 @@
                                   </div>
                               </div>
                               <hr>
+                              <div class="mt-5 text-left">
+                                  <button type="button" class="btn profile-btn" data-toggle="modal" data-target="#exampleModal5">
+                                      <i class="fa fa-plus pr-2" aria-hidden="true"></i>เพิ่มที่อยู่
+                                  </button>
+                              </div>
                            </div>
                       </div>
+                  <!-- Modal Add Address --------------------------------------------->
+                      <div class="modal fade  bd-example-modal-lg" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                              <div class="re-modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="text-center mb-5">
+                                      <h4>เพิ่มที่อยู่</h4>
+                                    </div>
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label">ชื่อ-นามสกุล</label>
+                                        <div class="col-sm-10">
+                                          <input type="email" class="re-login-from" id="inputEmail3" placeholder="สมปอง สมปอง">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">เบอร์โทรศัพท์</label>
+                                        <div class="col-sm-10">
+                                          <input type="tel" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group row">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">ที่อยู่</label>
+                                        <div class="col-sm-10">
+                                           <textarea type="text" class="re-login-from" id="exampleFormControlTextarea1" rows="5" placeholder="8/8 ม.5 ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000"></textarea>
+                                        </div>
+                                      </div>
+                                    </form>
+                                    <div class="row">
+                                      <div class=" col-6 mt-5 text-right">
+                                        <button type="button" class="btn gray-btn">ยกเลิก</button>
+                                      </div>
+                                      <div class="col-6 mt-5 text-left">
+                                        <button type="button" class="btn profile-btn ">ลงทะเบียน</button>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer" style="padding-top: 35px;"></div>
+                              </div>
+                          </div>
+                      </div>
+                  <!-- End Modal Add Address -------------------------------->
                       <div class="tab-pane fadeIn animated" id="credit" role="tabpanel" aria-labelledby="credit-tab">
                           <div class="card profile-shadow profile-padding">
                               <div class="form-group row">
