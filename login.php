@@ -97,7 +97,7 @@
                       </div>
                     <!-- text to Modal -->
                     <div class="col-lg-6 col-md-8 col-7">
-                      <p class="text-right font-10">หากยังไม่ได้เป็นสมาชิคคลิก <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal1">ลงทะเบียน</span></a></p>
+                      <p class="text-md-right text-sm-left font-10">หากยังไม่ได้เป็นสมาชิคคลิก <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal1">ลงทะเบียน</span></a></p>
                     </div> 
                   </div>
                 <!-- Modal -->
@@ -159,69 +159,6 @@
           </div>
 
 
-
-
-
-
-          <!-- test Wait pond -->
-
-
-            <!-- text to Modal -->
-                    <div class="mt-5 text-center">
-                      <button type="button" class="btn profile-btn " data-toggle="modal" data-target="#exampleModal5">เพิ่มที่อยู่</button>
-                    </div>
-                
-                <!-- Modal -->
-                <div class="modal fade  bd-example-modal-lg" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="re-modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="text-center mb-5">
-                          <h4>เพิ่มที่อยู่</h4>
-                        </div>
-                        <form>
-                          <div class="form-group row">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">ชื่อ-นามสกุล</label>
-                            <div class="col-sm-10">
-                              <input type="email" class="re-login-from" id="inputEmail3" placeholder="สมปอง สมปอง">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">เบอร์โทรศัพท์</label>
-                            <div class="col-sm-10">
-                              <input type="tel" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
-                            </div>
-                          </div>
-        
-                          <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">ที่อยู่</label>
-                            <div class="col-sm-10">
-                               <textarea type="text" class="re-login-from" id="exampleFormControlTextarea1" rows="5" placeholder="8/8 ม.5 ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000"></textarea>
-                            </div>
-                          </div>
-                        </form>
-                        <div class="row">
-                          <div class=" col-6 mt-5 text-right">
-                            <button type="button" class="btn gray-btn">ยกเลิก</button>
-                          </div>
-                          <div class="col-6 mt-5 text-left">
-                            <button type="button" class="btn profile-btn ">ลงทะเบียน</button>
-                          </div>
-                        </div>
-                      </div>
-                    <div class="modal-footer" style="padding-top: 35px;">      
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-                 
 
 
 </div>     
