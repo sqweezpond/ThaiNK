@@ -58,6 +58,7 @@
 
             <!-- Content ------------------------------------------------------->
                 <div class="col-xl-8 col-lg-8 col-md-7 mt-5">
+            <!-- Profile ----------------------------------------------------->
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fadeIn animated show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                           <div class="card profile-shadow profile-padding">
@@ -103,9 +104,11 @@
                               </div>
                           </div>
                       </div>
-                      <!-- Modal Change Password ----------------------------------->
-                            <div class="modal fade  bd-example-modal-lg" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
+                  <!-- End Profile -------------------------------------------->
+
+                  <!-- Modal Change Password ----------------------------------->
+                        <div class="modal fade  bd-example-modal-lg" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
                                 <div class="re-modal-content">
                                   <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -137,52 +140,54 @@
                                     <div class="modal-footer" style="padding-top: 35px;">
                                     </div>
                                 </div>
-                              </div>
                             </div>
-                      <!-- End Modal Change Password ---------------------------->
+                        </div>
+                  <!-- End Modal Change Password ---------------------------->
+
+                  <!-- Address ----------------------------------->
                       <div class="tab-pane fadeIn animated" id="address" role="tabpanel" aria-labelledby="address-tab">
                           <div class="card profile-shadow profile-padding">
                               <div class="profile-font2">ที่อยู่จัดส่งสินค้า</div>
-                              <div class="form-group row profile-bg-address form-profile-m-b2 mt-4">
-                                  <div class="col-xl-4 text-center">
+                              <div class="form-group row mx-0 profile-bg-address form-profile-m-b2 mt-4">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 text-center">
                                       <div class="profile-font7">ชื่อ</div>
                                   </div>
-                                  <div class="col-xl-4 text-center">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 text-center">
                                       <div class="profile-font7">ที่อยู่</div>
                                   </div>
-                                  <div class="col-xl-4 text-center">
+                                  <div class="col-xl-4 col-lg-4 px-0 col-md-4 col-4 text-center">
                                       <div class="profile-font7">เบอร์โทรศัพท์</div>
                                   </div>
                               </div>
-                              <div class="form-group row form-profile-m-b2 pt-3">
-                                  <div class="col-xl-4">
+                              <div class="form-group row mx-0 form-profile-m-b2 pt-3">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 px-0">
                                       <div class="profile-font8">นาย สมปอง เวิร์คบายไทย</div>
                                   </div>
-                                  <div class="col-xl-4 px-0">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 px-0">
                                       <div class="profile-font8">หอ vip ห้อง 1215</div>
                                       <div class="profile-font8">29/174-175 ม.1</div>
                                       <div class="profile-font8">ต.คลองหก อ.คลองหลวง จ.ปทุมธานี</div>
                                   </div>
-                                  <div class="col-xl-4">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 px-0">
                                       <span class="profile-font8">081-123-4567</span>
-                                      <span class="pl-3"><a href="#" class="profile-font9"><u>แก้ไข</u></a></span>
-                                      <span class="pl-1"><a href="#" class="profile-font9"><u>ลบ</u></a></span>
+                                      <span class="profile-p-l-a"><a href="#" class="profile-font9"><u>แก้ไข</u></a></span>
+                                      <span class=""><a href="#" class="profile-font9"><u>ลบ</u></a></span>
                                   </div>
                               </div>
                               <hr>
-                              <div class="form-group row form-profile-m-b2 pt-3">
-                                  <div class="col-xl-4">
+                              <div class="form-group row mx-0 form-profile-m-b2 pt-3">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 px-0">
                                       <div class="profile-font8">นาย สมปอง เวิร์คบายไทย</div>
                                   </div>
-                                  <div class="col-xl-4 px-0">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 px-0">
                                       <div class="profile-font8">หอ vip ห้อง 1215</div>
                                       <div class="profile-font8">29/174-175 ม.1</div>
                                       <div class="profile-font8">ต.คลองหก อ.คลองหลวง จ.ปทุมธานี</div>
                                   </div>
-                                  <div class="col-xl-4">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-4 px-0">
                                       <span class="profile-font8">081-123-4567</span>
-                                      <span class="pl-3"><a href="#" class="profile-font9"><u>แก้ไข</u></a></span>
-                                      <span class="pl-1"><a href="#" class="profile-font9"><u>ลบ</u></a></span>
+                                      <span class="profile-p-l-a"><a href="#" class="profile-font9"><u>แก้ไข</u></a></span>
+                                      <span class=""><a href="#" class="profile-font9"><u>ลบ</u></a></span>
                                   </div>
                               </div>
                               <hr>
@@ -193,6 +198,8 @@
                               </div>
                            </div>
                       </div>
+                  <!-- End Address ---------------------------------------------->
+
                   <!-- Modal Add Address --------------------------------------------->
                       <div class="modal fade  bd-example-modal-lg" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog" role="document">
@@ -241,6 +248,8 @@
                           </div>
                       </div>
                   <!-- End Modal Add Address -------------------------------->
+
+                  <!-- Credit ------------------------------------------------------------------>
                       <div class="tab-pane fadeIn animated" id="credit" role="tabpanel" aria-labelledby="credit-tab">
                           <div class="card profile-shadow profile-padding">
                               <div class="form-group row">
@@ -272,9 +281,15 @@
                               </div>
                            </div>
                        </div>
+                    <!-- End Credit -------------------------------------------------------------->
+
+                    <!-- History -------------------------------------------------------->
                        <div class="tab-pane fadeIn animated" id="his" role="tabpanel" aria-labelledby="his-tab">
-                          77777
+                          <div class="card profile-shadow profile-padding">
+                             <div class="profile-font2">ประวัติการสั่งซื้อ</div>
+                          </div>
                        </div>
+                    <!-- End History ---------------------------------------------------->
                   </div>
               </div>
           </div>

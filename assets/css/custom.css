@@ -1133,6 +1133,9 @@ body {
 .form-profile-m-b2 {
     margin-bottom: 0rem;
 }
+.profile-p-l-a{
+    padding-left: 20px;
+}
 /*-------------------------------------
 ------------- END PROFILE ----------------
 ---------------------------------------*/
@@ -1882,6 +1885,9 @@ body {
       width: 100%;
       overflow: hidden;
   }
+  .form-profile-m-b{
+      margin-bottom: 0rem;
+  }
   /*-------------------------------------
   ----------- PROFILE 1024 ------------
   ---------------------------------------*/
@@ -2360,6 +2366,11 @@ body {
   /*-------------------------------------
   -------------- PROFILE 768 ------------
   ---------------------------------------*/
+  .profile-font {
+      font-size: 16px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
   .profile-font2 {
       font-size: 22px;
       color: #333333;
@@ -2377,9 +2388,46 @@ body {
       padding-top: 6px;
       transition: all 0.5s;
   }
+  .profile-font7 {
+      font-size: 14px;
+      color: #333333;
+  }
+  .profile-font8 {
+      font-size: 10px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .profile-font9 {
+      font-size: 9px;
+      color: #adadad;
+      font-family: "kanitlight";
+      transition: all 0.5s;
+  }
+  .profile-font9:hover{
+      font-size: 9px;
+      color: #333333;
+      font-family: "kanitlight";
+      transition: all 0.5s;
+  }
+  .flaticon-avatar:before {
+      font-size: 28px;
+      color: #333333;
+  }
+  .flaticon-map-pin-marked:before {
+      font-size: 28px;
+      color: #333333;
+  }
+  .flaticon-credit-card:before {
+      font-size: 28px;
+      color: #333333;
+  }
+  .flaticon-box:before {
+      font-size: 28px;
+      color: #333333;
+  }
   .profile-btn {
       width: 136px;
-      height: 50px;
+      height: 40px;
       border-radius: 0px;
       color: #333333;
       background-color: #ffc526;
@@ -2389,7 +2437,7 @@ body {
   }
   .profile-btn:hover {
       width: 136px;
-      height: 50px;
+      height: 40px;
       border-radius: 0px;
       color: #fff;
       background-color: #123cb2;
@@ -2405,6 +2453,9 @@ body {
   }
   .form-profile-m-b {
       margin-bottom: 0rem;
+  }
+  .profile-p-l-a{
+      padding-left: 0px;
   }
   /*-------------------------------------
   ----------- END PROFILE 768 ------------
@@ -3263,6 +3314,10 @@ body {
       padding-top: 6px;
       transition: all 0.5s;
   }
+  .profile-font7 {
+      font-size: 13px;
+      color: #333333;
+  }
   .profile-overlay-credit {
       position: relative;
       height: 18px;
@@ -3506,6 +3561,22 @@ body {
       color: #333333;
       font-family: "kanitlight";
   }
+  .profile-font5 {
+      font-size: 14px;
+      color: #333333;
+      padding-top: 3px;
+      transition: all 0.5s;
+  }
+  .profile-font5:hover {
+      font-size: 14px;
+      color: red;
+      padding-top: 3px;
+      transition: all 0.5s;
+  }
+  .profile-font7 {
+      font-size: 11px;
+      color: #333333;
+  }
   .profile-padding{
       padding: 10px;
   }
@@ -3580,6 +3651,17 @@ body {
       font-size: 12px;
       font-family: "kanitlight";
   }
+  .profile-font8 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .profile-font9 {
+      font-size: 12px;
+      color: #adadad;
+      font-family: "kanitlight";
+      transition: all 0.5s;
+  }
   .filter-overlay-card {
       position: relative;
       height: 130px;
@@ -3590,6 +3672,9 @@ body {
   .filter-card {
       box-shadow: 0px 1px 15px -6px;
       height: 248px;
+  }
+  .profile-p-l-a {
+      padding-left: 33px;
   }
   /*------------------------------------
   ---------- END FILTER 320 --------------
