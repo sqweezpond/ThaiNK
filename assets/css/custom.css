@@ -1297,6 +1297,27 @@ body {
     color: #333333;
     font-family: "kanitlight";
 }
+.product-font4{
+    font-size: 20px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.product-font5{
+    font-size: 15px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.product-bg{
+    background-color: #e9eae9;
+    border: 1px solid #bababa;
+    padding: 10px;
+    text-align: center;
+}
+.product-bg2{
+    border: 1px solid #bababa;
+    padding: 10px;
+    text-align: center;
+}
 .owl-carousel .owl-nav button.owl-next {
     background: #eeeeee;
     color: #333333;
@@ -1346,6 +1367,7 @@ body {
     height: 155px;
     width: 100%;
     overflow: hidden;
+    transition: all 0.5s;
 }
 .product-overlay-coulasel:hover{
     position: relative;

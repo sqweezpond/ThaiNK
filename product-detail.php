@@ -68,6 +68,35 @@
                       มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                        เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง
                     </div>
+                    <div class="product-font4 mt-4">เลือกซื้อแบบแพ็คเกจ</div>
+                    <div class="row mt-2">
+                        <div class="col-xl-6 pr-0">
+                          <div class="product-bg product-font3">จำนวน</div>
+                        </div>
+                        <div class="col-xl-6 pl-0">
+                          <div class="product-bg product-font3">ราคา</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 pr-0">
+                          <div class="product-bg2 product-font5">5</div>
+                        </div>
+                        <div class="col-xl-6 pl-0">
+                          <div class="product-bg2 product-font5">550</div>
+                        </div>
+                        <div class="col-xl-6 pr-0">
+                          <div class="product-bg2 product-font5">10</div>
+                        </div>
+                        <div class="col-xl-6 pl-0">
+                          <div class="product-bg2 product-font5">1,000</div>
+                        </div>
+                        <div class="col-xl-6 pr-0">
+                          <div class="product-bg2 product-font5">15</div>
+                        </div>
+                        <div class="col-xl-6 pl-0">
+                          <div class="product-bg2 product-font5">1,500</div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -79,8 +108,8 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-6 col-7 home-b-b2"></div>
             </div>
-            <div class="row mt-5">
-                  <div class="row owl-carousel owl-theme mt-5 mx-0">
+            <div class="row mt-4">
+                  <div class="row owl-carousel owl-theme mx-0">
                           <div class="item p-1">
                               <div class="home-coulasel">
                                   <div class="card p-3 b-n">
