@@ -110,31 +110,16 @@
                       </div>
                       <div class="tab-pane fadeIn animated" id="address" role="tabpanel" aria-labelledby="address-tab">
                           <div class="card profile-shadow profile-padding">
+                              <div class="profile-font2">ที่อยู่จัดส่งสินค้า</div>
                               <div class="form-group row">
-                                  <label class="col-xl-6 col-form-label profile-font2">ที่อยู่จัดส่งสินค้า</label>
-                                  <div class="col-xl-6 text-right">
-                                    <button type="button" class="btn profile-btn">
-                                      <i class="fa fa-plus-square-o pr-2" aria-hidden="true"></i>เพิ่มบัตรเครดิต/เดบิต
-                                    </button>
+                                  <div class="col-xl-2 text-center">
+                                      <div class="profile-font4">Visa</div>
                                   </div>
-                              </div>
-                              <hr>
-                              <div class="form-group row">
-                                  <label class="col-xl-2 col-form-label">
-                                      <div class="profile-overlay-credit">
-                                        <img src="assets/images/payment/cd-05.png" class="profile-image-credit">
-                                      </div>
-                                  </label>
                                   <div class="col-xl-2 text-center">
                                       <div class="profile-font4">Visa</div>
                                   </div>
                                   <div class="col-xl-6 text-center">
                                       <div class="profile-font4">**** **** **** 6958</div>
-                                  </div>
-                                  <div class="col-xl-2 text-right">
-                                    <a href="#">
-                                      <div class="profile-font5"><i class="fa fa-trash-o" aria-hidden="true"></i></div>
-                                    </a>
                                   </div>
                               </div>
                            </div>
