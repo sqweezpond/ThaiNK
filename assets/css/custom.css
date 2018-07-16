@@ -70,6 +70,18 @@ body {
     font-size: 15px;
     color: #333333;
 }
+.navbar-font5{
+    font-size: 15px;
+    color: #333333;
+    font-family: 'kanitlight';
+    text-align: right;
+}
+.navbar-font5:hover{
+    font-size: 15px;
+    color: #808080;
+    font-family: 'kanitlight';
+    text-align: right;text-decoration: none;
+}
 .navbar-p-t{
     padding-top: 8px;
 }
@@ -1002,6 +1014,24 @@ body {
     color: #333333;
     font-family: "kanitlight";
 }
+.profile-font4{
+    font-size: 15px;
+    color: #333333;
+    font-family: "kanitlight";
+    padding-top: 25px;
+}
+.profile-font5{
+    font-size: 20px;
+    color: #333333;
+    padding-top: 20px;
+    transition: all 0.5s;s
+}
+.profile-font5:hover{
+    font-size: 20px;
+    color: red;
+    padding-top: 20px;
+    transition: all 0.5s;
+}
 .profile-block{
     border: 2px solid#ffc526;
     transition: all 0.3s ;
@@ -1060,6 +1090,20 @@ body {
 }
 .profile-padding{
     padding: 40px;
+}
+.profile-overlay-credit{
+    position: relative;
+    height: 61px;
+    width: 100%;
+    overflow: hidden;
+}
+.profile-image-credit{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*-------------------------------------
 ------------- END PROFILE ----------------
@@ -1281,9 +1325,34 @@ body {
     font-family: "kanitlight";
 }
 .product-font3{
-    font-size: 18px;
+    font-size: 17px;
     color: #333333;
     font-family: "kanitlight";
+}
+.product-font4{
+    font-size: 20px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.product-font5{
+    font-size: 15px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.product-font-h{
+    font-size: 20px;
+    color: #333333;
+}
+.product-bg{
+    background-color: #e9eae9;
+    border: 1px solid #bababa;
+    padding: 10px;
+    text-align: center;
+}
+.product-bg2{
+    border: 1px solid #bababa;
+    padding: 10px;
+    text-align: center;
 }
 .owl-carousel .owl-nav button.owl-next {
     background: #eeeeee;
@@ -1334,6 +1403,7 @@ body {
     height: 155px;
     width: 100%;
     overflow: hidden;
+    transition: all 0.5s;
 }
 .product-overlay-coulasel:hover{
     position: relative;
@@ -1362,7 +1432,7 @@ body {
 }
 .product-overlay-slide{
     position: relative;
-    height: 425px;
+    height: 448px;
     width: 100%;
     overflow: hidden;
 }
@@ -1374,10 +1444,70 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.product-btn{
+    background-color: #ffcc2b;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    border: none;
+    font-family: "kanitlight";
+}
+.product-btn:hover{
+    background-color: #1244bc;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    border: none;
+    font-family: "kanitlight";
+}
+.product-form{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 0px;
+    border: 1px solid #e9eae9;
+}
 /*-------------------------------------
 -----------END PRODUCT-DETAIL ------------
 ---------------------------------------*/
 
+
+/*-------------------------------------
+----------------- FAQ -----------------
+---------------------------------------*/
+.faq-font1{
+    font-size: 20px;
+    font-family: "kanitlight";
+}
+.faq-font2{
+    font-size: 15px;
+    font-family: "kanitlight";
+}
+.faq-btn{
+    background-color: #ffcc2b;
+    width: 100%;
+    height: 60px;
+    transition: all 0.5s;
+    font-size: 18px;
+    color: #333333;
+    font-family: "kanitlight";
+    text-align: left;
+    border-radius: 0px;
+}
+.faq-bg{
+    background-color: #f4f4f4;
+    border-radius: 0px;
+    border: none
+}
+/*-------------------------------------
+--------------- END FAQ ----------------
+---------------------------------------*/
 
 @media(max-width: 1366px){
   /*----------- NAVBAR (1366)------------------*/
@@ -1624,14 +1754,14 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 184px;
+      height: 138px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 343px;
+      height: 297px;
   }
   .home-overlay-card {
       position: relative;
@@ -1703,6 +1833,30 @@ body {
   ----------- END HOME 1024 ------------
   ---------------------------------------*/
 
+  /*-------------------------------------
+  -----------  PROFILE 1024 ------------
+  ---------------------------------------*/
+  .profile-font4 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+      padding-top: 17px;
+  }
+  .profile-font5 {
+      font-size: 20px;
+      color: #333333;
+      padding-top: 12px;
+      transition: all 0.5s;
+  }
+  .profile-overlay-credit {
+      position: relative;
+      height: 45px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*-------------------------------------
+  ----------- PROFILE 1024 ------------
+  ---------------------------------------*/
 
   /*-------------------------------------
   -------------- NEW 1024 --------------
@@ -1784,6 +1938,53 @@ body {
   }
   /*-------------------------------------
   ---------- END FILTER 1024 -------------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  -------- PRODUCT-DETAIL 1024 ----------
+  ---------------------------------------*/
+  .product-font1 {
+      font-size: 25px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .product-font2 {
+      font-size: 16px;
+      color: #9f9f9f;
+      font-family: "kanitlight";
+  }
+  .product-overlay-slide {
+      position: relative;
+      height: 369px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .product-overlay-coulasel {
+      position: relative;
+      height: 159px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+  }
+  .product-overlay-coulasel {
+      position: relative;
+      height: 220px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+  }
+  .product-overlay-coulasel:hover {
+      position: relative;
+      height: 220px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  /*---------------------------------------
+  ---------- END PRODUCT-DETAIL 1024 --------
   ---------------------------------------*/
 }
 
@@ -2073,7 +2274,7 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 184px;
+      height: 127px;
       width: 100%;
       overflow: hidden;
       background-color: white;
@@ -2105,7 +2306,7 @@ body {
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 334px;
+      height: 277px;
   }
   .home-overlay-image3 {
       position: relative;
@@ -2126,6 +2327,59 @@ body {
   }
   /*------------------------------------
   ---------- END HOME 768 --------------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  -------------- PROFILE 768 ------------
+  ---------------------------------------*/
+  .profile-font2 {
+      font-size: 22px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .profile-font4 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+      padding-top: 8px;
+  }
+  .profile-font5 {
+      font-size: 16px;
+      color: #333333;
+      padding-top: 6px;
+      transition: all 0.5s;
+  }
+  .profile-btn {
+      width: 136px;
+      height: 50px;
+      border-radius: 0px;
+      color: #333333;
+      background-color: #ffc526;
+      transition: all 0.5s;
+      font-family: "kanitlight";
+      font-size: 11px;
+  }
+  .profile-btn:hover {
+      width: 136px;
+      height: 50px;
+      border-radius: 0px;
+      color: #fff;
+      background-color: #123cb2;
+      transition: all 0.5s;
+      font-family: "kanitlight";
+      font-size: 11px;
+  }
+  .profile-overlay-credit {
+      position: relative;
+      height: 22px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .form-profile-m-b {
+      margin-bottom: 0rem;
+  }
+  /*-------------------------------------
+  ----------- END PROFILE 768 ------------
   ---------------------------------------*/
 
   /*-------------------------------------
@@ -2574,14 +2828,14 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 344px;
+      height: 255px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 494px;
+      height: 405px;
   }
   .home-overlay-card {
       position: relative;
@@ -2589,6 +2843,10 @@ body {
       width: 100%;
       overflow: hidden;
       background-color: white;
+  }
+  .home-overflow2 {
+      overflow: hidden;
+      height: 85px;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
@@ -2609,10 +2867,9 @@ body {
   .home-p-r{
      padding-right: 15px;
   }
-
   .new-overlay-image {
       position: relative;
-      height: 340px;
+      height: 307px;
       width: 100%;
       overflow: hidden;
   }
@@ -2629,12 +2886,37 @@ body {
       font-family: "kanitlight";
   }
   .profile-font2 {
-      font-size: 25px;
+      font-size: 21px;
       color: #333333;
       font-family: "kanitlight";
   }
   .profile-padding{
       padding: 20px;
+  }
+  .form-control {
+      display: block;
+      width: 100%;
+      padding: .375rem .75rem;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .profile-form {
+      border: 2px solid#f4f4f4;
+      border-radius: 0px;
+      height: 50px;
+      font-family: "kanitlight";
+  }
+  .profile-form2 {
+      border: 2px solid#f4f4f4;
+      border-radius: 0px;
+      height: 100px;
+      font-family: "kanitlight";
   }
   /*------------------------------------
   ---------- END PROFILE 414 -----------
@@ -2685,6 +2967,71 @@ body {
   }
   /*-------------------------------------
   ----------- END FILTER 414 ------------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  ----------- PRODUCT-DETAIL 414 ------------
+  ---------------------------------------*/
+  .product-font-h{
+      font-size: 18px;
+      color: #333333;
+  }
+  .product-overlay-coulasel {
+      position: relative;
+      height: 257px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+  }
+  .product-overlay-coulasel:hover {
+      position: relative;
+      height: 257px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  .product-btn {
+      background-color: #ffcc2b;
+      color: white;
+      font-size: 17px;
+      transition: all 0.5s;
+      width: 100%;
+      height: 50px;
+      border-radius: 0px;
+      border: none;
+      font-family: "kanitlight";
+  }
+  .product-btn:hover {
+      background-color: #1244bc;
+      color: white;
+      font-size: 17px;
+      transition: all 0.5s;
+      width: 100%;
+      height: 50px;
+      border-radius: 0px;
+      border: none;
+      font-family: "kanitlight";
+  }
+  /*-------------------------------------
+  --------- END PRODUCT-DETAIL 414 -------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  -------------- FAQ 414 ---------------
+  ---------------------------------------*/
+  .faq-font1 {
+      font-size: 15px;
+      font-family: "kanitlight";
+  }
+  .faq-font2 {
+      font-size: 12px;
+      font-family: "kanitlight";
+  }
+  /*-------------------------------------
+  ------------- END FAQ 414 -------------
   ---------------------------------------*/
 }
 
@@ -2781,14 +3128,14 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 306px;
+      height: 230px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 456px;
+      height: 380px;
   }
   .home-overlay-card {
       position: relative;
@@ -2812,6 +3159,12 @@ body {
       color: #123cb2;
       font-family: 'kanitmedium';
       line-height: 2;
+  }
+  .new-overlay-image {
+      position: relative;
+      height: 275px;
+      width: 100%;
+      overflow: hidden;
   }
   /*------------------------------------
   ---------- END HOME 375 --------------
@@ -2839,6 +3192,91 @@ body {
   }
   /*------------------------------------
   ---------- END FILTER 375 --------------
+  ---------------------------------------*/
+
+  /*------------------------------------
+  ------------- PROFILE 375 ------------
+  ---------------------------------------*/
+  .profile-font2 {
+      font-size: 18px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .profile-font3 {
+      font-size: 14px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .profile-font4 {
+      font-size: 12px;
+      color: #333333;
+      font-family: "kanitlight";
+      padding-top: 8px;
+  }
+  .profile-font5 {
+      font-size: 14px;
+      color: #333333;
+      padding-top: 6px;
+      transition: all 0.5s;
+  }
+  .profile-overlay-credit {
+      position: relative;
+      height: 18px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------
+  ------------- PROFILE375 --------------
+  ---------------------------------------*/
+
+
+  /*------------------------------------
+  ------- PRODUCT-DETAIL 375 ------------
+  ---------------------------------------*/
+  .product-font3 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+    .product-font1 {
+      font-size: 22px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .product-overlay-coulasel {
+      position: relative;
+      height: 233px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+  }
+  .product-overlay-coulasel:hover {
+      position: relative;
+      height: 233px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  /*------------------------------------
+  ------ END PRODUCT-DETAIL 375 ---------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  -------------- FAQ 375 ---------------
+  ---------------------------------------*/
+  .faq-font1 {
+      font-size: 14px;
+      font-family: "kanitlight";
+  }
+  .faq-font2 {
+      font-size: 12px;
+      font-family: "kanitlight";
+  }
+  /*-------------------------------------
+  ------------- END FAQ 375 -------------
   ---------------------------------------*/
 }
 
@@ -2979,14 +3417,14 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 250px;
+      height: 170px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 400px;
+      height: 320px;
   }
   .home-overlay-card {
       position: relative;
@@ -3001,7 +3439,7 @@ body {
   }
   .new-overlay-image {
       position: relative;
-      height: 288px;
+      height: 231px;
       width: 100%;
       overflow: hidden;
   }
@@ -3015,15 +3453,59 @@ body {
   ---------- END HOME 320 --------------
   ---------------------------------------*/
 
+
   /*------------------------------------
   ---------- PROFILE 320 --------------
   ---------------------------------------*/
+  .profile-font2 {
+      font-size: 16px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
   .profile-padding{
       padding: 10px;
+  }
+  .profile-btn {
+      width: 122px;
+      height: 35px;
+      border-radius: 0px;
+      color: #333333;
+      background-color: #ffc526;
+      transition: all 0.5s;
+      font-family: "kanitlight";
+      font-size: 10px;
+  }
+  .profile-btn:hover {
+      width: 122px;
+      height: 35px;
+      border-radius: 0px;
+      color: #fff;
+      background-color: #123cb2;
+      transition: all 0.5s;
+      font-family: "kanitlight";
+      font-size: 10px;
+  }
+  .profile-overlay-credit {
+      position: relative;
+      height: 15px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .profile-font3 {
+      font-size: 12px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .profile-font4 {
+      font-size: 10px;
+      color: #333333;
+      font-family: "kanitlight";
+      padding-top: 8px;
   }
   /*------------------------------------
   ---------- END PROFILE 320 ------------
   --------------------------------------*/
+
 
   /*-------------------------------------
   -------------- NEW 320 --------------
@@ -3067,5 +3549,54 @@ body {
   }
   /*------------------------------------
   ---------- END FILTER 320 --------------
+  ---------------------------------------*/
+
+
+  /*------------------------------------
+  -------- PRODUCT-DETAIL 320 ----------
+  ---------------------------------------*/
+  .product-font-h{
+      font-size: 15px;
+      color: #333333;
+  }
+  .product-font5 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .product-overlay-coulasel {
+      position: relative;
+      height: 196px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+  }
+  .product-overlay-coulasel:hover {
+      position: relative;
+      height: 196px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.5s;
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  /*------------------------------------
+  ------- END PRODUCT-DETAIL 320 --------
+  ---------------------------------------*/
+
+  /*-------------------------------------
+  -------------- FAQ 320 ---------------
+  ---------------------------------------*/
+  .faq-font1 {
+      font-size: 11px;
+      font-family: "kanitlight";
+  }
+  .faq-font2 {
+      font-size: 12px;
+      font-family: "kanitlight";
+  }
+  /*-------------------------------------
+  ------------- END FAQ 320 -------------
   ---------------------------------------*/
 }

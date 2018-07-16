@@ -1,6 +1,6 @@
 
 
-<!-- NAVBAR ------------------------------->
+<!-- NAVBAR 1 (iPad + Mobile)---------------------------------------------------->
 		<div class="navbar-bg">
 					<nav class="navbar navbar-expand-xl d-lg-none d-md-block w-100 nav-p-r pr-0">
 							 <div class="row w-100 ">
@@ -18,10 +18,12 @@
 												</div>
 										</div>
 										<div class="col-md-5 col-12 text-right nav-p-r2 pr-0">
-													<span class="pr-2" href=".php">
-															<i class="fa fa-user" aria-hidden="true"></i>
-															เข้าสู่ระบบ
-													</span>
+													<a class="navbar-font5" href="login.php">
+															<span class="pr-2">
+																	<i class="fa fa-user" aria-hidden="true"></i>
+																	เข้าสู่ระบบ
+															</span>
+													</a>
 													<div class="dropdown">
 														 <button class="dropbtn">TH
 																	<i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -86,7 +88,6 @@
 
 
 <!--- NAVBAR 1 (XL + iPadPro) ------------------------------------------------->
-
 	   <div class="container d-lg-block d-none pr-0">
 				 <nav class="navbar navbar-expand-lg pr-0">
 							<div class="row w-100">
@@ -109,7 +110,7 @@
 													      <a class="nav-link navbar-b-r pl-3 pr-3" href=".php">วิธีการสั่งซื้อ</a>
 													   </li>
 														 <li class="nav-item">
-														    <a class="nav-link pl-3" href=".php">
+														    <a class="nav-link pl-3" href="login.php">
 																	<i class="fa fa-user pr-2" aria-hidden="true"></i>เข้าสู่ระบบ
 															  </a>
 													   </li>
@@ -145,7 +146,6 @@
 
 
 <!-- NAVBAR 2 ---------------------------------------------------->
-
 	<div class="navbar-shadow">
 			 <div class="container">
 					<nav class="navbar navbar-expand-lg">
