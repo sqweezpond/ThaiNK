@@ -287,7 +287,48 @@
                        <div class="tab-pane fadeIn animated" id="his" role="tabpanel" aria-labelledby="his-tab">
                           <div class="card profile-shadow profile-padding">
                              <div class="profile-font2">ประวัติการสั่งซื้อ</div>
-                             
+                             <div class="card profile-shadow mt-4">
+                                 <div class="card-top profile-bg-address">
+                                     <span class="profile-font12">หมายเลขใบสั่งซื้อ</span>
+                                     <span class="profile-font3">02156842</span>
+                                     <div class="profile-font10 profile-txt-indent">วันที่สั่งซื้อ 12/03/61</div>
+                                 </div>
+                                 <div class="card-body">
+                                     <div class="form-group row form-profile-m-b2">
+                                         <label class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-3 col-md-6 col-12 col-form-label">
+                                             <div class="profile-overlay-history">
+                                                <img src="assets/images/product/017.JPG" class="profile-image-history">
+                                             </div>
+                                         </label>
+                                         <div class="offset-xl-3 col-xl-5 offset-lg-3 col-lg-5 col-md-6 col-12 text-center text-lg-left text-md-left">
+                                             <div class="profile-font11 profile-p-t-his">ขวดพลาสติก เบอร์ 9</div>
+                                             <div class="profile-font11">Qty : 1 ส่งสินค้าแล้ว</div>
+                                             <div class="profile-font11">ได้รับวันที่ 13 มี.ค. 2016</div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="card profile-shadow mt-4">
+                                 <div class="card-top profile-bg-address">
+                                     <span class="profile-font12">หมายเลขใบสั่งซื้อ</span>
+                                     <span class="profile-font3">02156842</span>
+                                     <div class="profile-font10 profile-txt-indent">วันที่สั่งซื้อ 12/03/61</div>
+                                 </div>
+                                 <div class="card-body">
+                                     <div class="form-group row form-profile-m-b2">
+                                         <label class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-3 col-md-6 col-12 col-form-label">
+                                             <div class="profile-overlay-history">
+                                                <img src="assets/images/product/017.JPG" class="profile-image-history">
+                                             </div>
+                                         </label>
+                                         <div class="offset-xl-3 col-xl-5 offset-lg-3 col-lg-5 col-md-6 col-12 text-center text-lg-left text-md-left">
+                                             <div class="profile-font11 profile-p-t-his">ขวดพลาสติก เบอร์ 9</div>
+                                             <div class="profile-font11">Qty : 1 ส่งสินค้าแล้ว</div>
+                                             <div class="profile-font11">ได้รับวันที่ 13 มี.ค. 2016</div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
                           </div>
                        </div>
                     <!-- End History ---------------------------------------------------->
