@@ -58,9 +58,9 @@
                         </div>
 
                   <!-- text to Modal -->
-                      <div class="login-display my-4">
+                      <div class="login-display mt-4">
                         <div class="col-lg-6 col-md-4 col-5">
-                          <p class="text-md-left text-sm-right  font-10">ลืมรหัสผ่าน? <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal2">คลิกที่นี้</span></a> </p>
+                          <p class="text-md-left text-sm-right ">ลืมรหัสผ่าน? <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal2">คลิกที่นี้</span></a> </p>
                         </div>
                       <!-- Modal -->
                       <div class="modal fade  bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -97,7 +97,7 @@
                       </div>
                     <!-- text to Modal -->
                     <div class="col-lg-6 col-md-8 col-7">
-                      <p class="text-md-right text-sm-left font-10">หากยังไม่ได้เป็นสมาชิคคลิก <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal1">ลงทะเบียน</span></a></p>
+                      <p class="text-md-right text-sm-left ">หากยังไม่ได้เป็นสมาชิคคลิก <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal1">ลงทะเบียน</span></a></p>
                     </div> 
                   </div>
                 <!-- Modal -->
