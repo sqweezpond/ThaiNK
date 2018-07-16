@@ -13,7 +13,7 @@
 
     <div class="wrapper">
        <!-- CONTENT -->
-        <div class="container pb-5 fadeIn animated">
+        <div class="container pb-5 ">
 
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5 mt-5">
@@ -71,9 +71,45 @@
                         <div class="form-group row pt-2">
                             <label class="col-xl-3 col-lg-3 col-md-3 col-12 text-center text-lg-left text-md-left col-form-label profile-font3 profile-p-t2">รหัสผ่าน</label>
                             <div class="col-xl-9 col-lg-9 col-md-9 col-12 text-center text-lg-left text-md-left">
-                              <button type="button" class="btn profile-btn">
+                              <button type="button" class="btn profile-btn" data-toggle="modal" data-target="#exampleModal6">
                                 <i class="fa fa-unlock-alt pr-2" aria-hidden="true"></i>เปลี่ยนรหัสผ่าน
                               </button>
+                                     <!-- Modal -->
+                                <div class="modal fade  bd-example-modal-lg" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="re-modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <div class="text-center my-5">
+                                          <h4>Change Password</h4>
+                                        </div>
+                                        <form>
+                                          <div class="form-group row">
+                                            <div class="col-sm-2"></div>
+                                            <div class="col-sm-8 ">
+                                              <input type="Password" class="re-login-from" id="inputPassword3" placeholder="Enter All Password">
+                                            </div>
+                                            <div class="col-sm-2"></div>
+                                            <div class="col-sm-2"></div>
+                                            <div class="col-sm-8 mt-4">
+                                              <input type="Password" class="re-login-from" id="inputPassword3" placeholder="Comfirm Password">
+                                            </div>
+                                            <div class="col-sm-2"></div>
+                                          </div>
+                                        </form>
+                                          <div class="mt-5 text-center">
+                                            <button type="button" class="btn profile-btn ">ยืนยัน</button>
+                                          </div>
+                                      </div>
+                                        <div class="modal-footer" style="padding-top: 35px;">      
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                         <div class="form-group row pt-2">
