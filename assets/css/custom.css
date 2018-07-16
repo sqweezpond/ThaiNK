@@ -2635,7 +2635,7 @@ body {
 
 
   /*------------------------------------
-  ----------  HOME 414 --------------
+  -------------  HOME 414 --------------
   ---------------------------------------*/
   .home-font1 {
       font-size: 23px;
@@ -2881,7 +2881,7 @@ body {
   ---------- PROFILE 414 --------------
   ---------------------------------------*/
   .profile-font {
-      font-size: 17px;
+      font-size: 15px;
       color: #333333;
       font-family: "kanitlight";
   }
@@ -2917,6 +2917,22 @@ body {
       border-radius: 0px;
       height: 100px;
       font-family: "kanitlight";
+  }
+  .flaticon-avatar:before {
+      font-size: 30px;
+      color: #333333;
+  }
+  .flaticon-map-pin-marked:before {
+      font-size: 30px;
+      color: #333333;
+  }
+  .flaticon-credit-card:before {
+      font-size: 30px;
+      color: #333333;
+  }
+  .flaticon-box:before {
+      font-size: 30px;
+      color: #333333;
   }
   /*------------------------------------
   ---------- END PROFILE 414 -----------
