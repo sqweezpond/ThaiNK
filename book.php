@@ -40,11 +40,11 @@
                 <p class="home-font10">300</p>
               </td>
                <td>
-                <div class="input-group mb-3">
+                <div class="book-input-group mb-3">
                   <div class="input-group-prepend">
                     <button class="book-btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa fa-minus" aria-hidden="true"></i></button>
                   </div>
-                  <input type="text" class="form-control text-center" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  <input type="text" class="b-form-control text-center" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1">
                   <div class="input-group-prepend">
                     <button class="book-btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa fa-plus" aria-hidden="true"></i></button>
                   </div>
@@ -66,11 +66,11 @@
                 <p class="home-font10">300</p>
               </td>
                <td>
-                <div class="input-group mb-3">
+                <div class="book-input-group mb-3">
                   <div class="input-group-prepend">
                     <button class="book-btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa fa-minus" aria-hidden="true"></i></button>
                   </div>
-                  <input type="text" class="form-control text-center" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  <input type="text" class="b-form-control text-center" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1">
                   <div class="input-group-prepend">
                     <button class="book-btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa fa-plus" aria-hidden="true"></i></button>
                   </div>
