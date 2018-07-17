@@ -210,7 +210,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <div class="text-center mb-5">
+                                    <div class="text-center my-5">
                                       <h4>เพิ่มที่อยู่</h4>
                                     </div>
                                     <form>

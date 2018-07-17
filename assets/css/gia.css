@@ -356,7 +356,7 @@ p,h1,h2,h3,h4,h5{
 .book_frame-crad{
     position:relative;
     overflow: hidden;
-    height: 150px;
+    height: 95px;
 
 }
 .book_card-img-top {
@@ -928,7 +928,7 @@ p,h1,h2,h3,h4,h5{
 .book_frame-crad {
     position: relative;
     overflow: hidden;
-    height: 150px;
+    height: 120px;
 }
 .input-group {
     position: relative;

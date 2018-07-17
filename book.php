@@ -34,7 +34,7 @@
          <tbody>
             <tr>
               <td><i class="ml-lg-4 fa fa-check-square text-center" aria-hidden="true"></td>
-              <td class="book_frame-crad"><img class="book_card-img-top" src="http://www.chiangmainews.co.th/page/wp-content/uploads/p3-9-273x300.jpg"></td>
+              <td class="book_frame-crad"><img class="book_card-img-top" src="https://fz.lnwfile.com/hfvqdr.jpg"></td>
               <td class="text-center">
                 <p>200 บาท</p>
                 <p class="home-font10">300</p>
@@ -60,7 +60,7 @@
          <tbody>
             <tr>
               <td><i class="ml-lg-4 fa fa-check-square text-center" aria-hidden="true"></td>
-              <td class="book_frame-crad"><img class="book_card-img-top" src="https://png.pngtree.com/element_origin_min_pic/17/02/20/a34de64605fd6f52839a7bcf62b91571.jpg"></td>
+              <td class="book_frame-crad"><img class="book_card-img-top" src="https://www.bloggang.com/data/a/at-least-8/picture/1344502524.jpg"></td>
               <td class="text-center">
                 <p>200 บาท</p>
                 <p class="home-font10">300</p>

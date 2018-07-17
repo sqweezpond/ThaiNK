@@ -72,7 +72,7 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              <div class="text-center">
+                              <div class="text-center my-5">
                                 <h4>Forget Password</h4>
                               </div>
                               <div class="text-center">
@@ -110,7 +110,7 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <div class="text-center">
+                        <div class="text-center my-5">
                           <h4>ลงทะเบียน</h4>
                         </div>
                         <form>
