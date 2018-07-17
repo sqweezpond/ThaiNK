@@ -34,7 +34,7 @@
          <tbody>
             <tr>
               <td><i class="ml-lg-4 fa fa-check-square text-center" aria-hidden="true"></td>
-              <td class="book_frame-crad"><img class="book_card-img-top" src="https://3.imimg.com/data3/OE/QO/MY-6012314/pet-water-bottles-250x250.png"></td>
+              <td class="book_frame-crad"><img class="book_card-img-top" src="http://www.chiangmainews.co.th/page/wp-content/uploads/p3-9-273x300.jpg"></td>
               <td class="text-center">
                 <p>200 บาท</p>
                 <p class="home-font10">300</p>
