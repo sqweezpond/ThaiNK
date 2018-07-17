@@ -109,29 +109,31 @@
                   <div class="row">
                       <div class="col-xl-3 col-lg-3 col-12 col-md-3 text-center text-lg-left text-md-left">
                          <div class="footer-font6 pt-2">หมวดหมู่สินค้า</div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ขวด PET</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ขวดน้ำหวาน</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ขวดน้ำแบบขุ่น</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ถังใส่น้ำ</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ฝาขวด</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">ถ้วยน้ำ</a></div>
+                         <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ขวด PET</a></div>
+                         <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ขวดน้ำหวาน</a></div>
+                         <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ขวดน้ำแบบขุ่น</a></div>
+                         <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ถังใส่น้ำ</a></div>
+                         <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ฝาขวด</a></div>
+                         <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ถ้วยน้ำ</a></div>
                       </div>
                       <div class="col-xl-5 col-lg-5 col-12 col-md-5 footer-p-t3 text-center text-lg-left text-md-left">
-                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ถ้วย pp ขนาด 16 และ 22 ออนซ์</a></div>
-                        <div class="footer-font pt-3"><a href = "#" class="footer-link">พรีฟอร์ม</a></div>
-                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ถุงร้อน ถุงไฮโซ</a></div>
-                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ช้อนพลาสติก</a></div>
-                        <div class="footer-font pt-3"><a href = "#" class="footer-link">ฉลาก</a></div>
-                        <div class="footer-font pt-3"><a href = "#" class="footer-link">หลอดน้ำดื่ม</a></div>
+                        <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ถ้วย pp ขนาด 16 และ 22 ออนซ์</a></div>
+                        <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">พรีฟอร์ม</a></div>
+                        <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ถุงร้อน ถุงไฮโซ</a></div>
+                        <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ช้อนพลาสติก</a></div>
+                        <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">ฉลาก</a></div>
+                        <div class="footer-font pt-3"><a href = "filter.php" class="footer-link">หลอดน้ำดื่ม</a></div>
                       </div>
                       <div class="col-xl-4 col-lg-4 col-12 col-md-4 footer-p-t7 px-0 text-center text-lg-left text-md-left">
                          <div class="footer-font6 pt-2">Help Center</div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">บัญชีของฉัน</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">วิธีการสั่งซื้อ</a></div>
-                         <div class="footer-font pt-3"><a href = "#" class="footer-link">คำถามที่พบบ่อย</a></div>
+                         <div class="footer-font pt-3"><a href = "profile.php" class="footer-link">บัญชีของฉัน</a></div>
+                         <div class="footer-font pt-3"><a href = "#" class="footer-link" data-toggle="modal" data-target="#exampleModal">วิธีการสั่งซื้อ</a></div>
+                         <div class="footer-font pt-3"><a href = "faq.php" class="footer-link">คำถามที่พบบ่อย</a></div>
                          <div class="footer-font pt-3"><a href = "#" class="footer-link" data-toggle="modal" data-target="#exampleModal">นโยบายและเงื่อนไขการให้บริการ</a></div>
+                         <div class="footer-font pt-3"><a href = "about-us.php" class="footer-link">เกี่ยวกับเรา</a></div>
+                         <div class="footer-font pt-3"><a href = "contact-us.php" class="footer-link">ติดต่อเรา</a></div>
 
-                        <!-- Modal -->
+                    <!-- Modal --------------------------------------------->
                            <div class="modal fade  bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                               <div class="re-modal-content">
@@ -163,17 +165,17 @@
           (j) เมื่อคุณเข้าเยี่ยมชมหรือใช้เว็บไซต์และแอปพลิเคชั่นของหุ้นส่วนหรือบริษัทในกลุ่มของเรา
           (k) เมื่อคุณเข้าเยี่ยมชมหรือใช้เว็บไซต์และแอปพลิเคชั่นของบุคคลภายนอกที่ใช้ และ/หรือ เกี่ยวข้องกับบริการของเรา
           (l) เมื่อคุณติดตั้งแอปพลิเคชั่นบนคอมพิวเตอร์ โทรศัพท์ หรืออุปกรณ์อื่น (“อุปกรณ์”) และ/หรือใช้อุปกรณ์เพื่อเข้าถึงบริการของเรา
-          (m) เมื่อคุณเชื่อมต่อบัญชีของคุณกับเว็บไซต์หรือแอปพลิเคชั่นของบุคคลภายนอก แก่บัญชีผู้ใช้ของคุณกับเราผ่านทางไซต์ หรือ 
+          (m) เมื่อคุณเชื่อมต่อบัญชีของคุณกับเว็บไซต์หรือแอปพลิเคชั่นของบุคคลภายนอก แก่บัญชีผู้ใช้ของคุณกับเราผ่านทางไซต์ หรือ
           (n) เมื่อคุณส่งข้อมูลส่วนบุคคลของคุณให้แก่เราด้วยเหตุผลใดก็ตาม
 นโยบายดังกล่าวข้างต้นไม่ได้อ้างไว้โดยละเอียดถี่ถ้วนและเป็นเพียงตัวอย่างทั่วไปเมื่อเราเก็บรวบรวมข้อมูลส่วนบุคคลเกี่ยวกับคุณ </p>
                                   </div>
                                 </div>
-                                 <div class="modal-footer" style="padding-top: 35px;">      
+                                 <div class="modal-footer" style="padding-top: 35px;">
                                 </div>
                               </div>
                             </div>
                           </div>
-
+                        <!-- End Modal ------------------------------------------>
                       </div>
                   </div>
                   <div class="row footer-b footer-bg4 mt-4 footer-m-l2">

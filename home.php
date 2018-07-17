@@ -24,7 +24,9 @@
                             <div class="home-font1">ผลิตและจัดจำหน่าย</div>
                             <div class="home-font2 pt-2">ผลิตและจัดจำหน่าย</div>
                             <div class="pt-4">
-                                <button class="btn home-btn">ดูสินค้าทั้งหมด ></button>
+                              <a href="filter.php">
+                                <button class="btn home-btn">ดูสินค้าทั้งหมด></button>
+                              </a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +64,9 @@
                               </div>
                               <div class="col-lg-3 col-xl-3 col-md-3 text-center">
                                   <div class="home-p-t3">
-                                    <button class="btn home-btn2">Shop now</button>
+                                      <a href="filter.php">
+                                        <button class="btn home-btn2">Shop now</button>
+                                      </a>
                                   </div>
                               </div>
                         </div>
@@ -81,7 +85,9 @@
                               </div>
                               <div class="col-lg-3 col-xl-3 col-md-3 text-center">
                                   <div class="home-p-t3">
-                                    <button class="btn home-btn2">Shop now</button>
+                                      <a href="filter.php">
+                                        <button class="btn home-btn2">Shop now</button>
+                                      </a>
                                   </div>
                               </div>
                         </div>
@@ -120,7 +126,7 @@
                 </div>
                 <div class="row mt-4 mx-0 home-shadow">
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                               <div class="home-overlay-product home-product">
                                  <img src = "assets/images/product/006.png" class="home-image-product">
                                  <div class="home-font8 home-position-a6">ขวดบรรจุน้ำ</div>
@@ -128,7 +134,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                               <div class="home-overlay-product home-product">
                                  <img src = "assets/images/banner/015.png" class="home-image-product">
                                  <div class="home-font8 home-position-a7">ถังใส่น้ำ</div>
@@ -136,7 +142,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                               <div class="home-overlay-product home-product">
                                  <img src = "assets/images/product/004.png" class="home-image-product">
                                  <div class="home-font8 home-position-a6">กระปุกฝาปิด</div>
@@ -144,7 +150,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/002.png" class="home-image-product">
                                <div class="home-font8 home-position-a8">หัวฟ็อกกี้</div>
@@ -152,7 +158,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/008.png" class="home-image-product">
                                <div class="home-font8 home-position-a9">หัวปั๊ม</div>
@@ -160,7 +166,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/011.png" class="home-image-product">
                                <div class="home-font8 home-position-a9">ฝาขวด</div>
@@ -170,7 +176,7 @@
                 </div>
                 <div class="row mx-0 home-shadow">
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/001.png" class="home-image-product">
                                <div class="home-font8 home-position-a9">ถ้วยน้ำ</div>
@@ -178,7 +184,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/009.png" class="home-image-product">
                                <div class="home-font8 home-position-a6">ถุงพลาสติก</div>
@@ -186,7 +192,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/003.png" class="home-image-product">
                                <div class="home-font8 home-position-a8">พรีฟอร์ม</div>
@@ -194,7 +200,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/005.png" class="home-image-product">
                                <div class="home-font8 home-position-a9">หลอด</div>
@@ -210,7 +216,7 @@
                           </a>
                       </div>
                       <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
-                          <a href="#">
+                          <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/014.png" class="home-image-product">
                                <div class="home-font8 home-position-a11">ฉลากสินค้า</div>
@@ -515,10 +521,13 @@
 
         <!-- New & Activity ------------------------------------------------------>
             <div class="row mt-5 mx-0">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-7 pl-0 home-b-b">
-                  <div class="home-font14">ข่าวสารและกิจกรรม</div>
+                <div class="col-xl-4 col-lg-4 col-md-5 col-10 pl-0 home-b-b">
+                  <span class="home-font14">ข่าวสารและกิจกรรม</span>
+                  <span class="pl-3">
+                    <a href="new.php" class="home-font13"><u>ดูทั้งหมด</u></a>
+                  </span>
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-5 home-b-b2"></div>
+                <div class="col-xl-8 col-lg-8 col-md-7 col-2 home-b-b2"></div>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -533,7 +542,7 @@
                        มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                    </div>
                    <div class="home-p-t5 text-right text-lg-left text-md-left">
-                     <a href="#" class="home-font13">ดูรายละเอียด</a>
+                     <a href="new-detail.php" class="home-font13">ดูรายละเอียด</a>
                    </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -548,7 +557,7 @@
                         มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                     </div>
                     <div class="home-p-t4 text-right text-lg-left text-md-left">
-                      <a href="#" class="home-font13">ดูรายละเอียด</a>
+                      <a href="new-detail.php" class="home-font13">ดูรายละเอียด</a>
                     </div>
                 </div>
             </div>
@@ -565,7 +574,7 @@
                        มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                    </div>
                    <div class="home-p-t6 text-right text-lg-left text-md-left">
-                     <a href="#" class="home-font13">ดูรายละเอียด</a>
+                     <a href="new-detail.php" class="home-font13">ดูรายละเอียด</a>
                    </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
@@ -580,7 +589,7 @@
                         มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
                     </div>
                     <div class="home-p-t8 text-right text-lg-left text-md-left">
-                      <a href="#" class="home-font13">ดูรายละเอียด</a>
+                      <a href="new-detail.php" class="home-font13">ดูรายละเอียด</a>
                     </div>
                 </div>
             </div>

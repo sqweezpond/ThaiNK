@@ -42,7 +42,7 @@
             <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
           <div>
-            <a href="#" class="color-rad">ดูรายละเอียด</a>
+            <a href="new-detail.php" class="color-rad">ดูรายละเอียด</a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
             <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
           <div>
-            <a href="#" class="color-rad">ดูรายละเอียด</a>
+            <a href="new-detail.php" class="color-rad">ดูรายละเอียด</a>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
             <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
           <div>
-            <a href="#" class="color-rad">ดูรายละเอียด</a>
+            <a href="new-detail.php" class="color-rad">ดูรายละเอียด</a>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
             <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
           <div>
-            <a href="#" class="color-rad">ดูรายละเอียด</a>
+            <a href="new-detail.php" class="color-rad">ดูรายละเอียด</a>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@
             <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
           <div>
-            <a href="#" class="color-rad">ดูรายละเอียด</a>
+            <a href="new-detail.php" class="color-rad">ดูรายละเอียด</a>
           </div>
         </div>
       </div>
@@ -124,15 +124,15 @@
             <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
           <div>
-            <a href="#" class="color-rad">ดูรายละเอียด</a>
+            <a href="new-detail.php" class="color-rad">ดูรายละเอียด</a>
           </div>
         </div>
       </div>
     </div>
     </div>
-    
 
-        <div class="container mt-5">                  
+
+        <div class="container mt-5">
           <ul class="pagination justify-content-center">
             <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
             <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);">1</a></li>
@@ -140,8 +140,8 @@
             <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);">3</a></li>
             <li class="page-item pr-1"><a class="new_page-link" href="javascript:void(0);"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
           </ul>
-        </div>  
-    
+        </div>
+
    </div>
  </div>
 

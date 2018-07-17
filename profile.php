@@ -13,7 +13,7 @@
 
     <div class="wrapper">
        <!-- CONTENT -->
-        <div class="container pb-5 ">
+        <div class="container pb-5">
 
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5 col-12 text-center mt-5">

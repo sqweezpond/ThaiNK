@@ -13,7 +13,7 @@
 
     <div class="wrapper">
        <!-- CONTENT -->
-        <div class="container pb-5">
+        <div class="container fadeIn animated pb-5">
             <div class="row filter-m-t">
                 <div class="col-xl-3 col-lg-3 col-md-3 filter-border p-3 filter-margin">
                       <section class="filter">

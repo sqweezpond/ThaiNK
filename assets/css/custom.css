@@ -172,7 +172,18 @@ body {
 }
 .shop-logo{
     font-size: 50px;
-    margin-top: -5px;
+    margin: -5px;
+}
+.shop-logo2{
+    color: #333333;
+    transition: all 0.3s;
+}
+.shop-logo2:hover{
+    color: #808080;
+    transition: all 0.3s;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
 }
 .overlay-logo {
     position: relative;
@@ -327,7 +338,7 @@ body {
     color: #333333;
 }
 .footer-link:hover{
-    color: #808080;
+    color: #999;
     text-decoration: none;
 }
 .footer-overlay-logo {
@@ -592,18 +603,27 @@ body {
     font-size: 14px;
     color: #f41f27;
     font-family: 'kanitlight';
-    transition: all 0.5s;
 }
 .home-font13:hover{
     font-size: 14px;
     color: #f41f2773;
     font-family: 'kanitlight';
     text-decoration: none;
-    transition: all 0.5s;
 }
 .home-font14{
     font-size: 25px;
     color: #333333;
+}
+.home-font15{
+    font-size: 16px;
+    color: #f41f27;
+    font-family: 'kanitlight';
+}
+.home-font15:hover{
+    font-size: 16px;
+    color: #f41f2773;
+    font-family: 'kanitlight';
+    text-decoration: none;
 }
 .home-btn{
     width: 200px;
@@ -802,11 +822,11 @@ body {
     border-radius: 0px;
 }
 .home-product{
-    transition:  all 0.5s;
+    transition:  all 0.3s;
 }
 .home-product:hover{
     box-shadow: -1px 1px 22px -3px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     background-color: white;
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -860,6 +880,15 @@ body {
 .home-card{
     box-shadow: 0px 1px 15px -6px;
     height: 396px;
+    transition: all 0.3s;
+}
+.home-card:hover{
+    box-shadow: 0px 1px 15px -6px;
+    height: 396px;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    transition: all 0.3s;
 }
 .b-n{
     border: none;
@@ -1027,13 +1056,13 @@ body {
     font-size: 20px;
     color: #333333;
     padding-top: 20px;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .profile-font5:hover{
     font-size: 20px;
     color: red;
     padding-top: 20px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05);
@@ -1303,6 +1332,15 @@ body {
 .filter-card {
     box-shadow: 0px 1px 15px -6px;
     height: 386px;
+    transition: all 0.3s;
+}
+.filter-card:hover{
+    box-shadow: 0px 1px 15px -6px;
+    height: 386px;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    transition: all 0.3s;
 }
 .check {
     display: block;
