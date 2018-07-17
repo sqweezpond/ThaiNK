@@ -521,13 +521,13 @@
 
         <!-- New & Activity ------------------------------------------------------>
             <div class="row mt-5 mx-0">
-                <div class="col-xl-4 col-lg-3 col-md-3 col-7 pl-0 home-b-b">
+                <div class="col-xl-4 col-lg-4 col-md-5 col-10 pl-0 home-b-b">
                   <span class="home-font14">ข่าวสารและกิจกรรม</span>
                   <span class="pl-3">
                     <a href="new.php" class="home-font13"><u>ดูทั้งหมด</u></a>
                   </span>
                 </div>
-                <div class="col-xl-8 col-lg-9 col-md-9 col-5 home-b-b2"></div>
+                <div class="col-xl-8 col-lg-8 col-md-7 col-2 home-b-b2"></div>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
