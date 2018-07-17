@@ -104,7 +104,7 @@
 									<div class="col-xl-6 col-lg-6 px-0">
 											 <ul class="navbar-nav navbar-p-l">
 													   <li class="nav-item">
-													      <a class="nav-link navbar-b-r pr-3" href=".php">คำถามที่พบบ่อย</a>
+													      <a class="nav-link navbar-b-r pr-3" href="faq.php">คำถามที่พบบ่อย</a>
 													   </li>
 													   <li class="nav-item">
 													      <a class="nav-link navbar-b-r pl-3 pr-3" href=".php">วิธีการสั่งซื้อ</a>

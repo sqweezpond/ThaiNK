@@ -971,6 +971,9 @@ body {
 .home-p-r{
     padding-right: 40px;
 }
+.home-txt-decnone:hover{
+    text-decoration: none;
+}
 /*-------------------------------------
 ------------- END HOME ----------------
 ---------------------------------------*/
