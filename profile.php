@@ -255,7 +255,7 @@
                               <div class="form-group row">
                                   <label class="col-xl-6 col-lg-6 col-md-7 col-6 col-form-label profile-font2">บัตรเครดิตของฉัน</label>
                                   <div class="col-xl-6 col-lg-6 col-md-5 col-6 text-right">
-                                      <button type="button" class="btn profile-btn">
+                                      <button type="button" class="btn profile-btn" data-toggle="modal" data-target="#exampleModal0">
                                         <i class="fa fa-plus-square-o pr-2" aria-hidden="true"></i>เพิ่มบัตรเครดิต/เดบิต
                                       </button>
                                   </div>
@@ -281,7 +281,72 @@
                               </div>
                            </div>
                        </div>
-                    <!-- End Credit -------------------------------------------------------------->
+                  <!-- End Credit -------------------------------------------------------------->
+
+                  <!-- Modal Add Credit------------------------------------------------------->
+                        <div class="modal fade  bd-example-modal-lg" id="exampleModal0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="re-modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="text-center my-5">
+                                      <h4>เพิ่มบัตรเคดิต/เดบิต</h4>
+                                    </div>
+
+                                    <div class="alert alert-warning">
+                                      <strong><i class="fa fa-info-circle i-con-alert mr-3" aria-hidden="true"></i></strong>1฿ จะถูกหักหลังจากเป็นค่าใช้จ่ายในการยืนยัน เราจะทำการคืนเงินในคุณภายใน 15วัน
+                                    </div>
+                                    <form >
+                                      <div class="form-group row">
+
+                                        <div class="col-sm-12">
+                                          <input type="text" class="re-login-from" id="inputEmail3" placeholder="ชื่อที่ปรากฎบนบัตร">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <div class="col-sm-12">
+                                          <input type="text" class="re-login-from" id="inputEmail3" placeholder="หมายเลขบัตรเคดิต">
+                                        </div>
+                                      </div>
+                                       <div class="form-group" style="display: flex;">
+                                          <div class="col-sm-4">
+                                            <label for="formGroupExampleInput" class="font-size-13">วันหมดอายุ</label>
+                                          <input type="text" class="re-login-from-1" id="formGroupExampleInput" placeholder="MM">
+                                          </div>
+                                           <div class="col-sm-4 ">
+                                             <label for="formGroupExampleInput" class="font-size-13">ปี</label>
+                                          <input type="text" class="re-login-from-1" id="formGroupExampleInput" placeholder="YYYY">
+                                          </div>
+                                           <div class="col-sm-4">
+                                            <label for="formGroupExampleInput" class="font-size-13">VCC</label>
+                                          <input type="text" class="re-login-from-1" id="formGroupExampleInput" placeholder="OO">
+                                          </div>
+                                      </div>
+                                       <div class="form-group row">
+                                        <div class="col-sm-12">
+                                          <input type="text" class="re-login-from" id="inputEmail3" placeholder="188 ม.2 ต.สวนใหญ่ อ.เมือง จ.นนทบุรี">
+                                        </div>
+                                      </div>
+                                     <div class="form-group row">
+                                        <div class="col-sm-12">
+                                          <input type="text" class="re-login-from" id="inputEmail3" placeholder="11000">
+                                        </div>
+                                      </div>
+                                    </form>
+                                      <div class="mt-5 text-right">
+                                        <button type="button" class="btn profile-btn ">ยืนยัน</button>
+                                      </div>
+                                  </div>
+                                    <div class="modal-footer" style="padding-top: 35px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End Modal Add Credit -------------------------------------------->
 
                     <!-- History -------------------------------------------------------->
                        <div class="tab-pane fadeIn animated" id="his" role="tabpanel" aria-labelledby="his-tab">
