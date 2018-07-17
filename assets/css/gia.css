@@ -384,7 +384,7 @@ p,h1,h2,h3,h4,h5{
     -ms-flex-align: stretch;
     align-items: stretch;
     width: 40%;
-    margin-right: -230px;
+    margin-right: -180px;
 }
 .book-btn {
     display: inline-block;
