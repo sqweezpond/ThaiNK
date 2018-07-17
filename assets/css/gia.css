@@ -38,6 +38,9 @@ p,h1,h2,h3,h4,h5{
     border-radius: 0px;
 }
 
+.font-12{
+    font-size: 12px;
+}
 
 
 /*-------------------------------------
@@ -332,8 +335,98 @@ p,h1,h2,h3,h4,h5{
 ---------------login-register end--------
 ----------------------------------------*/
 
+/*--------------------------------------
+--------------book---------------------
+---------------------------------------*/
 
+.book_frame-crad{
+    position:relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
 
+}
+.book_card-img-top {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.book-shado{
+    padding: 12px;
+    border: 2px solid;
+    border-color: #dee2e6;
+    box-shadow: 0px 0px 20px #dee2e6;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 70%;
+    margin-right: -200px;
+}
+.book-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* border-radius: .25rem; */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 1px solid;
+    margin-right: 1px;
+}
+.book-btn-daw {
+    color: #fff;
+    border-color: #123CB2;
+    background-color: #123CB2;
+    border-radius: 0px;
+
+}
+.book-btn-100 {
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    color: #333333;
+    background-color: #ffc526;
+    transition: all 0.5s;
+    font-family: "kanitlight";
+    font-size: 17px;
+}
+.book-login-from {
+    display: block;
+    width: 110%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.book-color{
+    color: #ffc526 !important;
+}
+/*--------------------------------------
+--------------book end-------------------
+---------------------------------------*/
 
 
 @media(max-width: 1366px){
@@ -561,6 +654,28 @@ p,h1,h2,h3,h4,h5{
 --------------------------------*/
 
 
+/*-------------------------------
+-------------book 414---------------
+---------------------------------*/
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 58%;
+    margin-right: -200px;
+}
+
+/*-------------------------------
+-------------book 414 end---------------
+---------------------------------*/
+
+
 }
 
 
@@ -613,6 +728,27 @@ p,h1,h2,h3,h4,h5{
     --------login 375 end--------
     -------------------------*/
 
+/*-------------------------------
+-------------book 375---------------
+---------------------------------*/
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 76%;
+    margin-right: -200px;
+}
+
+/*-------------------------------
+-------------book 375 end---------------
+---------------------------------*/
+
 }
 
 
@@ -663,5 +799,55 @@ p,h1,h2,h3,h4,h5{
 /*---------------------------
 ----------login 320----------
 ----------------------------*/
+
+/*--------------------------
+------------book 320-----------
+---------------------------*/
+
+.book_frame-crad {
+    position: relative;
+    overflow: hidden;
+    width: 130px;
+    height: 150px;
+}
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    margin-right: -200px;
+}
+.book-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* border-radius: .25rem; */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 1px solid;
+    margin-right: 1px;
+    width: 82%;
+    height: 35px;
+}
+
+/*--------------------------
+------------book 320-----------
+---------------------------*/
+
 
 }
