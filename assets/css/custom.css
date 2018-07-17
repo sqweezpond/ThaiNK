@@ -1332,6 +1332,15 @@ body {
 .filter-card {
     box-shadow: 0px 1px 15px -6px;
     height: 386px;
+    transition: all 0.3s;
+}
+.filter-card:hover{
+    box-shadow: 0px 1px 15px -6px;
+    height: 386px;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    transition: all 0.3s;
 }
 .check {
     display: block;
