@@ -36,18 +36,34 @@
                         </div>
                         <form>
                           <div class="form-group row">
-                            <div class="col-sm-1"></div>
-                            <div class="col-sm-10">
+                            
+                            <div class="col-sm-12">
                               <input type="text" class="re-login-from" id="inputEmail3" placeholder="ชื่อที่ปรากฎบนบัตร">
                             </div>
-                            <div class="col-sm-1"></div>
+                            
                           </div>
                           <div class="form-group row">
-                            <div class="col-sm-1"></div>
-                            <div class="col-sm-10">
+                           
+                            <div class="col-sm-12">
                               <input type="text" class="re-login-from" id="inputEmail3" placeholder="หมายเลขบัตรเคดิต">
                             </div>
-                            <div class="col-sm-1"></div>
+                            
+                          </div>
+                           <div class="form-group">
+                            
+                            <div class="col-sm-4">
+                              <label for="formGroupExampleInput">Example label</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                            </div>
+                             <div class="col-sm-4">
+                              <label for="formGroupExampleInput">Example label</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                            </div>
+                             <div class="col-sm-4">
+                              <label for="formGroupExampleInput">Example label</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                            </div>
+                           
                           </div>
 
                       
