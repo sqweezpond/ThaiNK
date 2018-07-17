@@ -167,8 +167,10 @@
 									</div>
 									<div class="col-xl-3 col-lg-3 col-md-4 col-6 search-p-t shop-m-l shop-p-l-r">
 											<div class="row">
-													<div class="col-xl-3 col-lg-3 col-md-3 col-4">
-														 <i class="fa fa-shopping-cart shop-logo" aria-hidden="true"></i>
+													<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+															<a href="book.php" class="shop-logo2">
+															 	<i class="fa fa-shopping-cart shop-logo" aria-hidden="true"></i>
+														 	</a>
 													</div>
 													<div class="col-xl-8 col-lg-9 col-md-9 col-8 shop-p-l-r">
 														 <div class="">
