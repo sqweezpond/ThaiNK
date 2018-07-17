@@ -17,7 +17,7 @@
             <div class="row mt-5">
                 <div class="col-xl-7 col-lg-7">
                 <!-- BLOCK SLIDE --------------------------------------------------->
-                      <div class="product-overlay-slide d-none d-lg-block d-md-block">
+                      <div class="product-overlay-slide">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s1.jpg">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s2.jpg">
                             <img class="mySlides product-image-slide" src="assets/images/slide/s3.jpg">
@@ -26,7 +26,7 @@
                             <img class="mySlides product-image-slide" src="assets/images/slide/s6.jpg">
                       </div>
                 <!-- SLIDE ------------------------------------------------------->
-                      <div class="owl-carousel owl-theme">
+                      <div class="row mx-0 owl-carousel owl-theme">
                               <div class="item p-1">
                                   <div class="product-overlay-coulasel">
                                       <img src = "assets/images/slide/s1.jpg" class="product-image-coulasel demo" onclick="currentDiv(1)">
@@ -60,7 +60,7 @@
                       </div>
                 </div>
           <!-- END SLIDE ------------------------------------------->
-                <div class="col-xl-5 col-lg-5">
+                <div class="col-xl-5 col-lg-5 product-p-tt">
                     <div class="product-font2">Code#00211</div>
                     <div class="product-font1">ขวดน้ำ</div>
                     <div class="product-font3 mt-3">
@@ -118,111 +118,121 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-6 col-2 home-b-b2"></div>
             </div>
-            <div class="row mt-4">
-                  <div class="row owl-carousel owl-theme mx-0">
-                          <div class="item p-1">
-                              <div class="home-coulasel">
-                                  <div class="card p-3 b-n">
-                                      <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/slide/s1.jpg" class="home-image-coulasel">
-                                      </div>
-                                      <div class="card-body px-0 pb-0">
-                                        <span class="home-font9">200 บาท</span>
-                                        <span class="home-font10 pl-2">399 บาท</span>
-                                        <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
-                                      </div>
-                                  </div>
-                                  <div class="">
-                                     <button class="btn home-btn3">สั่งซื้อ</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="item p-1">
-                              <div class="home-coulasel">
-                                  <div class="card p-3 b-n">
-                                      <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/slide/s2.jpg" class="home-image-coulasel">
-                                      </div>
-                                      <div class="card-body px-0 pb-0">
-                                        <span class="home-font9">200 บาท</span>
-                                        <span class="home-font10 pl-2">399 บาท</span>
-                                        <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
-                                      </div>
-                                  </div>
-                                  <div class="">
-                                     <button class="btn home-btn3">สั่งซื้อ</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="item p-1">
-                              <div class="home-coulasel">
-                                  <div class="card p-3 b-n">
-                                      <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/slide/s3.jpg" class="home-image-coulasel">
-                                      </div>
-                                      <div class="card-body px-0 pb-0">
-                                        <span class="home-font9">200 บาท</span>
-                                        <span class="home-font10 pl-2">399 บาท</span>
-                                        <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
-                                      </div>
-                                  </div>
-                                  <div class="">
-                                     <button class="btn home-btn3">สั่งซื้อ</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="item p-1">
-                              <div class="home-coulasel">
-                                  <div class="card p-3 b-n">
-                                      <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/slide/s4.jpg" class="home-image-coulasel">
-                                      </div>
-                                      <div class="card-body px-0 pb-0">
-                                        <span class="home-font9">200 บาท</span>
-                                        <span class="home-font10 pl-2">399 บาท</span>
-                                        <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
-                                      </div>
-                                  </div>
-                                  <div class="">
-                                     <button class="btn home-btn3">สั่งซื้อ</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="item p-1">
-                              <div class="home-coulasel">
-                                  <div class="card p-3 b-n">
-                                      <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/slide/s5.jpg" class="home-image-coulasel">
-                                      </div>
-                                      <div class="card-body px-0 pb-0">
-                                        <span class="home-font9">200 บาท</span>
-                                        <span class="home-font10 pl-2">399 บาท</span>
-                                        <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
-                                      </div>
-                                  </div>
-                                  <div class="">
-                                     <button class="btn home-btn3">สั่งซื้อ</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="item p-1">
-                              <div class="home-coulasel">
-                                  <div class="card p-3 b-n">
-                                      <div class="home-overlay-coulasel">
-                                        <img src = "assets/images/slide/s6.jpg" class="home-image-coulasel">
-                                      </div>
-                                      <div class="card-body px-0 pb-0">
-                                        <span class="home-font9">200 บาท</span>
-                                        <span class="home-font10 pl-2">399 บาท</span>
-                                        <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
-                                      </div>
-                                  </div>
-                                  <div class="">
-                                     <button class="btn home-btn3">สั่งซื้อ</button>
-                                  </div>
-                              </div>
-                          </div>
-                    </div>
+            <div class="row owl-carousel owl-theme mt-4 mx-0">
+                  <div class="item p-1">
+                      <a href="product-detail.php" class="home-txt-decnone">
+                        <div class="home-coulasel">
+                            <div class="card p-3 b-n padding-card">
+                                <div class="home-overlay-coulasel">
+                                  <img src = "assets/images/slide/s1.jpg" class="home-image-coulasel">
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                  <span class="home-font9">200 บาท</span>
+                                  <span class="home-font10 pl-2">399 บาท</span>
+                                  <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
+                                </div>
+                            </div>
+                            <div class="">
+                               <button class="btn home-btn3">สั่งซื้อ</button>
+                            </div>
+                        </div>
+                      </a>
+                  </div>
+                  <div class="item p-1">
+                      <a href="product-detail.php" class="home-txt-decnone">
+                        <div class="home-coulasel">
+                            <div class="card p-3 b-n padding-card">
+                                <div class="home-overlay-coulasel">
+                                  <img src = "assets/images/slide/s2.jpg" class="home-image-coulasel">
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                  <span class="home-font9">200 บาท</span>
+                                  <span class="home-font10 pl-2">399 บาท</span>
+                                  <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
+                                </div>
+                            </div>
+                            <div class="">
+                               <button class="btn home-btn3">สั่งซื้อ</button>
+                            </div>
+                        </div>
+                      </a>
+                  </div>
+                  <div class="item p-1">
+                      <a href="product-detail.php" class="home-txt-decnone">
+                        <div class="home-coulasel">
+                            <div class="card p-3 b-n padding-card">
+                                <div class="home-overlay-coulasel">
+                                  <img src = "assets/images/slide/s3.jpg" class="home-image-coulasel">
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                  <span class="home-font9">200 บาท</span>
+                                  <span class="home-font10 pl-2">399 บาท</span>
+                                  <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
+                                </div>
+                            </div>
+                            <div class="">
+                               <button class="btn home-btn3">สั่งซื้อ</button>
+                            </div>
+                        </div>
+                      </a>
+                  </div>
+                  <div class="item p-1">
+                      <a href="product-detail.php" class="home-txt-decnone">
+                        <div class="home-coulasel">
+                            <div class="card p-3 b-n padding-card">
+                                <div class="home-overlay-coulasel">
+                                  <img src = "assets/images/slide/s4.jpg" class="home-image-coulasel">
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                  <span class="home-font9">200 บาท</span>
+                                  <span class="home-font10 pl-2">399 บาท</span>
+                                  <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
+                                </div>
+                            </div>
+                            <div class="">
+                               <button class="btn home-btn3">สั่งซื้อ</button>
+                            </div>
+                        </div>
+                      </a>
+                  </div>
+                  <div class="item p-1">
+                      <a href="product-detail.php" class="home-txt-decnone">
+                        <div class="home-coulasel">
+                            <div class="card p-3 b-n padding-card">
+                                <div class="home-overlay-coulasel">
+                                  <img src = "assets/images/slide/s5.jpg" class="home-image-coulasel">
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                  <span class="home-font9">200 บาท</span>
+                                  <span class="home-font10 pl-2">399 บาท</span>
+                                  <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
+                                </div>
+                            </div>
+                            <div class="">
+                               <button class="btn home-btn3">สั่งซื้อ</button>
+                            </div>
+                        </div>
+                      </a>
+                  </div>
+                  <div class="item p-1">
+                      <a href="product-detail.php" class="home-txt-decnone">
+                        <div class="home-coulasel">
+                            <div class="card p-3 b-n padding-card">
+                                <div class="home-overlay-coulasel">
+                                  <img src = "assets/images/slide/s6.jpg" class="home-image-coulasel">
+                                </div>
+                                <div class="card-body px-0 pb-0">
+                                  <span class="home-font9">200 บาท</span>
+                                  <span class="home-font10 pl-2">399 บาท</span>
+                                  <div class="home-font11">พลาสติกใสขนาด 6 ลิตร</div>
+                                </div>
+                            </div>
+                            <div class="">
+                               <button class="btn home-btn3">สั่งซื้อ</button>
+                            </div>
+                        </div>
+                      </a>
+                  </div>
             </div>
              <!-- END Coulasel ------------------------------------------->
             <!-- END CONTANER ------>

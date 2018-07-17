@@ -135,10 +135,12 @@ body {
     position: absolute;
     background-color: #fff;
     min-width: 140px;
+    font-size: 15px;
     background-size: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-left: 10px;
+    font-family: "kanitlight";
 }
 .dropdown-content a {
     color: black;
@@ -572,7 +574,7 @@ body {
     color: #333333;
 }
 .home-font7{
-    font-size: 13px;
+    font-size: 14px;
     color: #333333;
     font-family: 'kanitlight';
 }
@@ -1595,7 +1597,7 @@ body {
 ----------------- FAQ -----------------
 ---------------------------------------*/
 .faq-font1{
-    font-size: 20px;
+    font-size: 17px;
     font-family: "kanitlight";
 }
 .faq-font2{
@@ -1694,7 +1696,7 @@ body {
       background-size: 15px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      margin-top:40px;
+      margin-top:15px;
   }
   .dropdown-content a {
       color: black;
@@ -1867,14 +1869,14 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 138px;
+      height: 127px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 297px;
+      height: 286px;
   }
   .home-overlay-card {
       position: relative;
@@ -2076,6 +2078,11 @@ body {
   .product-font2 {
       font-size: 16px;
       color: #9f9f9f;
+      font-family: "kanitlight";
+  }
+  .product-font3 {
+      font-size: 15px;
+      color: #333333;
       font-family: "kanitlight";
   }
   .product-overlay-slide {
@@ -2681,6 +2688,46 @@ body {
   /*-------------------------------------
   ---------- END FILTER 768 -------------
   ---------------------------------------*/
+
+
+  /*-------------------------------------
+  ---------  PRODUCT-DETAIL 768 ---------
+  ---------------------------------------*/
+  .product-font1 {
+      font-size: 21px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .product-font2 {
+      font-size: 15px;
+      color: #9f9f9f;
+      font-family: "kanitlight";
+  }
+  .product-btn {
+      background-color: #ffcc2b;
+      color: white;
+      font-size: 17px;
+      transition: all 0.5s;
+      width: 100%;
+      height: 50px;
+      border-radius: 0px;
+      border: none;
+      font-family: "kanitlight";
+  }
+  .product-btn:hover {
+      background-color: #1244bc;
+      color: white;
+      font-size: 17px;
+      transition: all 0.5s;
+      width: 100%;
+      height: 50px;
+      border-radius: 0px;
+      border: none;
+      font-family: "kanitlight";
+  }
+  /*-------------------------------------
+  ------- END PRODUCT-DETAIL 768 --------
+  ---------------------------------------*/
 }
 
 
@@ -2700,6 +2747,12 @@ body {
     .navbar-font4{
         font-size: 11px;
         color: #333333;
+    }
+    .navbar-font5 {
+        font-size: 13px;
+        color: #333333;
+        font-family: 'kanitlight';
+        text-align: right;
     }
     .navbar2-p-l{
         padding-left: 20px;
@@ -2732,14 +2785,14 @@ body {
        padding-right:0px;
        padding-top: 0px;
     }
-    .dropbtn{
-        font-size: 15px;
+    .dropbtn {
+        font-size: 12px;
         font-family: 'kanitlight';
         color: #333333;
         border: none;
-        background: transparent url(../../assets/images/logo/thai.png) no-repeat left ;
+        background: transparent url(../../assets/images/logo/thai.png) no-repeat left;
         background-size: 20px;
-        width: 70px;
+        width: 62px;
     }
     .dropdown {
         position: relative;
@@ -2750,11 +2803,13 @@ body {
         position: absolute;
         background-color: #fff;
         min-width: 130px;
-        background-size: 15px;
+        font-size: 13px;
+        background-size: 12px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         margin-top:8px;
         margin-left: -45px;
+        font-family: "kanitlight";
     }
     .dropdown-content a {
         color: black;
@@ -2855,8 +2910,23 @@ body {
       font-family: 'kanitlight';
   }
   .home-font8 {
-      font-size: 18px;
+      font-size: 15px;
       color: #123cb2;
+  }
+  .home-font9 {
+      font-size: 17px;
+      color: #f99e0f;
+  }
+  .home-font10 {
+      font-size: 10px;
+      color: #333333;
+      font-family: 'kanitlight';
+      text-decoration: line-through;
+  }
+  .home-font11 {
+      font-size: 13px;
+      color: #333333;
+      font-family: 'kanitlight';
   }
   .home-font14 {
       font-size: 19px;
@@ -2873,7 +2943,7 @@ body {
   }
   .home-overlay-product {
       position: relative;
-      height: 375px;
+      height: 222px;
       width: 100%;
       overflow: hidden;
       background-color: white;
@@ -2882,7 +2952,6 @@ body {
       position: absolute;
       display: block;
       width: 100%;
-      height: 373px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -2891,7 +2960,7 @@ body {
       position: absolute;
       display: block;
       width: 100%;
-      height: 228px;
+      height: 239px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -2935,38 +3004,38 @@ body {
   }
   .home-position-a6 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 148px;
+      margin-top: 5px;
+      margin-left: 62px;
       z-index: 1;
   }
   .home-position-a7 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 160px;
+      margin-top: 5px;
+      margin-left: 75px;
       z-index: 1;
   }
   .home-position-a8 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 154px;
+      margin-top: 5px;
+      margin-left: 72px;
       z-index: 1;
   }
   .home-position-a9 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 169px;
+      margin-top: 5px;
+      margin-left: 79px;
       z-index: 1;
   }
   .home-position-a10 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 138px;
+      margin-top: 5px;
+      margin-left: 61px;
       z-index: 1;
   }
   .home-position-a11 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 150px;
+      margin-top: 5px;
+      margin-left: 65px;
       z-index: 1;
   }
   .home-overlay-image3 {
@@ -3015,24 +3084,50 @@ body {
       margin-left: 10px;
       transition: all 0.5s;
   }
+  .home-btn3 {
+      width: 100%;
+      height: 40px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 14px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+      margin-top: -5px;
+      padding-top: 12px;
+  }
+  .home-btn3:hover {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #123cb2;
+    color: #fff;
+    font-size: 14px;
+    background: #123cb2;
+    font-family: 'kanitlight';
+    border-radius: 0px;
+    transition: all 0.5s;
+    margin-top: -5px;
+    padding-top: 12px;
+}
   .home-overflow3{
       overflow: hidden;
       height: 69px;
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 255px;
+      height: 102px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 405px;
+      height: 233px;
   }
   .home-overlay-card {
       position: relative;
-      height: 352px;
+      height: 146px;
       width: 100%;
       overflow: hidden;
       background-color: white;
@@ -3043,7 +3138,7 @@ body {
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 502px;
+      height: 277px;
   }
   .home-p-t4{
       padding-top: 0px;
@@ -3066,6 +3161,46 @@ body {
       width: 100%;
       overflow: hidden;
   }
+  .owl-carousel .owl-nav button.owl-next {
+      background: #eeeeee;
+      color: #333333;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      right:-4%;
+      opacity: 0.7;
+  }
+  .owl-carousel .owl-nav button.owl-next:hover{
+      background:black;
+      color: #fff;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      right:-4%;
+      opacity: 0.7;
+  }
+  .owl-carousel .owl-nav button.owl-prev{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      left:-4%;
+      opacity: 0.7;
+  }
+  .owl-carousel .owl-nav button.owl-prev:hover{
+      background: black;
+      color: #fff;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      left:-4%;
+      opacity: 0.7;
+  }
   /*------------------------------------
   ---------- END HOME 414 --------------
   ---------------------------------------*/
@@ -3082,6 +3217,12 @@ body {
       font-size: 21px;
       color: #333333;
       font-family: "kanitlight";
+  }
+  .profile-font9 {
+      font-size: 10px;
+      color: #adadad;
+      font-family: "kanitlight";
+      transition: all 0.5s;
   }
   .profile-padding{
       padding: 20px;
@@ -3178,7 +3319,7 @@ body {
   }
   .filter-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 276px;
+      height: 266px;
   }
   .filter-m-t {
       margin-top: 10px;
@@ -3190,20 +3331,25 @@ body {
   /*-------------------------------------
   ----------- PRODUCT-DETAIL 414 ------------
   ---------------------------------------*/
+  .product-font5 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
   .product-font-h{
       font-size: 18px;
       color: #333333;
   }
   .product-overlay-coulasel {
       position: relative;
-      height: 257px;
+      height: 122px;
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
   }
   .product-overlay-coulasel:hover {
       position: relative;
-      height: 257px;
+      height: 122px;
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
@@ -3229,6 +3375,51 @@ body {
       transition: all 0.5s;
       width: 100%;
       height: 50px;
+      border-radius: 0px;
+      border: none;
+      font-family: "kanitlight";
+  }
+  .product-p-tt{
+      padding-top: 30px;
+  }
+  .product-overlay-slide {
+      position: relative;
+      height: 261px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .form-control {
+      display: block;
+      width: 100%;
+      padding: .375rem .75rem;
+      font-size: 12px;
+      line-height: 1.5;
+      height: 40px;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .product-btn {
+      background-color: #ffcc2b;
+      color: white;
+      font-size: 14px;
+      transition: all 0.5s;
+      width: 100%;
+      height: 40px;
+      border-radius: 0px;
+      border: none;
+      font-family: "kanitlight";
+  }
+  .product-btn:hover {
+      background-color: #1244bc;
+      color: white;
+      font-size: 14px;
+      transition: all 0.5s;
+      width: 100%;
+      height: 40px;
       border-radius: 0px;
       border: none;
       font-family: "kanitlight";
@@ -3310,61 +3501,68 @@ body {
   }
   .home-position-a6 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 125px;
+      margin-top: 5px;
+      margin-left: 52px;
       z-index: 1;
   }
   .home-position-a7 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 144px;
+      margin-top: 5px;
+      margin-left: 64px;
       z-index: 1;
   }
   .home-position-a8 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 140px;
+      margin-top: 5px;
+      margin-left: 62px;
       z-index: 1;
   }
   .home-position-a9 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 149px;
+      margin-top: 5px;
+      margin-left: 71px;
       z-index: 1;
   }
   .home-position-a10 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 123px;
+      margin-top: 5px;
+      margin-left: 49px;
       z-index: 1;
   }
   .home-position-a11 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 131px;
+      margin-top: 5px;
+      margin-left: 53px;
       z-index: 1;
   }
-  .home-overlay-coulasel {
+  .home-overlay-product {
       position: relative;
-      height: 230px;
+      height: 199px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
-  .home-coulasel {
+  .home-overlay-coulasel {
+      position: relative;
+      height: 107px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .home-coulasel{
       box-shadow: 0px 1px 15px -6px;
-      height: 380px;
+      height: 216px;
   }
   .home-overlay-card {
       position: relative;
-      height: 314px;
+      height: 148px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 464px;
+      height: 257px;
   }
   .home-overlay-image3 {
       position: relative;
@@ -3383,6 +3581,9 @@ body {
       height: 275px;
       width: 100%;
       overflow: hidden;
+  }
+  .padding-card{
+      padding: 5px !important;
   }
   /*------------------------------------
   ---------- END HOME 375 --------------
@@ -3457,7 +3658,7 @@ body {
       padding-top: 5px;
   }
   /*------------------------------------
-  ------------- PROFILE 375 --------------
+  ----------- PROFILE 375 --------------
   ---------------------------------------*/
 
 
@@ -3465,7 +3666,7 @@ body {
   ------- PRODUCT-DETAIL 375 ------------
   ---------------------------------------*/
   .product-font3 {
-      font-size: 15px;
+      font-size: 14px;
       color: #333333;
       font-family: "kanitlight";
   }
@@ -3476,20 +3677,23 @@ body {
   }
   .product-overlay-coulasel {
       position: relative;
-      height: 233px;
+      height: 108px;
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
   }
   .product-overlay-coulasel:hover {
       position: relative;
-      height: 233px;
+      height: 108px;
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
       -ms-transform: scale(1.1);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
+  }
+  .home-coulasel-height{
+      height: 238px;
   }
   /*------------------------------------
   ------ END PRODUCT-DETAIL 375 ---------
@@ -3582,6 +3786,34 @@ body {
       font-family: 'kanitmedium';
       line-height: 1.8;
   }
+  .home-font6 {
+      font-size: 9px;
+      color: #333333;
+  }
+  .home-font7 {
+      font-size: 9px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-font8 {
+      font-size: 14px;
+      color: #123cb2;
+  }
+  .home-font9 {
+      font-size: 15px;
+      color: #f99e0f;
+  }
+  .home-font10 {
+      font-size: 8px;
+      color: #333333;
+      font-family: 'kanitlight';
+      text-decoration: line-through;
+  }
+  .home-font11 {
+      font-size: 11px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
   .home-p-t7 {
       padding-top: 59px;
   }
@@ -3594,79 +3826,70 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .home-image-product {
-      position: absolute;
-      display: block;
-      width: 100%;
-      height: 320px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
   .home-overlay-product {
       position: relative;
-      height: 323px;
+      height: 169px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-position-a6 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 99px;
+      margin-top: 5px;
+      margin-left: 40px;
       z-index: 1;
   }
   .home-position-a7 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 118px;
+      margin-top: 5px;
+      margin-left: 53px;
       z-index: 1;
   }
   .home-position-a8 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 114px;
+      margin-top: 5px;
+      margin-left: 49px;
       z-index: 1;
   }
   .home-position-a9 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 125px;
+      margin-top: 5px;
+      margin-left: 49px;
       z-index: 1;
   }
   .home-position-a10 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 96px;
+      margin-top: 5px;
+      margin-left: 36px;
       z-index: 1;
   }
   .home-position-a11 {
       position: absolute;
-      margin-top: 16px;
-      margin-left: 109px;
+      margin-top: 5px;
+      margin-left: 36px;
       z-index: 1;
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 170px;
+      height: 84px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
-      height: 320px;
+      height: 189px;
   }
   .home-overlay-card {
       position: relative;
-      height: 259px;
+      height: 120px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 409px;
+      height: 225px;
   }
   .new-overlay-image {
       position: relative;
@@ -3679,6 +3902,50 @@ body {
       height: 209px;
       width: 100%;
       overflow: hidden;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+      background: #eeeeee;
+      color: #333333;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      right:-6%;
+      opacity: 0.7;
+  }
+  .owl-carousel .owl-nav button.owl-next:hover{
+      background:black;
+      color: #fff;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      right:-6%;
+      opacity: 0.7;
+  }
+  .owl-carousel .owl-nav button.owl-prev{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      left:-6%;
+      opacity: 0.7;
+  }
+  .owl-carousel .owl-nav button.owl-prev:hover{
+      background: black;
+      color: #fff;
+      font-size: 28px;
+      width: 25px;
+      position: absolute;
+      top:40%;
+      left:-6%;
+      opacity: 0.7;
+  }
+  .home-p-t3 {
+      padding-top: 36px;
+      margin-left: -6px;
   }
   /*------------------------------------
   ---------- END HOME 320 --------------
@@ -3818,7 +4085,7 @@ body {
   }
   .filter-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 248px;
+      height: 238px;
   }
   .profile-p-l-a {
       padding-left: 33px;
@@ -3842,20 +4109,26 @@ body {
   }
   .product-overlay-coulasel {
       position: relative;
-      height: 196px;
+      height: 93px;
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
   }
   .product-overlay-coulasel:hover {
       position: relative;
-      height: 196px;
+      height: 93px;
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
       -ms-transform: scale(1.1);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
+  }
+  .product-overlay-slide {
+      position: relative;
+      height: 196px;
+      width: 100%;
+      overflow: hidden;
   }
   /*------------------------------------
   ------- END PRODUCT-DETAIL 320 --------

@@ -125,7 +125,7 @@
                     <div class="col-xl-10 col-lg-10 col-md-10 col-7 home-b-b2"></div>
                 </div>
                 <div class="row mt-4 mx-0 home-shadow">
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                               <div class="home-overlay-product home-product">
                                  <img src = "assets/images/product/006.png" class="home-image-product">
@@ -133,7 +133,7 @@
                               </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                               <div class="home-overlay-product home-product">
                                  <img src = "assets/images/banner/015.png" class="home-image-product">
@@ -141,7 +141,7 @@
                               </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                               <div class="home-overlay-product home-product">
                                  <img src = "assets/images/product/004.png" class="home-image-product">
@@ -149,7 +149,7 @@
                               </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/002.png" class="home-image-product">
@@ -157,7 +157,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/008.png" class="home-image-product">
@@ -165,7 +165,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/011.png" class="home-image-product">
@@ -175,7 +175,7 @@
                       </div>
                 </div>
                 <div class="row mx-0 home-shadow">
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/001.png" class="home-image-product">
@@ -183,7 +183,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 col-6 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/009.png" class="home-image-product">
@@ -191,7 +191,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/003.png" class="home-image-product">
@@ -199,7 +199,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/005.png" class="home-image-product">
@@ -207,7 +207,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="#">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/006.png" class="home-image-product">
@@ -215,7 +215,7 @@
                             </div>
                           </a>
                       </div>
-                      <div class="col-xl-2 col-lg-4 col-md-4 p-0 porduct-border">
+                      <div class="col-xl-2 col-lg-4 col-md-4 col-6 p-0 porduct-border">
                           <a href="filter.php">
                             <div class="home-overlay-product home-product">
                                <img src = "assets/images/product/014.png" class="home-image-product">
@@ -235,11 +235,11 @@
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10 col-8 home-b-b2"></div>
                 </div>
-                <div class="row owl-carousel owl-theme mt-5 mx-0">
+                <div class="row owl-carousel owl-theme mt-4 mx-0">
                       <div class="item p-1">
                           <a href="product-detail.php" class="home-txt-decnone">
                             <div class="home-coulasel">
-                                <div class="card p-3 b-n">
+                                <div class="card p-3 b-n padding-card">
                                     <div class="home-overlay-coulasel">
                                       <img src = "assets/images/slide/s1.jpg" class="home-image-coulasel">
                                     </div>
@@ -258,7 +258,7 @@
                       <div class="item p-1">
                           <a href="product-detail.php" class="home-txt-decnone">
                             <div class="home-coulasel">
-                                <div class="card p-3 b-n">
+                                <div class="card p-3 b-n padding-card">
                                     <div class="home-overlay-coulasel">
                                       <img src = "assets/images/slide/s2.jpg" class="home-image-coulasel">
                                     </div>
@@ -277,7 +277,7 @@
                       <div class="item p-1">
                           <a href="product-detail.php" class="home-txt-decnone">
                             <div class="home-coulasel">
-                                <div class="card p-3 b-n">
+                                <div class="card p-3 b-n padding-card">
                                     <div class="home-overlay-coulasel">
                                       <img src = "assets/images/slide/s3.jpg" class="home-image-coulasel">
                                     </div>
@@ -296,7 +296,7 @@
                       <div class="item p-1">
                           <a href="product-detail.php" class="home-txt-decnone">
                             <div class="home-coulasel">
-                                <div class="card p-3 b-n">
+                                <div class="card p-3 b-n padding-card">
                                     <div class="home-overlay-coulasel">
                                       <img src = "assets/images/slide/s4.jpg" class="home-image-coulasel">
                                     </div>
@@ -315,7 +315,7 @@
                       <div class="item p-1">
                           <a href="product-detail.php" class="home-txt-decnone">
                             <div class="home-coulasel">
-                                <div class="card p-3 b-n">
+                                <div class="card p-3 b-n padding-card">
                                     <div class="home-overlay-coulasel">
                                       <img src = "assets/images/slide/s5.jpg" class="home-image-coulasel">
                                     </div>
@@ -334,7 +334,7 @@
                       <div class="item p-1">
                           <a href="product-detail.php" class="home-txt-decnone">
                             <div class="home-coulasel">
-                                <div class="card p-3 b-n">
+                                <div class="card p-3 b-n padding-card">
                                     <div class="home-overlay-coulasel">
                                       <img src = "assets/images/slide/s6.jpg" class="home-image-coulasel">
                                     </div>
@@ -361,10 +361,10 @@
                     <div class="col-xl-10 col-lg-10 col-md-10 col-7 home-b-b2"></div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -380,10 +380,10 @@
                           </a>
                       </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -399,10 +399,10 @@
                           </a>
                       </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -418,10 +418,10 @@
                           </a>
                       </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -439,10 +439,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -458,10 +458,10 @@
                           </a>
                       </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -477,10 +477,10 @@
                           </a>
                       </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
@@ -496,10 +496,10 @@
                           </a>
                       </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-4">
                       <div class="home-card">
                           <a href="product-detail.php" class="home-txt-decnone">
-                            <div class="card p-3 b-n">
+                            <div class="card p-3 b-n padding-card">
                                 <div class="home-overlay-card">
                                   <img src = "assets/images/banner/banner-1.png" class="home-image-coulasel">
                                 </div>
