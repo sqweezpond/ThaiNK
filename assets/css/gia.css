@@ -26,6 +26,17 @@ p,h1,h2,h3,h4,h5{
     font-size: 17px;
 }
 
+.i-con-alert{
+    color: #ffc518;
+    font-size: 30px;
+}
+
+.alert-warning {
+    color: #333;
+    background-color: #fff3cd;
+    border-color: #FFC107;
+    border-radius: 0px;
+}
 
 
 
@@ -288,6 +299,20 @@ p,h1,h2,h3,h4,h5{
 }
 
 .re-login-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.re-login-from-1 {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -603,6 +628,9 @@ p,h1,h2,h3,h4,h5{
     transition: all 0.5s;
     font-family: "kanitlight";
     font-size: 10px;
+}
+.font-size-13{
+    font-size: 13px;
 }
 
 /*-------------------------------
