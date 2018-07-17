@@ -408,6 +408,16 @@ p,h1,h2,h3,h4,h5{
     font-family: "kanitlight";
     font-size: 17px;
 }
+.book-btn-100:hover{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #123cb2;
+    transition: all 0.5s;
+    font-family: "kanitlight";
+    font-size: 17px;
+}
 .book-login-from {
     display: block;
     width: 110%;
@@ -519,6 +529,9 @@ p,h1,h2,h3,h4,h5{
     font-family: "kanitlight";
     font-size: 11px;
 }
+.book-login-from {
+    width: 100%;
+}
 
     /*-----------------------
     --------re-login---------
@@ -559,6 +572,19 @@ p,h1,h2,h3,h4,h5{
         margin-top: 200px;
         margin-left: 140px;
     }
+    .login-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 
 
@@ -820,7 +846,7 @@ p,h1,h2,h3,h4,h5{
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    width: 100%;
+    width: 104%;
     margin-right: -200px;
 }
 .book-btn {
@@ -841,7 +867,7 @@ p,h1,h2,h3,h4,h5{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border: 1px solid;
     margin-right: 1px;
-    width: 82%;
+    width: 88%;
     height: 35px;
 }
 

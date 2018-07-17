@@ -15,7 +15,7 @@
        <!-- CONTENT -->
         
 
-<div class="container">
+<div class="container fadeIn animated">
   <div class="row">
     <div class="col-lg-8">
       <table class=" table table-striped book-shado my-4 mt-5" >
@@ -37,7 +37,7 @@
               <td class="book_frame-crad"><img class="book_card-img-top" src="https://3.imimg.com/data3/OE/QO/MY-6012314/pet-water-bottles-250x250.png"></td>
               <td class="text-center">
                 <p>200 บาท</p>
-                <p>300</p>
+                <p class="home-font10">300</p>
               </td>
                <td>
                 <div class="input-group mb-3">
@@ -63,7 +63,7 @@
               <td class="book_frame-crad"><img class="book_card-img-top" src="https://png.pngtree.com/element_origin_min_pic/17/02/20/a34de64605fd6f52839a7bcf62b91571.jpg"></td>
               <td class="text-center">
                 <p>200 บาท</p>
-                <p>300</p>
+                <p class="home-font10">300</p>
               </td>
                <td>
                 <div class="input-group mb-3">
@@ -104,14 +104,14 @@
         <div class="col-lg-12">
           <p class="ml-1 mt-3">180/2 ม.3 ซ.โยกย้าย ซอย 6 ถนน.บางกรวย-ไทรน้อย ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000</p>
         </div>
-        <div class="col-lg-9 col-md-6 col-6" style="line-height: 10px;">
+        <div class="col-lg-9 col-md-6 col-6 mt-3" style="line-height: 10px;">
           <p>จำนวน</p>
           <p>ยอดรวม</p>
           <p>ค่าจัดส่ง</p>
           <p>ส่วนลด</p>
 
         </div>
-        <div class="col-lg-3 col-md-6 col-6 text-right" style="line-height: 10px;">
+        <div class="col-lg-3 col-md-6 col-6 text-right mt-3" style="line-height: 10px;">
           <p>4</p>
           <p>900.00</p>
           <p>100.00</p>

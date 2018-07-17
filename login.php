@@ -43,14 +43,14 @@
                                 <input type="text" class="login-from" id="inputPassword" placeholder="example@mail.com">
                               </div>
                             </div>
-                             <div class="form-group row mt-4">
+                             <div class="form-group row mt-lg-4">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">รหัสผ่าน</label>
                               <div class="col-sm-10">
                                 <input type="password" class="login-from" id="inputPassword" placeholder="********">
                               </div>
                             </div>
                           </form>
-                        <div class="mt-5 text-center">
+                        <div class="mt-lg-5 text-center">
                           <button type="button" class="btn login-btn ">เข้าสู่ระบบ</button>
                         </div>
                         <div class="my-3  text-center">
@@ -58,7 +58,7 @@
                         </div>
 
                   <!-- text to Modal -->
-                      <div class="login-display mt-4">
+                      <div class="login-display mt-lg-4">
                         <div class="col-lg-6 col-md-4 col-5">
                           <p class="text-md-left text-sm-right ">ลืมรหัสผ่าน? <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal2">คลิกที่นี้</span></a> </p>
                         </div>

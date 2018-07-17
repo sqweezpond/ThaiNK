@@ -54,7 +54,7 @@
                                   <input type="email" class="contact-form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="เรื่อง">
                                 </div>
                                 <div class="form-group">
-                                  <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="ข้อความ"></textarea>
+                                  <textarea class="contact-form-control" id="exampleTextarea" rows="3" placeholder="ข้อความ"></textarea>
                                 </div>
                             </form>
                             <div class="mt-3">
