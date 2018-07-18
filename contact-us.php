@@ -66,9 +66,11 @@
                           <div class="mt-5">
                             <button type="button" class="btn contact-btn">แผนที่</button>
                           </div>
-                          <div class="contact-hr">
-                            <img class="w-100" src="assets/images/banner/map3.png">
-                          </div>   
+                          <span class='zoom' id="zoom">
+                            <div class="contact-hr">
+                              <img class="w-100" src="assets/images/banner/map3.png">
+                            </div>
+                          </span>   
                         </div>
                       </div>
                      </div>
@@ -119,3 +121,11 @@
 
   </body>
 </html>
+
+<script>
+  $(document).ready(function() {
+    $('#zoom').zoom({
+      url: 'assets/images/banner/map3.png'
+    });
+  });
+</script>

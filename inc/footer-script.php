@@ -4,6 +4,8 @@
     <script type="text/javascript" src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/vandor/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/jackmoore/zoom/master/jquery.zoom.min.js"></script>
 
 
 <script type="text/javascript">

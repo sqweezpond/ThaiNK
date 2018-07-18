@@ -11,6 +11,33 @@ a,p{
     font-family: 'kanitlight';
 }
 
+/*---------zoom-----------*/
+    /* these styles are for the demo, but are not required for the plugin */
+        .zoom {
+            display:inline-block;
+            position: relative;
+      border: 1px solid #ccc;
+        }
+        
+        /* magnifying glass icon */
+        .zoom:after {
+            content:'';
+            display:block; 
+            width:33px; 
+            height:33px; 
+            position:absolute; 
+            top:0;
+            right:0;
+            background:url(icon.png);
+        }
+        .zoom img {
+            display: block;
+        }
+        .zoom img::selection { background-color: transparent; }
+        #zoom img {
+          cursor: crosshair;
+        }
+/*-------zoom-------------*/
 .color-80{
   color: #808080;
 }
@@ -433,6 +460,7 @@ a,p{
     background-color: #123CB2;
     border-radius: 0px;
     font-size: 17px;
+        height: 36px;
 
 }
 .book-btn-100 {
@@ -477,7 +505,7 @@ a,p{
     width: 100%;
     padding: .375rem .75rem;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 2.5;
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
@@ -501,6 +529,16 @@ a,p{
     margin-top: .3rem;
     margin-left: 23px;
 }
+.book-icon-add:hover{
+    color: #ffc526;
+    text-shadow: 0px 0px 8px black;
+    transition: 0.5s;
+}
+.book-icon-add{
+    color: #333;
+}
+    
+
 /*--------------------------------------
 --------------book end-------------------
 ---------------------------------------*/

@@ -18,9 +18,9 @@
                     <div class="container fadeIn animated">
                       <div class="row mt-5">
                         <div class="col-lg-8">
-                          <table class=" table table-striped book-shado my-4 mt-5" >
+                          <table class=" table table-striped book-shado " >
                             <thead style="    background-color: #f3f3f2;">
-                              <tr class="my-4">
+                              <tr class="">
                                 <th>
                                   <div class="form-check">
                                     <input class="form-check-input-1" type="checkbox" value="" id="defaultCheck1">
@@ -33,7 +33,7 @@
                             </thead>
                           </table>
 
-                          <table class=" table  book-shado my-4" >
+                          <table class=" table  book-shado " >
                             <thead>
                              <tbody>
                                 <tr>
@@ -96,13 +96,13 @@
 
                         <!-- ที่อยู่ -->
 
-                        <div class="col-lg-4 my-4 mt-5">
+                        <div class="col-lg-4  ">
                           <div class="row book-shado m-0" >
-                            <div class="col-lg-9  col-md-6 col-6">
+                            <div class="col-lg-9  col-md-8 col-8">
                               <p class="home-font14">ที่อยู่สำหรับจัดส่ง</p>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-6 text-right">
-                              <h2><i class="fa fa-pencil-square-o" aria-hidden="true"></i></h2>
+                            <div class="col-lg-3 col-md-4 col-4 text-right">
+                              <a href="#"><h2><i class="fa fa-pencil-square-o book-icon-add" aria-hidden="true"></i></h2></a>
                             </div>
                             <div class="col-lg-12">
                               <p class="ml-1 mt-3 font-all-ting">180/2 ม.3 ซ.โยกย้าย ซอย 6 ถนน.บางกรวย-ไทรน้อย ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000</p>
@@ -131,12 +131,12 @@
                             </div>
 
 
-                              <div class="col-lg-8 ">
+                              <div class="col-lg-8 col-md-12 col-12 ">
                                  <div class="form-group">
                                     <input type="email" class="book-login-from" id="exampleFormControlInput1" placeholder="กรุณาระบุโค้ดส่วนลด">
                                 </div>
                               </div>
-                              <div class="col-lg-4 text-center">
+                              <div class="col-lg-4 col-md-12 col-12 text-center">
                                 <button type="submit" class="btn book-btn-daw">Submit</button>
                               </div>
                               <div class="col-lg-12">
@@ -165,8 +165,7 @@
                               
 
 
-
-                                
+    
 
 
 
@@ -198,4 +197,6 @@
 
   </body>
 </html>
+
+
   
