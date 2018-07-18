@@ -143,7 +143,7 @@
                                   </button>
                                 </div>
                                 <div class="modal-body">
-                                  <div class="text-center my-5">
+                                  <div class="text-center py-5">
                                     <h4>นโยบายความเป็นส่วนตัว</h4>
                                   </div>
                                   <div class="text-left font-all-ting">
