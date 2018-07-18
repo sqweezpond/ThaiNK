@@ -121,7 +121,7 @@
                                     </button>
                                   </div>
                                   <div class="modal-body">
-                                    <div class="text-center my-5">
+                                    <div class="text-center my-5 login-font-32">
                                       <h4>Change Password</h4>
                                     </div>
                                     <form>
@@ -215,25 +215,25 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <div class="text-center my-5">
+                                    <div class="text-center my-5 login-font-32">
                                       <h4>เพิ่มที่อยู่</h4>
                                     </div>
                                     <form>
                                       <div class="form-group row">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">ชื่อ-นามสกุล</label>
+                                        <label for="inputEmail3" class="col-sm-2 login_col-form-label">ชื่อ-นามสกุล</label>
                                         <div class="col-sm-10">
                                           <input type="email" class="re-login-from" id="inputEmail3" placeholder="สมปอง สมปอง">
                                         </div>
                                       </div>
                                       <div class="form-group row">
-                                        <label for="inputPassword3" class="col-sm-2 col-form-label">เบอร์โทรศัพท์</label>
+                                        <label for="inputPassword3" class="col-sm-2 login_col-form-label">เบอร์โทรศัพท์</label>
                                         <div class="col-sm-10">
                                           <input type="tel" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
                                         </div>
                                       </div>
 
                                       <div class="form-group row">
-                                        <label for="inputPassword3" class="col-sm-2 col-form-label">ที่อยู่</label>
+                                        <label for="inputPassword3" class="col-sm-2 login_col-form-label">ที่อยู่</label>
                                         <div class="col-sm-10">
                                            <textarea type="text" class="re-login-from" id="exampleFormControlTextarea1" rows="5" placeholder="8/8 ม.5 ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000"></textarea>
                                         </div>
@@ -298,11 +298,11 @@
                                     </button>
                                   </div>
                                   <div class="modal-body">
-                                    <div class="text-center my-5">
+                                    <div class="text-center my-5 login-font-32">
                                       <h4>เพิ่มบัตรเคดิต/เดบิต</h4>
                                     </div>
 
-                                    <div class="alert alert-warning">
+                                    <div class="alert alert-warning font-all-ting">
                                       <strong><i class="fa fa-info-circle i-con-alert mr-3" aria-hidden="true"></i></strong>1฿ จะถูกหักหลังจากเป็นค่าใช้จ่ายในการยืนยัน เราจะทำการคืนเงินในคุณภายใน 15วัน
                                     </div>
                                     <form >
@@ -319,15 +319,15 @@
                                       </div>
                                        <div class="form-group" style="display: flex;">
                                           <div class="col-sm-4">
-                                            <label for="formGroupExampleInput" class="font-size-13">วันหมดอายุ</label>
+                                            <label for="formGroupExampleInput" class="font-all-ting">วันหมดอายุ</label>
                                           <input type="text" class="re-login-from-1" id="formGroupExampleInput" placeholder="MM">
                                           </div>
                                            <div class="col-sm-4 ">
-                                             <label for="formGroupExampleInput" class="font-size-13">ปี</label>
+                                             <label for="formGroupExampleInput" class="font-all-ting">ปี</label>
                                           <input type="text" class="re-login-from-1" id="formGroupExampleInput" placeholder="YYYY">
                                           </div>
                                            <div class="col-sm-4">
-                                            <label for="formGroupExampleInput" class="font-size-13">VCC</label>
+                                            <label for="formGroupExampleInput" class="font-all-ting">VCC</label>
                                           <input type="text" class="re-login-from-1" id="formGroupExampleInput" placeholder="OO">
                                           </div>
                                       </div>
