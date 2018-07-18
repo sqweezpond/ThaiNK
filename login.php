@@ -34,17 +34,17 @@
 
                       <div class="col-lg-6">
                         <div class="mt-5 text-center">
-                          <h2>เข้าสู่ระบบ</h2>
+                          <p class="login-font-32">เข้าสู่ระบบ</p>
                         </div>
                           <form class="my-4">
                             <div class="form-group row">
-                              <label for="inputPassword" class="col-sm-2 col-form-label">อีเมล์</label>
+                              <label for="inputPassword" class="col-sm-2 login_col-form-label">อีเมล์</label>
                               <div class="col-sm-10">
                                 <input type="text" class="login-from" id="inputPassword" placeholder="example@mail.com">
                               </div>
                             </div>
                              <div class="form-group row mt-lg-4">
-                                <label for="inputPassword" class="col-sm-2 col-form-label">รหัสผ่าน</label>
+                                <label for="inputPassword" class="col-sm-2 login_col-form-label">รหัสผ่าน</label>
                               <div class="col-sm-10">
                                 <input type="password" class="login-from" id="inputPassword" placeholder="********">
                               </div>
@@ -62,7 +62,7 @@
                         <div class="col-lg-6 col-md-4 col-5">
                           <p class="text-md-left text-sm-right ">ลืมรหัสผ่าน? <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal2">คลิกที่นี้</span></a> </p>
                         </div>
-                      <!-- Modal -->
+                      <!-- Modal foget-->
                       <div class="modal fade  bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="re-modal-content">
@@ -72,21 +72,21 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              <div class="text-center my-5">
+                              <div class="text-center my-5 login-font-32">
                                 <h4>Forget Password</h4>
                               </div>
-                              <div class="text-center">
+                              <div class="text-center letter font-all-ting">
                                 <p>ในการรัเซ็ตรหัสผ่านของคุณให้ป้อนอีเมลของคุณเราจะส่งลิ้งค์เพื่อรีเซ็ตรหัสผ่านของคุณ</p>
                               </div>
                               <form>
                                 <div class="form-group row">
-                                  <label for="inputPassword3" class="col-sm-2 col-form-label text-center">อีเมล</label>
+                                  <label for="inputPassword3" class="col-sm-2 login_col-form-label text-center">อีเมล</label>
                                   <div class="col-sm-10">
                                     <input type="email" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
                                   </div>
                                 </div>
                               </form>
-                                <div class="mt-5 text-center">
+                                <div class="mt-4 text-center">
                                   <button type="button" class="btn profile-btn ">ยืนยัน</button>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                       <p class="text-md-right text-sm-left ">หากยังไม่ได้เป็นสมาชิคคลิก <a href="#"><span class="login-color-org " data-toggle="modal" data-target="#exampleModal1">ลงทะเบียน</span></a></p>
                     </div> 
                   </div>
-                <!-- Modal -->
+                <!-- Modal Register-->
                 <div class="modal fade  bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="re-modal-content">
@@ -115,37 +115,37 @@
                         </div>
                         <form>
                           <div class="form-group row">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">ชื่อ-นามสกุล</label>
+                            <label for="inputEmail3" class="col-sm-2 login_col-form-label">ชื่อ-นามสกุล</label>
                             <div class="col-sm-10">
                               <input type="email" class="re-login-from" id="inputEmail3" placeholder="สมปอง สมปอง">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">อีเมล</label>
+                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">อีเมล</label>
                             <div class="col-sm-10">
                               <input type="email" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">รหัสผ่าน</label>
+                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">รหัสผ่าน</label>
                             <div class="col-sm-10">
                               <input type="password" class="re-login-from" id="inputPassword3" placeholder="************">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">ยืนยันรหัสผ่าน</label>
+                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">ยืนยันรหัสผ่าน</label>
                             <div class="col-sm-10">
                               <input type="password" class="re-login-from" id="inputPassword3" placeholder="************">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">ที่อยู่</label>
+                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">ที่อยู่</label>
                             <div class="col-sm-10">
                                <textarea type="text" class="re-login-from" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">captcha</label>
+                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">captcha</label>
                             <div class="col-sm-10">
                               <div class="login_frame-crad-1">
                                  <img class="login_card-img-top-2" src="http://www.onion-sec.com/wp-content/uploads/2018/05/recap.gif">
@@ -153,7 +153,7 @@
                             </div>
                           </div>
                         </form>
-                          <div class="mt-5 text-center">
+                          <div class="mt-4 text-center">
                             <button type="button" class="btn profile-btn ">ลงทะเบียน</button>
                           </div>
                       </div>

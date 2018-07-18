@@ -7,6 +7,9 @@
 p,h1,h2,h3,h4,h5{
 	color: #333 !important;
 }
+a,p{
+    font-family: 'kanitlight';
+}
 
 .color-80{
   color: #808080;
@@ -41,6 +44,13 @@ p,h1,h2,h3,h4,h5{
 .font-12{
     font-size: 12px;
 }
+.letter{
+    letter-spacing: 1px;
+}
+.font-all-ting{
+    font-size: 14px;
+}
+
 
 
 /*-------------------------------------
@@ -90,7 +100,7 @@ p,h1,h2,h3,h4,h5{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     color: #808080;
     background-color: #fff;
@@ -104,6 +114,8 @@ p,h1,h2,h3,h4,h5{
     border-radius: 0px;
     color: #333;
     padding: 10px 50px 10px 50px;
+    font-size: 17px;
+    font-family: "kanitlight";
 }
 .contact-hr{
 	border: 3px solid;
@@ -213,7 +225,8 @@ p,h1,h2,h3,h4,h5{
 }
 .login-position-a {
     position: absolute;
-    margin: 110px 30px 0px 78px;
+    margin: 110px 30px 0px 90px;
+    font-size: 14px;
   }
 .login-color-org{
     color: #f36006e8;
@@ -226,7 +239,7 @@ p,h1,h2,h3,h4,h5{
     display: block;
     width: 90%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -237,7 +250,7 @@ p,h1,h2,h3,h4,h5{
 }
 .login-btn {
     width: 70%;
-    height: 50px;
+    height: 40px;
     border-radius: 0px;
     color: #333333;
     background-color: #ffc526;
@@ -248,7 +261,7 @@ p,h1,h2,h3,h4,h5{
 
 .login-btn:hover{
     width: 70%;
-    height: 50px;
+    height: 40px;
     border-radius: 0px;
     color: #fff;
     background-color: #123cb2;
@@ -258,17 +271,18 @@ p,h1,h2,h3,h4,h5{
 }
 .login-btn2 {
     transition: all 0.5s;
-    height: 50px;
+    height: 40px;
     border-radius: 0px;
     background-color: #3F51B5;
     border-radius: 0px;
     color: #fff;
     width: 70%;
+    font-size: 17px;
 }
 
 .login-display{
     display: flex;
-    font-size: 14px;
+    font-size: smaller;
 }
 .login-font-32{
    font-size: 32px;
@@ -286,6 +300,13 @@ p,h1,h2,h3,h4,h5{
     left:50%;
     transform: translate(-50%, -50%);
     width: 100%
+}
+.login_col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: smaller;
+    line-height: 1.5;
 }
 
 
@@ -319,7 +340,7 @@ p,h1,h2,h3,h4,h5{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: smaller;
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -333,7 +354,7 @@ p,h1,h2,h3,h4,h5{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: smaller;
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -357,6 +378,7 @@ p,h1,h2,h3,h4,h5{
     position:relative;
     overflow: hidden;
     height: 95px;
+    width: 15%;
 
 }
 .book_card-img-top {
@@ -383,8 +405,8 @@ p,h1,h2,h3,h4,h5{
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    width: 40%;
-    margin-right: -180px;
+    width: 35%;
+    margin-right: -190px;
 }
 .book-btn {
     display: inline-block;
@@ -410,6 +432,7 @@ p,h1,h2,h3,h4,h5{
     border-color: #123CB2;
     background-color: #123CB2;
     border-radius: 0px;
+    font-size: 17px;
 
 }
 .book-btn-100 {
@@ -436,7 +459,7 @@ p,h1,h2,h3,h4,h5{
     display: block;
     width: 110%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -446,7 +469,7 @@ p,h1,h2,h3,h4,h5{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .book-color{
-    color: #ffc526 !important;
+    color: #133db2 !important;
 }
 
 .b-form-control {
@@ -462,13 +485,29 @@ p,h1,h2,h3,h4,h5{
     border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.book-pad{
+    position: absolute;
+    padding: 0px 0px 0px 64px;
+    margin-top: -22px;
+}
+.form-check {
+    position: relative;
+    display: block;
+       padding: 0px 0px 25px 30px;
+
+}
+.form-check-input-1 {
+    position: absolute;
+    margin-top: .3rem;
+    margin-left: 23px;
+}
 /*--------------------------------------
 --------------book end-------------------
 ---------------------------------------*/
 
 
 @media(max-width: 1366px){
-    .book-input-group {
+  .book-input-group {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -479,7 +518,7 @@ p,h1,h2,h3,h4,h5{
     -ms-flex-align: stretch;
     align-items: stretch;
     width: 40%;
-    margin-right: -230px;
+    margin-right: -205px;
 }
     /*-----------------------------
     ------------re-login 1366--------
@@ -507,6 +546,11 @@ p,h1,h2,h3,h4,h5{
 
 
 @media(max-width: 1024px){
+    
+    .font-all-ting{
+    font-size: 14px;
+}
+
     .book-input-group {
     position: relative;
     display: -webkit-box;
@@ -520,9 +564,33 @@ p,h1,h2,h3,h4,h5{
     margin-right: -200px;
 }
 
+.book-btn-daw {
+    color: #fff;
+    border-color: #123CB2;
+    background-color: #123CB2;
+    border-radius: 0px;
+    font-size: 17px;
+
+}
+.book_frame-crad {
+    position: relative;
+    overflow: hidden;
+    height: 95px;
+    width: 17%;
+}
     /*--------------------------------
     ------------login 1024-------------
     ----------------------------------*/
+    .login-btn {
+    font-size: 17px;
+}
+
+.login-btn:hover{
+    font-size: 17px;
+}
+.login-btn2 {
+    font-size: 17px;
+}
 
    .login_frame-crad {
     position: relative;
@@ -534,10 +602,24 @@ p,h1,h2,h3,h4,h5{
     position: absolute;
     margin-top: 100px;
     margin-left: 70px;
+    font-size: 14px;
 }
 .login-display {
     display: flex;
-    font-size: 12px;
+    font-size: smaller;
+}
+.login-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
     /*---------------------------------
@@ -566,11 +648,44 @@ p,h1,h2,h3,h4,h5{
     -------------re-login 1024---------
     ----------------------------------*/
 
+    /*---------------------------------
+    --------------contact 1024---------
+    ----------------------------------*/
+    .contact-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #808080;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-btn{
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #333;
+    padding: 10px 50px 10px 50px;
+    font-size: 17px;
+    font-family: "kanitlight";
+}
+ /*---------------------------------
+    --------------contact 1024---------
+    ----------------------------------*/
+
 }
 
 
 
 @media(max-width: 768px){
+
+
+    .font-all-ting{
+    font-size: 12px;
+}
 
     .gray-btn {
     width: 136px;
@@ -582,8 +697,13 @@ p,h1,h2,h3,h4,h5{
     font-family: "kanitlight";
     font-size: 11px;
 }
+
+ /*------------------------------
+ -------------book 768----------
+ -------------------------------*/
 .book-login-from {
     width: 100%;
+    font-size: 15px;
 }
 
 .book-input-group {
@@ -599,9 +719,45 @@ p,h1,h2,h3,h4,h5{
     width: 40px;
     margin-right: 15px;
 }
+.book-btn-100 {
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    color: #333333;
+    background-color: #ffc526;
+    transition: all 0.5s;
+    font-family: "kanitlight";
+    font-size: 11px;
+}
+.book-btn-100:hover{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #123cb2;
+    transition: all 0.5s;
+    font-family: "kanitlight";
+    font-size: 11px;
+}
+.book-btn-daw {
+    color: #fff;
+    border-color: #123CB2;
+    background-color: #123CB2;
+    border-radius: 0px;
+    font-size: 11px;
+
+}
+.form-check-input-1 {
+    position: absolute;
+    margin-top: .3rem;
+    margin-left: -20px;
+}
+ /*------------------------------
+ -------------book 768----------
+ -------------------------------*/
 
     /*-----------------------
-    --------re-login---------
+    --------re-login 768---------
     ------------------------*/
     .re-modal-content {
     position: relative;
@@ -619,7 +775,7 @@ p,h1,h2,h3,h4,h5{
     margin-left: -125px;
 }
     /*-----------------------
-    --------re-login---------
+    --------re-login 768---------
     ------------------------*/
 
 
@@ -638,12 +794,13 @@ p,h1,h2,h3,h4,h5{
         position: absolute;
         margin-top: 200px;
         margin-left: 140px;
+        font-size: 12px;
     }
-    .login-from {
+ .login-from {
     display: block;
-    width: 100%;
+    width: 85%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -651,12 +808,59 @@ p,h1,h2,h3,h4,h5{
     border: 1px solid #ced4da;
     border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: -17px;
+}
+.login_col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: smaller;
+    line-height: 1.5;
+    text-align: center;
+}
+    .login-btn {
+    font-size: 11px;
+}
+
+.login-btn:hover{
+    font-size: 11px;
+}
+.login-btn2 {
+    font-size: 11px;
 }
 
 
 
     /*---------------------------------
     -------------login end 768--------
+    ----------------------------------*/
+
+ /*---------------------------------
+    --------------contact 768---------
+    ----------------------------------*/
+    .contact-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #808080;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-btn{
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #333;
+    padding: 10px 50px 10px 50px;
+    font-size: 11px;
+    font-family: "kanitlight";
+}
+ /*---------------------------------
+    --------------contact 768---------
     ----------------------------------*/
 
 
@@ -670,22 +874,9 @@ p,h1,h2,h3,h4,h5{
 
 @media(max-width: 414px){
 
-    .book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-inline-box;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 45px;
-    margin-right: 25px;
+    .font-all-ting{
+    font-size: 12px;
 }
-
-
-
     .re-modal-content {
     position: relative;
     display: flex;
@@ -702,6 +893,35 @@ p,h1,h2,h3,h4,h5{
     margin-left: 0px;
 }
  
+ /*------------------------------
+ -------------book 414----------
+ -------------------------------*/
+.book-414-font{
+    padding-top: 42px !important;
+}
+
+   .book-input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 39px;
+    margin-right: 4px;
+}
+.book-login-from {
+    width: 100%;
+    font-size: 12px;
+}
+ /*------------------------------
+ -------------book 414----------
+ -------------------------------*/
+
+
 
 
 
@@ -709,11 +929,23 @@ p,h1,h2,h3,h4,h5{
     /*-----------------------
     --------login 414--------
     -------------------------*/
+    .login-font-32 {
+    font-size: 22px;
+}
+    .login_col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: smaller;
+    line-height: 1.5;
+    text-align: left;
+}
 
 .login-position-a {
     position: absolute;
     margin-top: 60px;
     margin-left: 30px;
+    font-size: 12px;
 }
 .login_frame-crad {
     position: relative;
@@ -722,17 +954,34 @@ p,h1,h2,h3,h4,h5{
     height: 350px;
 }
 .login-from {
+    display: block;
     width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 0px;
 }
 .login-btn{
     width: 100%;
+    font-size: 11px;
+}
+.login-btn:hover {
+    width: 100%;
+    font-size: 11px;
 }
 .login-btn2{
     width: 100%;
+    font-size: 11px;
 }
 .login-display {
     display: flex;
-    font-size: 11px;
+    font-size: smaller;
 }
    /*-----------------------
     --------login 414 end--------
@@ -782,11 +1031,46 @@ p,h1,h2,h3,h4,h5{
 -------------book 414 end---------------
 ---------------------------------*/
 
+ /*---------------------------------
+    --------------contact 414---------
+    ----------------------------------*/
+    .contact-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #808080;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-btn{
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #333;
+    padding: 10px 50px 10px 50px;
+    font-size: 11px;
+    font-family: "kanitlight";
+}
+ /*---------------------------------
+    --------------contact 414---------
+    ----------------------------------*/
+
 
 }
 
 
 @media(max-width: 375px){
+    .login-font-32 {
+    font-size: 20px;
+}
+
+    .font-all-ting{
+    font-size: 12px;
+}
 
     .book-input-group {
     position: relative;
@@ -799,9 +1083,14 @@ p,h1,h2,h3,h4,h5{
     -ms-flex-align: stretch;
     align-items: stretch;
     width: 39px;
-    margin-right: -15px;
+    margin-right: 0px;
 }
-
+.book_frame-crad {
+    position: relative;
+    overflow: hidden;
+    height: 95px;
+    width: 20%;
+}
 /*-------------------------------
 ---------about 375---------------
 --------------------------------*/
@@ -824,6 +1113,20 @@ p,h1,h2,h3,h4,h5{
     /*-----------------------
     --------login 375--------
     -------------------------*/
+    .login-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 0px;
+}
 
 
 .login_frame-crad {
@@ -835,14 +1138,15 @@ p,h1,h2,h3,h4,h5{
 .login-position-a {
     position: absolute;
     margin-top: 45px;
-    margin-left: 30px;
+    margin-left: 60px;
+    font-size: 12px;
 }
 .login-font-32 {
     font-size: 25px;
 }
 .login-display {
     display: flex;
-    font-size: 14px;
+    font-size: smaller;
 }
 
    /*-----------------------
@@ -870,11 +1174,46 @@ p,h1,h2,h3,h4,h5{
 -------------book 375 end---------------
 ---------------------------------*/
 
+        /*---------------------------------
+    --------------contact 375---------
+    ----------------------------------*/
+    .contact-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #808080;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-btn{
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #333;
+    padding: 10px 50px 10px 50px;
+    font-size: 11px;
+    font-family: "kanitlight";
+}
+ /*---------------------------------
+    --------------contact 375---------
+    ----------------------------------*/
+
 }
 
 
 
 @media (max-width: 320px ){
+    .login-font-32 {
+    font-size: 18px;
+}
+
+    .font-all-ting{
+    font-size: 9px;
+}
 
     .gray-btn {
     width: 122px;
@@ -912,10 +1251,25 @@ p,h1,h2,h3,h4,h5{
 }
 .login-position-a {
     position: absolute;
-    margin-top: 5px;
+    margin-top:30px;
+    font-size: 9px;
 }
 .login-font-32 {
     font-size: 20px;
+}
+.login-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 0px;
 }
 /*---------------------------
 ----------login 320----------
@@ -924,6 +1278,26 @@ p,h1,h2,h3,h4,h5{
 /*--------------------------
 ------------book 320-----------
 ---------------------------*/
+.book-btn-100 {
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    color: #333333;
+    background-color: #ffc526;
+    transition: all 0.5s;
+    font-family: "kanitlight";
+    font-size: 10px;
+}
+.book-btn-100:hover{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #123cb2;
+    transition: all 0.5s;
+    font-family: "kanitlight";
+    font-size: 10px;
+}
 
 .book_frame-crad {
     position: relative;
@@ -975,12 +1349,47 @@ p,h1,h2,h3,h4,h5{
     -ms-flex-align: stretch;
     align-items: stretch;
     width: 35px;
-    margin-right: -15px;
-    /* border-radius: 0px; */
+    margin-right: 10px;
+}
+.book-btn-daw {
+    color: #fff;
+    border-color: #123CB2;
+    background-color: #123CB2;
+    border-radius: 0px;
+    font-size: 10px;
+
 }
 /*--------------------------
 ------------book 320-----------
 ---------------------------*/
+
+        /*---------------------------------
+    --------------contact 320---------
+    ----------------------------------*/
+    .contact-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #808080;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-btn{
+    background-color: #ffc526;
+    border-radius: 0px;
+    color: #333;
+    padding: 10px 50px 10px 50px;
+    font-size: 10px;
+    font-family: "kanitlight";
+}
+ /*---------------------------------
+    --------------contact 320---------
+    ----------------------------------*/
 
 
 }

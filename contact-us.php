@@ -32,12 +32,12 @@
                           </div>
                      <!-- end bg-top -->
 
-                     <div class="container">
+                    <div class="container">
                       <div class="row">
                         <div class="col-lg-6">
                           <div class="mt-5">
-                            <h4>ส่งข้อความถึงเราได้ที่นี้</h4>
-                            <p style="text-indent: 30px;">ดำเนินธุรกิจผลิตภัณฑ์และสินค้าสำหรับบรรจุน้ำดื่มทุกชนิด นอกจากนี้เรายังมีถุงพลาสติกใส และผลิตฉลากสำหรับบรรจุภัณฑ์ไว้จำหน่ายมากมาย</p>
+                            <p class="home-font14">ส่งข้อความถึงเราได้ที่นี้</p>
+                            <p style="text-indent: 30px;" class="font-all-ting">ดำเนินธุรกิจผลิตภัณฑ์และสินค้าสำหรับบรรจุน้ำดื่มทุกชนิด นอกจากนี้เรายังมีถุงพลาสติกใส และผลิตฉลากสำหรับบรรจุภัณฑ์ไว้จำหน่ายมากมาย</p>
                           </div>
                           <div>
                             <form class="mt-lg-5">
@@ -77,9 +77,9 @@
                         <div class="row mb-5">
                           <div class="col-lg-6 mt-5">
                             <div>
-                              <h4>ข้อมูลสำหรับติอต่อเรา</h4>
+                              <p class="home-font14">ข้อมูลสำหรับติอต่อเรา</p>
                             </div>
-                            <div class="contact-pad">
+                            <div class="contact-pad font-all-ting">
                               <div>
                                 <p><i class="fa fa-map-marker mr-3" aria-hidden="true"></i><span class="color-80">8/8 หมู่4 ซอย เทศบาล 19 ถนนบางกรวย-ไทยน้อย ตำบลโสนลอย อำเภอ บางบัวทอง จังหวัดนนทบุรี 11110</span></p>
                               </div>
