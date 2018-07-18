@@ -450,174 +450,192 @@
                         <div class="row">
                               <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                   <div class="filter-card">
-                                      <div class="card filter-padding b-n">
-                                          <div class="filter-overlay-card">
-                                            <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                      <a href="product-detail.php" class="home-txt-decnone">
+                                          <div class="card filter-padding b-n">
+                                              <div class="filter-overlay-card">
+                                                <img src = "assets/images/slide/s1.jpg" class="filter-image-full">
+                                              </div>
+                                              <div class="card-body px-0 pb-0">
+                                                <span class="filter-font6">200 บาท</span>
+                                                <span class="filter-font7 pl-2">399 บาท</span>
+                                                <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร พลาสติกใสขนาด 6 ลิตร</div>
+                                              </div>
                                           </div>
-                                          <div class="card-body px-0 pb-0">
-                                            <span class="filter-font6">200 บาท</span>
-                                            <span class="filter-font7 pl-2">399 บาท</span>
-                                            <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                          <div class="">
+                                             <button class="btn home-btn3">สั่งซื้อ</button>
                                           </div>
-                                      </div>
-                                      <div class="">
-                                         <button class="btn home-btn3">สั่งซื้อ</button>
-                                      </div>
+                                      </a>
                                   </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                   <div class="filter-card">
-                                      <div class="card filter-padding b-n">
-                                          <div class="filter-overlay-card">
-                                            <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                      <a href="product-detail.php" class="home-txt-decnone">
+                                          <div class="card filter-padding b-n">
+                                              <div class="filter-overlay-card">
+                                                <img src = "assets/images/slide/s2.jpg" class="filter-image-full">
+                                              </div>
+                                              <div class="card-body px-0 pb-0">
+                                                <span class="filter-font6">200 บาท</span>
+                                                <span class="filter-font7 pl-2">399 บาท</span>
+                                                <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                              </div>
                                           </div>
-                                          <div class="card-body px-0 pb-0">
-                                            <span class="filter-font6">200 บาท</span>
-                                            <span class="filter-font7 pl-2">399 บาท</span>
-                                            <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                          <div class="">
+                                             <button class="btn home-btn3">สั่งซื้อ</button>
                                           </div>
-                                      </div>
-                                      <div class="">
-                                         <button class="btn home-btn3">สั่งซื้อ</button>
-                                      </div>
+                                      </a>
                                   </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                   <div class="filter-card">
-                                      <div class="card filter-padding b-n">
-                                          <div class="filter-overlay-card">
-                                            <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                      <a href="product-detail.php" class="home-txt-decnone">
+                                          <div class="card filter-padding b-n">
+                                              <div class="filter-overlay-card">
+                                                <img src = "assets/images/slide/s3.jpg" class="filter-image-full">
+                                              </div>
+                                              <div class="card-body px-0 pb-0">
+                                                <span class="filter-font6">200 บาท</span>
+                                                <span class="filter-font7 pl-2">399 บาท</span>
+                                                <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                              </div>
                                           </div>
-                                          <div class="card-body px-0 pb-0">
-                                            <span class="filter-font6">200 บาท</span>
-                                            <span class="filter-font7 pl-2">399 บาท</span>
-                                            <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                          <div class="">
+                                             <button class="btn home-btn3">สั่งซื้อ</button>
                                           </div>
-                                      </div>
-                                      <div class="">
-                                         <button class="btn home-btn3">สั่งซื้อ</button>
-                                      </div>
+                                      </a>
                                   </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                    <div class="filter-card">
-                                       <div class="card filter-padding b-n">
-                                           <div class="filter-overlay-card">
-                                             <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                       <a href="product-detail.php" class="home-txt-decnone">
+                                           <div class="card filter-padding b-n">
+                                               <div class="filter-overlay-card">
+                                                 <img src = "assets/images/slide/s4.jpg" class="filter-image-full">
+                                               </div>
+                                               <div class="card-body px-0 pb-0">
+                                                 <span class="filter-font6">200 บาท</span>
+                                                 <span class="filter-font7 pl-2">399 บาท</span>
+                                                 <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                               </div>
                                            </div>
-                                           <div class="card-body px-0 pb-0">
-                                             <span class="filter-font6">200 บาท</span>
-                                             <span class="filter-font7 pl-2">399 บาท</span>
-                                             <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                           <div class="">
+                                              <button class="btn home-btn3">สั่งซื้อ</button>
                                            </div>
-                                       </div>
-                                       <div class="">
-                                          <button class="btn home-btn3">สั่งซื้อ</button>
-                                       </div>
+                                      </a>
                                    </div>
                                </div>
                                <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                    <div class="filter-card">
-                                       <div class="card filter-padding b-n">
-                                           <div class="filter-overlay-card">
-                                             <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                       <a href="product-detail.php" class="home-txt-decnone">
+                                           <div class="card filter-padding b-n">
+                                               <div class="filter-overlay-card">
+                                                 <img src = "assets/images/slide/s5.jpg" class="filter-image-full">
+                                               </div>
+                                               <div class="card-body px-0 pb-0">
+                                                 <span class="filter-font6">200 บาท</span>
+                                                 <span class="filter-font7 pl-2">399 บาท</span>
+                                                 <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                               </div>
                                            </div>
-                                           <div class="card-body px-0 pb-0">
-                                             <span class="filter-font6">200 บาท</span>
-                                             <span class="filter-font7 pl-2">399 บาท</span>
-                                             <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                           <div class="">
+                                              <button class="btn home-btn3">สั่งซื้อ</button>
                                            </div>
-                                       </div>
-                                       <div class="">
-                                          <button class="btn home-btn3">สั่งซื้อ</button>
-                                       </div>
+                                        </a>
                                    </div>
                                </div>
                                <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                    <div class="filter-card">
-                                       <div class="card filter-padding b-n">
-                                           <div class="filter-overlay-card">
-                                             <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                       <a href="product-detail.php" class="home-txt-decnone">
+                                           <div class="card filter-padding b-n">
+                                               <div class="filter-overlay-card">
+                                                 <img src = "assets/images/slide/s6.jpg" class="filter-image-full">
+                                               </div>
+                                               <div class="card-body px-0 pb-0">
+                                                 <span class="filter-font6">200 บาท</span>
+                                                 <span class="filter-font7 pl-2">399 บาท</span>
+                                                 <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                               </div>
                                            </div>
-                                           <div class="card-body px-0 pb-0">
-                                             <span class="filter-font6">200 บาท</span>
-                                             <span class="filter-font7 pl-2">399 บาท</span>
-                                             <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                           <div class="">
+                                              <button class="btn home-btn3">สั่งซื้อ</button>
                                            </div>
-                                       </div>
-                                       <div class="">
-                                          <button class="btn home-btn3">สั่งซื้อ</button>
-                                       </div>
+                                      </a>
                                    </div>
                                </div>
                                <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                     <div class="filter-card">
-                                        <div class="card filter-padding b-n">
-                                            <div class="filter-overlay-card">
-                                              <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                        <a href="product-detail.php" class="home-txt-decnone">
+                                            <div class="card filter-padding b-n">
+                                                <div class="filter-overlay-card">
+                                                  <img src = "assets/images/slide/s1.jpg" class="filter-image-full">
+                                                </div>
+                                                <div class="card-body px-0 pb-0">
+                                                  <span class="filter-font6">200 บาท</span>
+                                                  <span class="filter-font7 pl-2">399 บาท</span>
+                                                  <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                                </div>
                                             </div>
-                                            <div class="card-body px-0 pb-0">
-                                              <span class="filter-font6">200 บาท</span>
-                                              <span class="filter-font7 pl-2">399 บาท</span>
-                                              <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                            <div class="">
+                                               <button class="btn home-btn3">สั่งซื้อ</button>
                                             </div>
-                                        </div>
-                                        <div class="">
-                                           <button class="btn home-btn3">สั่งซื้อ</button>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                     <div class="filter-card">
-                                        <div class="card filter-padding b-n">
-                                            <div class="filter-overlay-card">
-                                              <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                        <a href="product-detail.php" class="home-txt-decnone">
+                                            <div class="card filter-padding b-n">
+                                                <div class="filter-overlay-card">
+                                                  <img src = "assets/images/slide/s2.jpg" class="filter-image-full">
+                                                </div>
+                                                <div class="card-body px-0 pb-0">
+                                                  <span class="filter-font6">200 บาท</span>
+                                                  <span class="filter-font7 pl-2">399 บาท</span>
+                                                  <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                                </div>
                                             </div>
-                                            <div class="card-body px-0 pb-0">
-                                              <span class="filter-font6">200 บาท</span>
-                                              <span class="filter-font7 pl-2">399 บาท</span>
-                                              <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                            <div class="">
+                                               <button class="btn home-btn3">สั่งซื้อ</button>
                                             </div>
-                                        </div>
-                                        <div class="">
-                                           <button class="btn home-btn3">สั่งซื้อ</button>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-4 col-6 mt-4 filter-p-rl">
                                     <div class="filter-card">
-                                        <div class="card filter-padding b-n">
-                                            <div class="filter-overlay-card">
-                                              <img src = "assets/images/banner/banner-1.png" class="filter-image-full">
+                                        <a href="product-detail.php" class="home-txt-decnone">
+                                            <div class="card filter-padding b-n">
+                                                <div class="filter-overlay-card">
+                                                  <img src = "assets/images/slide/s3.jpg" class="filter-image-full">
+                                                </div>
+                                                <div class="card-body px-0 pb-0">
+                                                  <span class="filter-font6">200 บาท</span>
+                                                  <span class="filter-font7 pl-2">399 บาท</span>
+                                                  <div class="filter-font8 home-overflow-h">พลาสติกใสขนาด 6 ลิตร</div>
+                                                </div>
                                             </div>
-                                            <div class="card-body px-0 pb-0">
-                                              <span class="filter-font6">200 บาท</span>
-                                              <span class="filter-font7 pl-2">399 บาท</span>
-                                              <div class="filter-font8">พลาสติกใสขนาด 6 ลิตร</div>
+                                            <div class="">
+                                               <button class="btn home-btn3">สั่งซื้อ</button>
                                             </div>
-                                        </div>
-                                        <div class="">
-                                           <button class="btn home-btn3">สั่งซื้อ</button>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="container mt-5">
-                                    <ul class="pagination justify-content-center">
-                                      <li class="mr-1 filter-page btn">
-                                        <a class="filter-txt-dec" href="javascript:void(0);">
-                                          <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                        </a>
-                                      </li>
-                                      <li class="mr-1 filter-page btn"><a class="filter-txt-dec" href="javascript:void(0);">1</a></li>
-                                      <li class="mr-1 filter-page btn"><a class="filter-txt-dec" href="javascript:void(0);">2</a></li>
-                                      <li class="mr-1 filter-page btn"><a class="filter-txt-dec" href="javascript:void(0);">3</a></li>
-                                      <li class="mr-1 filter-page btn">
-                                        <a class="filter-txt-dec" href="javascript:void(0);">
-                                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
-                                      </li>
+                                    <ul class="pagination justify-content-center" id="myDIV">
+                                        <li class="mr-1 filter-page btn">
+                                          <a class="filter-txt-dec" href="javascript:void(0);">
+                                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                          </a>
+                                        </li>
+                                        <li class="mr-1 filter-page btn active"><a class="filter-txt-dec" href="javascript:void(0);">1</a></li>
+                                        <li class="mr-1 filter-page btn"><a class="filter-txt-dec" href="javascript:void(0);">2</a></li>
+                                        <li class="mr-1 filter-page btn"><a class="filter-txt-dec" href="javascript:void(0);">3</a></li>
+                                        <li class="mr-1 filter-page btn">
+                                          <a class="filter-txt-dec" href="javascript:void(0);">
+                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                          </a>
+                                        </li>
                                     </ul>
                                 </div>
                            </div>
@@ -643,6 +661,18 @@
     <?php include_once('inc/footer-script.php'); ?>
     <!-- END FOOOTER SCRIPT -->
 
+      <script>
+          // Add active class to the current button (highlight it)
+          var header = document.getElementById("myDIV");
+          var btns = header.getElementsByClassName("filter-page");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+            });
+          }
+      </script>
 
   </body>
 </html>

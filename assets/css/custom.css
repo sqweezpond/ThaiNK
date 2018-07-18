@@ -40,7 +40,9 @@ body {
 .wrapper {
     min-height: calc(100vh - 320px);
 }
-
+.wrapper-tab{
+    min-height: calc(114vh - 320px);
+}
 /*----------- ANIMATE ------------------*/
 
 /*----------- END ANIMATE ------------------*/
@@ -392,6 +394,18 @@ body {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+.footer-link-c{
+    font-size: 15px;
+    color: #333333;
+    font-family: 'kanitlight';
+    transition: all 0.3s;
+}
+.footer-link-c:hover{
+    font-size: 16px;
+    color: #808080;
+    font-family: 'kanitlight';
+    transition: all 0.3s;
+}
 .flaticon-headset:before{
     font-size: 35px;
     color: #ffc526;
@@ -697,7 +711,6 @@ body {
 }
 .home-overlay-image{
     position: relative;
-    height: 339px;
     width: 100%;
     overflow: hidden;
 }
@@ -713,6 +726,12 @@ body {
     width: 100%;
     overflow: hidden;
 }
+.home-overlay-image4{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 338px;
+}
 .home-image-full {
     position: absolute;
     display: block;
@@ -725,7 +744,6 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    height: 150px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -740,7 +758,8 @@ body {
 }
 .home-position-a{
     position: absolute;
-    margin-top: 60px;
+    margin-top: -263px;
+    z-index: 1;
 }
 .home-position-a5{
     position: absolute;
@@ -750,7 +769,7 @@ body {
 .home-position-a6{
     position: absolute;
     margin-top: 6px;
-    margin-left: 45px;
+    margin-left: 50px;
     z-index: 1;
 }
 .home-position-a7{
@@ -774,13 +793,13 @@ body {
 .home-position-a10{
     position: absolute;
     margin-top: 6px;
-    margin-left: 40px;
+    margin-left: 46px;
     z-index: 1;
 }
 .home-position-a11{
     position: absolute;
     margin-top: 6px;
-    margin-left: 50px;
+    margin-left: 56pxs;
     z-index: 1;
 }
 .home-p-l{
@@ -802,7 +821,7 @@ body {
     padding-top: 50px;
 }
 .home-p-t4{
-    padding-top: 45px;
+    padding-top: 20px;
 }
 .home-p-t5{
     padding-top: 20px;
@@ -814,7 +833,7 @@ body {
     padding-top: 108px;
 }
 .home-p-t8{
-    padding-top: 46px;
+    padding-top: 20px;
 }
 .txt-indent{
     text-indent: 1em;
@@ -859,7 +878,7 @@ body {
 }
 .home-overlay-card{
     position: relative;
-    height: 230px;
+    height: 152px;
     width: 100%;
     overflow: hidden;
     background-color: white;
@@ -881,12 +900,12 @@ body {
 }
 .home-card{
     box-shadow: 0px 1px 15px -6px;
-    height: 396px;
+    height: 318px;
     transition: all 0.3s;
 }
 .home-card:hover{
     box-shadow: 0px 1px 15px -6px;
-    height: 396px;
+    height: 318px;
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05);
@@ -901,6 +920,18 @@ body {
     height: 200px;
     width: 100%;
     overflow: hidden;
+    transition: all 0.3s;
+}
+.new-overlay-image:hover{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    transition: all 0.3s;
 }
 .new-image-full{
     position: absolute;
@@ -922,6 +953,7 @@ body {
     top:40%;
     right:-3%;
     opacity: 0.7;
+    border-radius: 0px;
 }
 .owl-carousel .owl-nav button.owl-next:hover{
     background:black;
@@ -932,6 +964,7 @@ body {
     top:40%;
     right:-3%;
     opacity: 0.7;
+    border-radius: 0px;
 }
 .owl-carousel .owl-nav button.owl-prev{
     background: #eeeeee;
@@ -942,6 +975,7 @@ body {
     top:40%;
     left:-3%;
     opacity: 0.7;
+    border-radius: 0px;
 }
 .owl-carousel .owl-nav button.owl-prev:hover{
     background: black;
@@ -952,6 +986,7 @@ body {
     top:40%;
     left:-3%;
     opacity: 0.7;
+    border-radius: 0px;
 }
 .home-gray{
     background-color: #f6f6f6;
@@ -963,47 +998,30 @@ body {
     font-size: 17px;
     color: #123cb2;
 }
-.home-position-a6 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 76px;
-    z-index: 1;
-}
-.home-position-a7 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 91px;
-    z-index: 1;
-}
-.home-position-a8 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 90px;
-    z-index: 1;
-}
-.home-position-a9 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 100px;
-    z-index: 1;
-}
-.home-position-a10 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 76px;
-    z-index: 1;
-}
-.home-position-a11 {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 82px;
-    z-index: 1;
-}
 .home-p-r{
     padding-right: 40px;
 }
+.home-txt-decnone{
+    color: #333333;
+}
 .home-txt-decnone:hover{
     text-decoration: none;
+    color: #333333;
+}
+.homt-p-t-b3{
+    padding-top: 85px;
+}
+.home-overflow-h{
+    overflow: hidden;
+    height: 27px;
+}
+.home-overflow-h2{
+    overflow: hidden;
+    height: 67px;
+}
+.home-overflow2{
+    overflow: hidden;
+    height: 121px;
 }
 /*-------------------------------------
 ------------- END HOME ----------------
@@ -1032,6 +1050,15 @@ body {
 .profile-icon{
     font-size: 200px;
     color: #ffc526;
+    transition: all 0.3s;
+}
+.profile-icon:hover{
+    font-size: 200px;
+    color: #123cb2;
+    transition: all 0.3s;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
 }
 .profile-font{
     font-size: 20px;
@@ -1105,14 +1132,21 @@ body {
     color: #333333;
 }
 .profile-block{
-    border: 2px solid#ffc526;
+    border: 1px solid#ffc526;
     transition: all 0.3s ;
 }
 .profile-block:hover{
     border: 2px solid#ffc526;
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
+    -ms-transform: scale(1.07); /* IE 9 */
+    -webkit-transform: scale(1.07); /* Safari 3-8 */
+    transform: scale(1.07);
+    transition: all 0.3s ;
+}
+.profile-block.active{
+    border: 2px solid#ffc526;
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
     transition: all 0.3s ;
 }
 .profile-p-t{
@@ -1318,7 +1352,7 @@ body {
 }
 .filter-overlay-card{
     position: relative;
-    height: 232px;
+    height: 159px;
     width: 100%;
     overflow: hidden;
     background-color: white;
@@ -1333,12 +1367,12 @@ body {
 }
 .filter-card {
     box-shadow: 0px 1px 15px -6px;
-    height: 386px;
+    height: 313px;
     transition: all 0.3s;
 }
 .filter-card:hover{
     box-shadow: 0px 1px 15px -6px;
-    height: 386px;
+    height: 313px;
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05);
@@ -1409,6 +1443,14 @@ body {
     transition: all 0.5s;
     border-radius: 0px;
 }
+.filter-page.active{
+    background-color: #ffcc2b;
+    width: 50px;
+    font-size: 20px;
+    color: #093ae6;
+    transition: all 0.5s;
+    border-radius: 0px;
+}
 .filter-txt-dec{
     color: #093ae6;
 }
@@ -1469,47 +1511,47 @@ body {
     padding: 10px;
     text-align: center;
 }
-.owl-carousel .owl-nav button.owl-next {
+.slide-img .owl-nav button.owl-prev{
     background: #eeeeee;
     color: #333333;
     font-size: 40px;
     width: 40px;
     position: absolute;
-    top:40%;
-    right:-3%;
+    top:30%;
+    left:-5%;
     opacity: 0.7;
     border-radius: 0px;
 }
-.owl-carousel .owl-nav button.owl-next:hover{
-    background:black;
-    color: #fff;
-    font-size: 40px;
-    width: 40px;
-    position: absolute;
-    top:40%;
-    right:-3%;
-    opacity: 0.7;
-    border-radius: 0px;
-}
-.owl-carousel .owl-nav button.owl-prev{
-    background: #eeeeee;
-    color: #333333;
-    font-size: 40px;
-    width: 40px;
-    position: absolute;
-    top:40%;
-    left:-3%;
-    opacity: 0.7;
-    border-radius: 0px;
-}
-.owl-carousel .owl-nav button.owl-prev:hover{
+.slide-img .owl-nav button.owl-prev:hover{
     background: black;
     color: #fff;
     font-size: 40px;
     width: 40px;
     position: absolute;
-    top:40%;
-    left:-3%;
+    top:30%;
+    left:-5%;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.slide-img .owl-nav button.owl-next{
+    background: #eeeeee;
+    color: #333333;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:30%;
+    right:-5%;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.slide-img .owl-nav button.owl-next:hover{
+    background:black;
+    color: #fff;
+    font-size: 40px;
+    width: 40px;
+    position: absolute;
+    top:30%;
+    right:-5%;
     opacity: 0.7;
     border-radius: 0px;
 }
@@ -1587,6 +1629,7 @@ body {
     font-size: 15px;
     border-radius: 0px;
     border: 1px solid #e9eae9;
+    text-align: right;
 }
 /*-------------------------------------
 -----------END PRODUCT-DETAIL ------------
@@ -1732,6 +1775,24 @@ body {
   /*-------------------------------------
   ------------- HOME 1024 ----------------
   ---------------------------------------*/
+  .home-font1 {
+      font-size: 40px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+  }
+  .home-font2 {
+      font-size: 25px;
+      color: #333333;
+  }
+  .home-font7 {
+      font-size: 14px;
+      color: #333333;
+      font-family: 'kanitlight';
+  }
+  .home-font8 {
+      font-size: 18px;
+      color: #123cb2;
+  }
   .home-font9 {
       font-size: 22px;
       color: #f99e0f;
@@ -1747,18 +1808,9 @@ body {
       font-family: 'kanitlight';
       transition: all 0.5s;
   }
-  .home-font7 {
-      font-size: 14px;
-      color: #333333;
-      font-family: 'kanitlight';
-  }
-  .home-font8 {
-      font-size: 22px;
-      color: #123cb2;
-  }
   .home-overlay-image{
       position: relative;
-      height: 293px;
+      /* height: 293px; */
       width: 100%;
       overflow: hidden;
   }
@@ -1767,6 +1819,12 @@ body {
       height: 141px;
       width: 100%;
       overflow: hidden;
+  }
+  .home-overlay-image4{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 285px;
   }
   .home-image-full{
       position: absolute;
@@ -1787,7 +1845,7 @@ body {
   }
   .home-position-a {
       position: absolute;
-      margin-top: 44px;
+      margin-top: -239px;
   }
   .home-position-a2 {
       position: absolute;
@@ -1807,37 +1865,37 @@ body {
   .home-position-a6 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 98px;
+      margin-left: 74px;
       z-index: 1;
   }
   .home-position-a7 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 117px;
+      margin-left: 89px;
       z-index: 1;
   }
   .home-position-a8 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 113px;
+      margin-left: 85px;
       z-index: 1;
   }
   .home-position-a9 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 134px;
+      margin-left: 96px;
       z-index: 1;
   }
   .home-position-a10 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 91px;
+      margin-left: 69px;
       z-index: 1;
   }
   .home-position-a11 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 103px;
+      margin-left: 81px;
       z-index: 1;
   }
   .home-overflow{
@@ -1880,15 +1938,23 @@ body {
   }
   .home-overlay-card {
       position: relative;
-      height: 178px;
+      height: 121px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 337px;
+      height: 280px;
   }
+  .home-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 280px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
+    }
   .home-btn2 {
       width: 130px;
       height: 45px;
@@ -1939,10 +2005,17 @@ body {
   }
   .home-overlay-product {
       position: relative;
-      height: 362px;
+      height: 271px;
       width: 100%;
       overflow: hidden;
       background-color: white;
+  }
+  .homt-p-t-b3 {
+      padding-top: 58px;
+  }
+  .home-overflow-h {
+      overflow: hidden;
+      height: 24px;
   }
   /*-------------------------------------
   ----------- END HOME 1024 ------------
@@ -2026,7 +2099,7 @@ body {
   }
   .filter-overlay-card{
       position: relative;
-      height: 190px;
+      height: 129px;
       width: 100%;
       overflow: hidden;
       background-color: white;
@@ -2041,7 +2114,15 @@ body {
   }
   .filter-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 331px;
+      height: 273px;
+  }
+  .filter-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 273px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .filter-p-r2{
       padding-right: 0px;
@@ -2056,6 +2137,14 @@ body {
       border-radius: 0px;
   }
   .filter-page:hover {
+      background-color: #ffcc2b;
+      width: 40px;
+      font-size: 15px;
+      color: #093ae6;
+      transition: all 0.5s;
+      border-radius: 0px;
+  }
+  .filter-page.active{
       background-color: #ffcc2b;
       width: 40px;
       font-size: 15px;
@@ -2114,6 +2203,50 @@ body {
       -ms-transform: scale(1.1);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
+  }
+  .slide-img .owl-nav button.owl-prev{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 30px;
+      width: 30px;
+      position: absolute;
+      top: 38%;
+      left: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-prev:hover{
+      background: black;
+      color: white;
+      font-size: 30px;
+      width: 30px;
+      position: absolute;
+      top: 38%;
+      left: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 30px;
+      width: 30px;
+      position: absolute;
+      top: 38%;
+      right: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next:hover{
+      background: black;
+      color: white;
+      font-size: 30px;
+      width: 30px;
+      position: absolute;
+      top: 38%;
+      right: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
   }
   /*---------------------------------------
   ---------- END PRODUCT-DETAIL 1024 --------
@@ -2218,7 +2351,7 @@ body {
       font-family: 'kanitlight';
   }
   .home-font8 {
-      font-size: 16px;
+      font-size: 14px;
       color: #123cb2;
   }
   .home-font9 {
@@ -2237,13 +2370,19 @@ body {
   }
   .home-overlay-image {
       position: relative;
-      height: 226px;
+      /* height: 226px; */
       width: 100%;
       overflow: hidden;
   }
+  .home-overlay-image4{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 220px;
+  }
   .home-position-a {
       position: absolute;
-      margin-top: 38px;
+      margin-top: -176px;
   }
   .home-position-a2 {
       position: absolute;
@@ -2259,37 +2398,37 @@ body {
   .home-position-a6 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 77px;
+      margin-left: 57px;
       z-index: 1;
   }
   .home-position-a7 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 90px;
+      margin-left: 69px;
       z-index: 1;
   }
   .home-position-a8 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 89px;
+      margin-left: 65px;
       z-index: 1;
   }
   .home-position-a9 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 97px;
+      margin-left: 71px;
       z-index: 1;
   }
   .home-position-a10 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 71px;
+      margin-left: 50px;
       z-index: 1;
   }
   .home-position-a11 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 78px;
+      margin-left: 60px;
       z-index: 1;
   }
   .home-font14 {
@@ -2373,10 +2512,10 @@ body {
   }
   .home-btn3 {
       width: 100%;
-      height: 50px;
+      height: 40px;
       border: 2px solid #ffcc2b;
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
       background: #ffcc2b;
       font-family: 'kanitlight';
       border-radius: 0px;
@@ -2386,10 +2525,10 @@ body {
   }
   .home-btn3:hover {
       width: 100%;
-      height: 50px;
+      height: 40px;
       border: 2px solid #123cb2;
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
       background: #123cb2;
       font-family: 'kanitlight';
       border-radius: 0px;
@@ -2399,7 +2538,7 @@ body {
   }
   .home-overlay-card {
       position: relative;
-      height: 300px;
+      height: 121px;
       width: 100%;
       overflow: hidden;
       background-color: white;
@@ -2434,7 +2573,15 @@ body {
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 450px;
+      height: 271px;
+  }
+  .home-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 271px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .home-coulasel {
       box-shadow: 0px 1px 15px -6px;
@@ -2448,14 +2595,43 @@ body {
   }
   .home-overlay-product {
       position: relative;
-      height: 267px;
+      height: 198px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
+  .new-overlay-image {
+      position: relative;
+      height: 225px;
+      width: 100%;
+      overflow: hidden;
+      transition: all 0.3s;
+  }
+  .new-overlay-image:hover {
+      position: relative;
+      height: 225px;
+      width: 100%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
+  }
   .home-overflow {
       overflow: hidden;
       height: 39px;
+  }
+  .home-overflow2 {
+      overflow: hidden;
+      height: 107px;
+  }
+  .home-overflow-h {
+      overflow: hidden;
+      height: 22px;
+  }
+  .homt-p-t-b3 {
+      padding-top: 0px;
   }
   /*------------------------------------
   ---------- END HOME 768 --------------
@@ -2642,7 +2818,7 @@ body {
   }
   .filter-overlay-card{
       position: relative;
-      height: 140px;
+      height: 95px;
       width: 100%;
       overflow: hidden;
       background-color: white;
@@ -2657,7 +2833,15 @@ body {
   }
   .filter-card{
       box-shadow: 0px 1px 15px -6px;
-      height: 258px;
+      height: 207px;
+  }
+  .filter-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 207px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .filter-padding{
       padding: 5px;
@@ -2672,6 +2856,14 @@ body {
       border-radius: 0px;
   }
   .filter-page:hover {
+      background-color: #ffcc2b;
+      width: 40px;
+      font-size: 16px;
+      color: #093ae6;
+      transition: all 0.5s;
+      border-radius: 0px;
+  }
+  .filter-page.active{
       background-color: #ffcc2b;
       width: 40px;
       font-size: 16px;
@@ -2724,6 +2916,50 @@ body {
       border-radius: 0px;
       border: none;
       font-family: "kanitlight";
+  }
+  .slide-img .owl-nav button.owl-prev{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 35px;
+      width: 36px;
+      position: absolute;
+      top: 38%;
+      left: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-prev:hover{
+      background: black;
+      color: white;
+      font-size: 35px;
+      width: 36px;
+      position: absolute;
+      top: 38%;
+      left: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 35px;
+      width: 36px;
+      position: absolute;
+      top: 38%;
+      right: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next:hover{
+      background: black;
+      color: white;
+      font-size: 35px;
+      width: 36px;
+      position: absolute;
+      top: 38%;
+      right: -4%;
+      opacity: 0.7;
+      border-radius: 0px;
   }
   /*-------------------------------------
   ------- END PRODUCT-DETAIL 768 --------
@@ -2933,13 +3169,19 @@ body {
       color: #333333;
   }
   .home-image-full {
-      width: auto;
+      width: 100%;
       position: absolute;
       display: block;
       height: 100%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+  }
+  .home-overlay-image {
+      position: relative;
+      width: 200%;
+      right: 45%;
+      overflow: hidden;
   }
   .home-overlay-product {
       position: relative;
@@ -2989,7 +3231,7 @@ body {
   }
   .home-position-a {
       position: absolute;
-      margin-top: 47px;
+      margin-top: -181px;
   }
   .home-position-a2 {
       position: absolute;
@@ -3127,18 +3369,26 @@ body {
   }
   .home-overlay-card {
       position: relative;
-      height: 146px;
+      height: 98px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-overflow2 {
       overflow: hidden;
-      height: 85px;
+      height: 120px;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 277px;
+      height: 229px;
+  }
+  .home-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 229px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .home-p-t4{
       padding-top: 0px;
@@ -3160,6 +3410,17 @@ body {
       height: 307px;
       width: 100%;
       overflow: hidden;
+  }
+  .new-overlay-image:hover {
+      position: relative;
+      height: 307px;
+      width: 100%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .owl-carousel .owl-nav button.owl-next {
       background: #eeeeee;
@@ -3200,6 +3461,13 @@ body {
       top:40%;
       left:-4%;
       opacity: 0.7;
+  }
+  .homt-p-t-b3 {
+      padding-top: 19px;
+  }
+  .home-overflow-h {
+      overflow: hidden;
+      height: 19px;
   }
   /*------------------------------------
   ---------- END HOME 414 --------------
@@ -3312,14 +3580,22 @@ body {
   }
   .filter-overlay-card {
       position: relative;
-      height: 158px;
+      height: 113px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .filter-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 266px;
+      height: 222px;
+  }
+  .filter-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 222px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .filter-m-t {
       margin-top: 10px;
@@ -3353,9 +3629,9 @@ body {
       width: 100%;
       overflow: hidden;
       transition: all 0.5s;
-      -ms-transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
+      -ms-transform: none;
+      -webkit-transform: none;
+      transform: none;
   }
   .product-btn {
       background-color: #ffcc2b;
@@ -3399,7 +3675,7 @@ body {
       background-color: #fff;
       background-clip: padding-box;
       border: 1px solid #ced4da;
-      border-radius: .25rem;
+      border-radius: 0px;
       transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
   .product-btn {
@@ -3423,6 +3699,50 @@ body {
       border-radius: 0px;
       border: none;
       font-family: "kanitlight";
+  }
+  .slide-img .owl-nav button.owl-prev{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 35px;
+      width: 29px;
+      position: absolute;
+      top: 28%;
+      left: -5%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-prev:hover{
+      background: black;
+      color: white;
+      font-size: 35px;
+      width: 29px;
+      position: absolute;
+      top: 28%;
+      left: -5%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 35px;
+      width: 29px;
+      position: absolute;
+      top: 28%;
+      right: -5%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next:hover{
+      background: black;
+      color: white;
+      font-size: 35px;
+      width: 29px;
+      position: absolute;
+      top: 28%;
+      right: -5%;
+      opacity: 0.7;
+      border-radius: 0px;
   }
   /*-------------------------------------
   --------- END PRODUCT-DETAIL 414 -------
@@ -3493,6 +3813,10 @@ body {
   /*------------------------------------
   -------------  HOME 375 --------------
   ---------------------------------------*/
+  .home-position-a {
+      position: absolute;
+      margin-top: -163px;
+  }
   .home-position-a5 {
       position: absolute;
       margin-top: -195px;
@@ -3555,14 +3879,22 @@ body {
   }
   .home-overlay-card {
       position: relative;
-      height: 148px;
+      height: 100px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 257px;
+      height: 209px;
+  }
+  .home-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 209px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .home-overlay-image3 {
       position: relative;
@@ -3582,8 +3914,23 @@ body {
       width: 100%;
       overflow: hidden;
   }
+  .new-overlay-image:hover {
+      position: relative;
+      height: 275px;
+      width: 100%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
+  }
   .padding-card{
       padding: 5px !important;
+  }
+  .home-overflow-h {
+      overflow: hidden;
+      height: 19px;
   }
   /*------------------------------------
   ---------- END HOME 375 --------------
@@ -3608,6 +3955,25 @@ body {
   }
   .filter-margin {
       margin: 10px;
+  }
+  .filter-overlay-card {
+      position: relative;
+      height: 107px;
+      width: 100%;
+      overflow: hidden;
+      background-color: white;
+  }
+  .filter-card {
+      box-shadow: 0px 1px 15px -6px;
+      height: 216px;
+  }
+  .filter-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 216px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   /*------------------------------------
   ---------- END FILTER 375 --------------
@@ -3687,10 +4053,6 @@ body {
       height: 108px;
       width: 100%;
       overflow: hidden;
-      transition: all 0.5s;
-      -ms-transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
   }
   .home-coulasel-height{
       height: 238px;
@@ -3780,6 +4142,15 @@ body {
   /*------------------------------------
   ----------  HOME 320 --------------
   ---------------------------------------*/
+  .home-font1 {
+      font-size: 18px;
+      color: #123cb2;
+      font-family: 'kanitmedium';
+  }
+  .home-font2 {
+      font-size: 14px;
+      color: #333333;
+  }
   .home-font3 {
       font-size: 18px;
       color: #123cb2;
@@ -3787,11 +4158,11 @@ body {
       line-height: 1.8;
   }
   .home-font6 {
-      font-size: 9px;
+      font-size: 12px;
       color: #333333;
   }
   .home-font7 {
-      font-size: 9px;
+      font-size: 12px;
       color: #333333;
       font-family: 'kanitlight';
   }
@@ -3814,6 +4185,9 @@ body {
       color: #333333;
       font-family: 'kanitlight';
   }
+  .home-p-t5 {
+      padding-top: 15px;
+  }
   .home-p-t7 {
       padding-top: 59px;
   }
@@ -3832,6 +4206,10 @@ body {
       width: 100%;
       overflow: hidden;
       background-color: white;
+  }
+  .home-position-a {
+      position: absolute;
+      margin-top: -142px;
   }
   .home-position-a6 {
       position: absolute;
@@ -3854,7 +4232,7 @@ body {
   .home-position-a9 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 49px;
+      margin-left: 57px;
       z-index: 1;
   }
   .home-position-a10 {
@@ -3882,20 +4260,39 @@ body {
   }
   .home-overlay-card {
       position: relative;
-      height: 120px;
+      height: 82px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 225px;
+      height: 187px;
+  }
+  .home-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 187px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .new-overlay-image {
       position: relative;
       height: 231px;
       width: 100%;
       overflow: hidden;
+  }
+  .new-overlay-image:hover {
+      position: relative;
+      height: 231px;
+      width: 100%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .home-overlay-image3 {
       position: relative;
@@ -3947,10 +4344,43 @@ body {
       padding-top: 36px;
       margin-left: -6px;
   }
+  .home-overflow-h {
+      overflow: hidden;
+      height: 16px;
+  }
+  .home-btn3 {
+      width: 100%;
+      height: 40px;
+      border: 2px solid #ffcc2b;
+      color: #fff;
+      font-size: 12px;
+      background: #ffcc2b;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+      margin-top: -5px;
+      padding-top: 12px;
+  }
+  .home-btn3:hover {
+      width: 100%;
+      height: 40px;
+      border: 2px solid #123cb2;
+      color: #fff;
+      font-size: 12px;
+      background: #123cb2;
+      font-family: 'kanitlight';
+      border-radius: 0px;
+      transition: all 0.5s;
+      margin-top: -5px;
+      padding-top: 12px;
+  }
+  .home-overflow2 {
+      overflow: hidden;
+      height: 106px;
+  }
   /*------------------------------------
   ---------- END HOME 320 --------------
   ---------------------------------------*/
-
 
   /*------------------------------------
   ---------- PROFILE 320 --------------
@@ -4078,14 +4508,22 @@ body {
   }
   .filter-overlay-card {
       position: relative;
-      height: 130px;
+      height: 88px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .filter-card {
       box-shadow: 0px 1px 15px -6px;
-      height: 238px;
+      height: 194px;
+  }
+  .filter-card:hover {
+      box-shadow: 0px 1px 15px -6px;
+      height: 194px;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: all 0.3s;
   }
   .profile-p-l-a {
       padding-left: 33px;
@@ -4119,16 +4557,56 @@ body {
       height: 93px;
       width: 100%;
       overflow: hidden;
-      transition: all 0.5s;
-      -ms-transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
   }
   .product-overlay-slide {
       position: relative;
       height: 196px;
       width: 100%;
       overflow: hidden;
+  }
+  .slide-img .owl-nav button.owl-prev{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 35px;
+      width: 25px;
+      position: absolute;
+      top: 21%;
+      left: -6%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-prev:hover{
+      background: black;
+      color: white;
+      font-size: 35px;
+      width: 25px;
+      position: absolute;
+      top: 21%;
+      left: -6%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next{
+      background: #eeeeee;
+      color: #333333;
+      font-size: 35px;
+      width: 25px;
+      position: absolute;
+      top: 21%;
+      right: -6%;
+      opacity: 0.7;
+      border-radius: 0px;
+  }
+  .slide-img .owl-nav button.owl-next:hover{
+      background: black;
+      color: white;
+      font-size: 35px;
+      width: 25px;
+      position: absolute;
+      top: 21%;
+      right: -6%;
+      opacity: 0.7;
+      border-radius: 0px;
   }
   /*------------------------------------
   ------- END PRODUCT-DETAIL 320 --------

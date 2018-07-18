@@ -11,17 +11,22 @@
     <?php include_once('inc/navbar.php'); ?>
   <!-- END NAVBAR -->
 
-    <div class="wrapper">
+    <div class="wrapper-tab">
        <!-- CONTENT -->
         <div class="container pb-5">
 
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5 col-12 text-center mt-5">
-                    <i class="fa fa-user-circle-o profile-icon btn" aria-hidden="true"></i>
+                    <div class="form-group">
+                        <label for="upload">
+                          <i class="fa fa-user-circle-o profile-icon btn" aria-hidden="true"></i>
+                          <input type="file" id="upload" style="display:none;">
+                        </label>
+                    </div>
             <!-- Tab list ---------------------------------------------------->
                     <ul class="nav nav-tab mt-5" id="myTab" role="tablist">
                         <li class="nav-item w-100">
-                            <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">
                                 <form class="form-inline profile-block">
                                     <i class="flaticon-avatar"></i>
                                     <div class="pl-4 profile-font profile-p-t">ข้อมูลส่วนตัว</div>
@@ -413,6 +418,18 @@
     <?php include_once('inc/footer-script.php'); ?>
     <!-- END FOOOTER SCRIPT -->
 
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("profile-block");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+    </script>
 
   </body>
 </html>

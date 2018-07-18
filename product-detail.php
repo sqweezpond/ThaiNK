@@ -26,7 +26,7 @@
                             <img class="mySlides product-image-slide" src="assets/images/slide/s6.jpg">
                       </div>
                 <!-- SLIDE ------------------------------------------------------->
-                      <div class="row mx-0 owl-carousel owl-theme">
+                      <div class="row mx-0 owl-carousel owl-theme slide-img">
                               <div class="item p-1">
                                   <div class="product-overlay-coulasel">
                                       <img src = "assets/images/slide/s1.jpg" class="product-image-coulasel demo" onclick="currentDiv(1)">
