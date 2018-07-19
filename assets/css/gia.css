@@ -38,6 +38,86 @@ a,p{
           cursor: crosshair;
         }
 /*-------zoom-------------*/
+
+
+/*-------check-bok-----------*/
+/* Customize the label (the container) */
+.check-box {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 20px 25px 0px 0px;
+}
+
+/* Hide the browser's default checkbox */
+.check-box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark01 {
+position: absolute;
+top: 0;
+left: 35px;
+height: 25px;
+width: 25px;
+background-color: #d6d6d6;
+border: 1px solid #3333334d;
+}
+
+/* On mouse-over, add a grey background color */
+.check-box:hover input ~ .checkmark01 {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-box input:checked ~ .checkmark01 {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark01:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check-box input:checked ~ .checkmark01:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-box .checkmark01:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/*-------check-bok-----------*/
+
+
+
+
+
+
+
+
 .color-80{
   color: #808080;
 }
@@ -185,19 +265,7 @@ a,p{
     border: 0px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
-.new_frame-crad{
-    position:relative;
-    overflow: hidden;
-    width:100%;
-    height: 250px;
 
-}
-.new_card-img-top {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
 
 .new_fix_text{
     position: relative;
@@ -223,6 +291,34 @@ a,p{
     border-color: #ffc526;
     transition: 1s;
 }
+
+
+
+.new_frame-crad{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.new_frame-crad:hover{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.new_card-img-top {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
 
 
 /*----------------------------------------
@@ -507,7 +603,7 @@ a,p{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 2.5;
     color: #495057;
     background-color: #fff;
@@ -521,17 +617,7 @@ a,p{
     padding: 0px 0px 0px 64px;
     margin-top: -22px;
 }
-.form-check {
-    position: relative;
-    display: block;
-       padding: 0px 0px 25px 30px;
 
-}
-.form-check-input-1 {
-    position: absolute;
-    margin-top: .3rem;
-    margin-left: 23px;
-}
 .book-icon-add:hover{
     color: #ffc526;
     text-shadow: 0px 0px 8px black;
@@ -742,6 +828,7 @@ a,p{
  /*------------------------------
  -------------book 768----------
  -------------------------------*/
+
 .book-login-from {
     width: 100%;
     font-size: 15px;
@@ -757,8 +844,8 @@ a,p{
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    width: 40px;
-    margin-right: 15px;
+    width: 55px;
+    margin-right: 20px;
 }
 .book-btn-100 {
     width: 100%;
@@ -788,11 +875,7 @@ a,p{
     font-size: 11px;
 
 }
-.form-check-input-1 {
-    position: absolute;
-    margin-top: .3rem;
-    margin-left: -20px;
-}
+
  /*------------------------------
  -------------book 768----------
  -------------------------------*/
@@ -872,6 +955,7 @@ a,p{
 
 
 
+
     /*---------------------------------
     -------------login end 768--------
     ----------------------------------*/
@@ -914,6 +998,15 @@ a,p{
 
 
 @media(max-width: 414px){
+
+    .checkmark {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
 
     .font-all-ting{
     font-size: 12px;
@@ -1248,6 +1341,8 @@ a,p{
 
 
 @media (max-width: 320px ){
+
+
     .login-font-32 {
     font-size: 18px;
 }
@@ -1284,6 +1379,10 @@ a,p{
 /*---------------------------
 ----------login 320----------
 ----------------------------*/
+.login-display {
+    display: flex;
+    font-size: 11px;
+}
 .login_frame-crad {
     position: relative;
     overflow: hidden;

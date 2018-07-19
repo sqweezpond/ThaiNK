@@ -182,7 +182,7 @@
                   <div class="row footer-b footer-bg4 mt-4 footer-m-l2">
                         <div class="col-xl-4 col-lg-3 col-md-3 col-12">
                             <div class="footer-overlay-logo">
-                              <img class="footer-image-full" src="/thaink/assets/images/logo/logo.png">
+                              <a href="home.php"><img class="footer-image-full" src="/thaink/assets/images/logo/logo.png"></a>
                             </div>
                         </div>
                         <div class="col-xl-1 col-lg-1 col-md-1 col-1 text-right px-0">

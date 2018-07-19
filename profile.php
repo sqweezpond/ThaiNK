@@ -299,7 +299,7 @@
                                   </div>
                                   <div class="modal-body">
                                     <div class="text-center my-5 login-font-32">
-                                      <h4>เพิ่มบัตรเคดิต/เดบิต</h4>
+                                      <h4>เพิ่มบัตรเครดิต/เดบิต</h4>
                                     </div>
 
                                     <div class="alert alert-warning font-all-ting">

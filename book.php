@@ -22,8 +22,11 @@
                             <thead style="    background-color: #f3f3f2;">
                               <tr class="">
                                 <th>
-                                  <div class="form-check">
-                                    <input class="form-check-input-1" type="checkbox" value="" id="defaultCheck1">
+                                  <div>
+                                    <label class="check-box">
+                                      <input type="checkbox" checked="checked">
+                                      <span class="checkmark01"></span>
+                                    </label>
                                   </div>
                                 </th>
                                 <th>สินค้า</th>
@@ -38,8 +41,11 @@
                              <tbody>
                                 <tr>
                                   <td>
-                                    <div class="form-check">
-                                      <input class="form-check-input ml-lg-4" type="checkbox" value="" id="defaultCheck1">
+                                    <div>
+                                      <label class="check-box">
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark01"></span>
+                                      </label>
                                     </div>
                                   </td>
                                   <td class="book_frame-crad"><img class="book_card-img-top" src="https://fz.lnwfile.com/hfvqdr.jpg"></td>
@@ -68,8 +74,11 @@
                              <tbody>
                                 <tr>
                                   <td>
-                                    <div class="form-check">
-                                      <input class="form-check-input ml-lg-4" type="checkbox" value="" id="defaultCheck1">
+                                    <div>
+                                      <label class="check-box">
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark01"></span>
+                                      </label>
                                     </div>
                                   </td>
                                   <td class="book_frame-crad"><img class="book_card-img-top" src="https://www.bloggang.com/data/a/at-least-8/picture/1344502524.jpg"></td>
