@@ -99,10 +99,9 @@
                 <div class="col-xl-5 col-lg-5 col-md-12 footer-b w-100 text-md-center text-lg-left text-center">
                     <div class="footer-font5 pt-3">Facebook Fanpage</div>
                     <div class="p-3 footer-pl4">
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E0%25B8%259A%25E0%25B8%25A3%25E0%25B8%25B4%25E0%25B8%25A9%25E0%25B8%25B1%25E0%25B8%2597-%25E0%25B9%2584%25E0%25B8%2597%25E0%25B8%25A2-%25E0%25B9%2580%25E0%25B8%25AD%25E0%25B9%2587%25E0%25B8%2599-%25E0%25B9%2580%25E0%25B8%2584-%25E0%25B8%259E%25E0%25B8%25A5%25E0%25B8%25B2%25E0
-                        %25B8%25AA%25E0%25B8%2595%25E0%25B8%25B4%25E0%25B8%2581-%25E0%25B8%2588%25E0%25B8%25B3%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%2594-215586438947606%2F&tabs=timeline&width=600&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                        width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
-                      </iframe>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=500&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="350"
+                        style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-12 footer-pl6 footer-p-t3">
@@ -182,7 +181,13 @@
                   <div class="row footer-b footer-bg4 mt-4 footer-m-l2">
                         <div class="col-xl-4 col-lg-3 col-md-3 col-12">
                             <div class="footer-overlay-logo">
+<<<<<<< HEAD
                               <a href="home.php"><img class="footer-image-full" src="/thaink/assets/images/logo/logo.png"></a>
+=======
+                              <a href="home.php">
+                                <img class="footer-image-full" src="/thaink/assets/images/logo/logo.png">
+                              </a>
+>>>>>>> b8235b855045e2fda2a9d2d30331f20d79d30223
                             </div>
                         </div>
                         <div class="col-xl-1 col-lg-1 col-md-1 col-1 text-right px-0">
