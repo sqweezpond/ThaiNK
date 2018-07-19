@@ -15,25 +15,25 @@
                     <div class="footer-overlay-img">
                       <img src="assets/images/footer-icon/f-icon1.png" class="footer-image-size">
                     </div>
-                    <div class="footer-font pt-3">สินค้าคุณภาพมากมาย</div>
+                    <div class="footer-font0 pt-3">สินค้าคุณภาพมากมาย</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
                     <div class="footer-overlay-img">
                       <img src="assets/images/footer-icon/f-icon2.png" class="footer-image-size">
                     </div>
-                    <div class="footer-font pt-3">บริการออกแบบฉลาก ฝาขวด</div>
+                    <div class="footer-font0 pt-3">บริการออกแบบฉลาก ฝาขวด</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
                     <div class="footer-overlay-img">
                       <img src="assets/images/footer-icon/f-icon3.png" class="footer-image-size">
                     </div>
-                    <div class="footer-font pt-3">งานเร็วเสร็จทันเวลา</div>
+                    <div class="footer-font0 pt-3">งานเร็วเสร็จทันเวลา</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 footer-b-r p-4 text-center">
                     <div class="footer-overlay-img">
                       <img src="assets/images/footer-icon/f-icon4.png" class="footer-image-size">
                     </div>
-                    <div class="footer-font pt-3">สินค้าส่งทั่วประเทศ</div>
+                    <div class="footer-font0 pt-3">สินค้าส่งทั่วประเทศ</div>
                 </div>
           </div>
       </div>
@@ -44,20 +44,28 @@
       <div class="container d-lg-none d-md-none d-block">
         	<div class="row pt-4 pb-3">
                 <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 footer-b-b text-center">
-                    <i class="flaticon-like"></i>
-                    <div class="footer-font pt-3">สินค้าคุณภาพมากมาย</div>
+                  <div class="footer-overlay-img">
+                    <img src="assets/images/footer-icon/f-icon1.png" class="footer-image-size">
+                  </div>
+                    <div class="footer-font0 pt-3">สินค้าคุณภาพมากมาย</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 footer-b-b text-center">
-                    <i class="flaticon-clock"></i>
-                    <div class="footer-font pt-3">บริการออกแบบฉลาก ฝาขวด</div>
+                  <div class="footer-overlay-img">
+                    <img src="assets/images/footer-icon/f-icon2.png" class="footer-image-size">
+                  </div>
+                    <div class="footer-font0 pt-3">บริการออกแบบฉลาก ฝาขวด</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 footer-b-b text-center">
-                    <i class="flaticon-sketch"></i>
-                    <div class="footer-font pt-3">งานเร็วเสร็จทันเวลา</div>
+                  <div class="footer-overlay-img">
+                    <img src="assets/images/footer-icon/f-icon3.png" class="footer-image-size">
+                  </div>
+                    <div class="footer-font0 pt-3">งานเร็วเสร็จทันเวลา</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 p-4 ml-5 mr-5 text-center">
-                    <i class="flaticon-delivery-truck"></i>
-                    <div class="footer-font pt-3">สินค้าส่งทั่วประเทศ</div>
+                  <div class="footer-overlay-img">
+                    <img src="assets/images/footer-icon/f-icon4.png" class="footer-image-size">
+                  </div>
+                    <div class="footer-font0 pt-3">สินค้าส่งทั่วประเทศ</div>
                 </div>
           </div>
       </div>
@@ -181,13 +189,9 @@
                   <div class="row footer-b footer-bg4 mt-4 footer-m-l2">
                         <div class="col-xl-4 col-lg-3 col-md-3 col-12">
                             <div class="footer-overlay-logo">
-<<<<<<< HEAD
-                              <a href="home.php"><img class="footer-image-full" src="/thaink/assets/images/logo/logo.png"></a>
-=======
                               <a href="home.php">
                                 <img class="footer-image-full" src="/thaink/assets/images/logo/logo.png">
                               </a>
->>>>>>> b8235b855045e2fda2a9d2d30331f20d79d30223
                             </div>
                         </div>
                         <div class="col-xl-1 col-lg-1 col-md-1 col-1 text-right px-0">

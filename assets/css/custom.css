@@ -241,6 +241,10 @@ body {
 
 
 /*----------- FOOTER ----------------*/
+.footer-font0{
+    font-size: 18px;
+    color: #333333;
+}
 .footer-font{
     font-size: 15px;
     color: #333333;
@@ -1017,7 +1021,7 @@ body {
 }
 .home-overflow-h2{
     overflow: hidden;
-    height: 67px;
+    max-height: 60px;
 }
 .home-overflow2{
     overflow: hidden;
@@ -2990,6 +2994,13 @@ body {
         font-family: 'kanitlight';
         text-align: right;
     }
+    .navbar-font5:hover {
+    font-size: 13px;
+    color: #808080;
+    font-family: 'kanitlight';
+    text-align: right;
+    text-decoration: none;
+    }
     .navbar2-p-l{
         padding-left: 20px;
     }
@@ -3056,6 +3067,10 @@ body {
   /*----------- END NAVBAR (414) ---------------*/
 
   /*----------- FOOTER (414) ----------------*/
+    .footer-font0{
+        font-size: 18px;
+        color: #333333;
+    }
     .footer-pl3{
         padding-left: 10px;
     }

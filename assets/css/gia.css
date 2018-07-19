@@ -16,16 +16,16 @@ a,p{
         .zoom {
             display:inline-block;
             position: relative;
-      border: 1px solid #ccc;
+            border: 1px solid #ccc;
         }
-        
+
         /* magnifying glass icon */
         .zoom:after {
             content:'';
-            display:block; 
-            width:33px; 
-            height:33px; 
-            position:absolute; 
+            display:block;
+            width:33px;
+            height:33px;
+            position:absolute;
             top:0;
             right:0;
             background:url(icon.png);
@@ -41,72 +41,72 @@ a,p{
 
 
 /*-------check-bok-----------*/
-/* Customize the label (the container) */
-.check-box {
-  display: block;
-  position: relative;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 20px 25px 0px 0px;
-}
+      /* Customize the label (the container) */
+      .check-box {
+        display: block;
+        position: relative;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 20px 25px 0px 0px;
+      }
 
-/* Hide the browser's default checkbox */
-.check-box input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
+      /* Hide the browser's default checkbox */
+      .check-box input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
 
-/* Create a custom checkbox */
-.checkmark01 {
-position: absolute;
-top: 0;
-left: 35px;
-height: 25px;
-width: 25px;
-background-color: #d6d6d6;
-border: 1px solid #3333334d;
-}
+      /* Create a custom checkbox */
+      .checkmark01 {
+      position: absolute;
+      top: 0;
+      left: 35px;
+      height: 25px;
+      width: 25px;
+      background-color: #d6d6d6;
+      border: 1px solid #3333334d;
+      }
 
-/* On mouse-over, add a grey background color */
-.check-box:hover input ~ .checkmark01 {
-  background-color: #ccc;
-}
+      /* On mouse-over, add a grey background color */
+      .check-box:hover input ~ .checkmark01 {
+        background-color: #ccc;
+      }
 
-/* When the checkbox is checked, add a blue background */
-.check-box input:checked ~ .checkmark01 {
-  background-color: #2196F3;
-}
+      /* When the checkbox is checked, add a blue background */
+      .check-box input:checked ~ .checkmark01 {
+        background-color: #2196F3;
+      }
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark01:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
+      /* Create the checkmark/indicator (hidden when not checked) */
+      .checkmark01:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
 
-/* Show the checkmark when checked */
-.check-box input:checked ~ .checkmark01:after {
-  display: block;
-}
+      /* Show the checkmark when checked */
+      .check-box input:checked ~ .checkmark01:after {
+        display: block;
+      }
 
-/* Style the checkmark/indicator */
-.check-box .checkmark01:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+      /* Style the checkmark/indicator */
+      .check-box .checkmark01:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
 
 
 /*-------check-bok-----------*/
@@ -117,85 +117,86 @@ border: 1px solid #3333334d;
 
 
 
+/*--------class All----------*/
+        .color-80{
+          color: #808080;
+        }
+        .color-rad{
+        	color: #ED1C24;
+        }
+        .gray-btn{
+            width: 200px;
+            height: 50px;
+            border-radius: 0px;
+            color: #333333;
+            background-color: #33333326;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 17px;
+        }
 
-.color-80{
-  color: #808080;
-}
-.color-rad{
-	color: #ED1C24;
-}
+        .i-con-alert{
+            color: #ffc518;
+            font-size: 30px;
+        }
 
-.gray-btn{
-    width: 200px;
-    height: 50px;
-    border-radius: 0px;
-    color: #333333;
-        background-color: #33333326;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 17px;
-}
+        .alert-warning {
+            color: #333;
+            background-color: #fff3cd;
+            border-color: #FFC107;
+            border-radius: 0px;
+        }
 
-.i-con-alert{
-    color: #ffc518;
-    font-size: 30px;
-}
+        .font-12{
+            font-size: 12px;
+        }
+        .letter{
+            letter-spacing: 1px;
+        }
+        .font-all-ting{
+            font-size: 14px;
+        }
 
-.alert-warning {
-    color: #333;
-    background-color: #fff3cd;
-    border-color: #FFC107;
-    border-radius: 0px;
-}
+        .pad-20{
+            padding: 0px 20px 0px 20px;
+        }
 
-.font-12{
-    font-size: 12px;
-}
-.letter{
-    letter-spacing: 1px;
-}
-.font-all-ting{
-    font-size: 14px;
-}
-
-.pad-20{
-        padding: 0px 20px 0px 20px;
-}
+/*--------And class All-----------------*/
 
 
 /*-------------------------------------
 -----------------about-us-----------------
 ---------------------------------------*/
-.about-hr-y{
-	border-bottom: 3px solid #ffcc2b;
-    width: 220px;
-    margin-left: 15px;
-}
-.about-line-height{
-	line-height: 15px;
-}
-.news_frame-crad{
-    position:relative;
-    overflow: hidden;
-    width:100%;
-    height: 250px;
+        .about-hr-y{
+        	  border-bottom: 3px solid #ffcc2b;
+            width: 220px;
+            margin-left: 15px;
+        }
+        .about-line-height{
+        	  line-height: 15px;
+        }
+        .news_frame-crad{
+            position:relative;
+            overflow: hidden;
+            width:100%;
+            height: 250px;
 
-}
-.news_card-img-top {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
-.about_pad_frame{
-     padding: 20px 200px 30px 200px;
-}
-.about_row_bg{
-	margin: 40px 0px 40px 0px;
-}
-.about-size{
-	font-size: 40px;
-}
+        }
+        .news_card-img-top {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+        .about_pad_frame{
+            padding: 20px 200px 30px 200px;
+        }
+        .about_row_bg{
+        	  margin: 40px 0px 40px 0px;
+        }
+        .about-size{
+        	  font-size: 40px;
+        }
 
 /*-------------------------------------
 -------------about-us end-----------------
@@ -206,118 +207,113 @@ border: 1px solid #3333334d;
 -------------contact-us-------------------
 -----------------------------------------*/
 
-.contact-form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #808080;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+        .contact-form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #808080;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
 
-.contact-btn{
-	background-color: #ffc526;
-    border-radius: 0px;
-    color: #333;
-    padding: 10px 50px 10px 50px;
-    font-size: 17px;
-    font-family: "kanitlight";
-}
-.contact-hr{
-	border: 3px solid;
-    border-color: #ffc526;
-}
+        .contact-btn{
+        	background-color: #ffc526;
+            border-radius: 0px;
+            color: #333;
+            padding: 10px 50px 10px 50px;
+            font-size: 17px;
+            font-family: "kanitlight";
+        }
+        .contact-hr{
+        	  border: 3px solid;
+            border-color: #ffc526;
+        }
 
 
-.contact-pad{
-	 padding: 10px 0px 20px 20px;
-}
+        .contact-pad{
+        	  padding: 10px 0px 20px 20px;
+        }
 
 
 /*----------------------------------------
 -------------contact-us end---------------
 ------------------------------------------*/
 
+
 /*----------------------------------------
 ---------------new------------------------
 -----------------------------------------*/
-.new-width-cad{
-    width: 21rem;
-}
-
-.new-card{
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 0px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-}
-
-
-.new_fix_text{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 48px;
-    font-weight: 600;
-}
-.new_page-link {
-    position: relative;
-    display: block;
-    padding: .5rem .75rem;
-    margin-left: -1px;
-    color: #123CB2;
-    background-color: #fff;
-    border: 1px solid #ffc526; 
-    border-radius: 0px;
-}
-.new_page-link:hover {
-    color: #123CB2;
-    text-decoration: none;
-    background-color: #ffc526;
-    border-color: #ffc526;
-    transition: 1s;
-}
-
-
-
-.new_frame-crad{
-    position: relative;
-    height: 250px;
-    width: 100%;
-    overflow: hidden;
-    transition: all 0.3s;
-}
-.new_frame-crad:hover{
-    position: relative;
-    height: 250px;
-    width: 100%;
-    overflow: hidden;
-    transform: translate(-50%, -50%);
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05);
-    transition: all 0.3s;
-}
-.new_card-img-top {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
+        .new-width-cad{
+            width: 21rem;
+        }
+        .new-card{
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 0px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
+        .new_fix_text{
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-height: 48px;
+            font-weight: 600;
+        }
+        .new_page-link {
+            position: relative;
+            display: block;
+            padding: .5rem .75rem;
+            margin-left: -1px;
+            color: #123CB2;
+            background-color: #fff;
+            border: 1px solid #ffc526;
+            border-radius: 0px;
+        }
+        .new_page-link:hover {
+            color: #123CB2;
+            text-decoration: none;
+            background-color: #ffc526;
+            border-color: #ffc526;
+            transition: 1s;
+        }
+        .new_frame-crad{
+            position: relative;
+            height: 250px;
+            width: 100%;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        .new_frame-crad:hover{
+            position: relative;
+            height: 250px;
+            width: 100%;
+            overflow: hidden;
+            transform: translate(-50%, -50%);
+            -ms-transform: scale(1.05); /* IE 9 */
+            -webkit-transform: scale(1.05); /* Safari 3-8 */
+            transform: scale(1.05);
+            transition: all 0.3s;
+        }
+        .new_card-img-top {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
 
 
 
@@ -329,114 +325,111 @@ border: 1px solid #3333334d;
 ----------------login--------------------
 ----------------------------------------*/
 
-.login_frame-crad{
-    position:relative;
-    overflow: hidden;
-    width:100%;
-    height: 460px;
+        .login_frame-crad{
+            position:relative;
+            overflow: hidden;
+            width:100%;
+            height: 460px;
 
-}
-.login_card-img-top {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
-.login-text-shado{
-    background-color: white;
-    box-shadow: -1px 1px 13px #00000042;
-}
-.login-mar-15{
-    margin-left: -15px;
-}
-.login-position-a {
-    position: absolute;
-    margin: 110px 30px 0px 90px;
-    font-size: 14px;
-  }
-.login-color-org{
-    color: #f36006e8;
-}
-.login-color-green{
-    font-size: 25px;
-    color: #50b23f;
-}
-.login-from {
-    display: block;
-    width: 90%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.login-btn {
-    width: 70%;
-    height: 40px;
-    border-radius: 0px;
-    color: #333333;
-    background-color: #ffc526;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 17px;
-}
+        }
+        .login_card-img-top {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+        .login-text-shado{
+            background-color: white;
+            box-shadow: -1px 1px 13px #00000042;
+        }
+        .login-mar-15{
+            margin-left: -15px;
+        }
+        .login-position-a {
+            position: absolute;
+            margin: 110px 30px 0px 90px;
+            font-size: 14px;
+        }
+        .login-color-org{
+            color: #f36006e8;
+        }
+        .login-color-green{
+            font-size: 25px;
+            color: #50b23f;
+        }
+        .login-from {
+            display: block;
+            width: 90%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .login-btn {
+            width: 70%;
+            height: 40px;
+            border-radius: 0px;
+            color: #333333;
+            background-color: #ffc526;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 17px;
+        }
 
-.login-btn:hover{
-    width: 70%;
-    height: 40px;
-    border-radius: 0px;
-    color: #fff;
-    background-color: #123cb2;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 17px;
-}
-.login-btn2 {
-    transition: all 0.5s;
-    height: 40px;
-    border-radius: 0px;
-    background-color: #3F51B5;
-    border-radius: 0px;
-    color: #fff;
-    width: 70%;
-    font-size: 17px;
-}
+        .login-btn:hover{
+            width: 70%;
+            height: 40px;
+            border-radius: 0px;
+            color: #fff;
+            background-color: #123cb2;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 17px;
+        }
+        .login-btn2 {
+            transition: all 0.5s;
+            height: 40px;
+            border-radius: 0px;
+            background-color: #3F51B5;
+            border-radius: 0px;
+            color: #fff;
+            width: 70%;
+            font-size: 17px;
+        }
 
-.login-display{
-    display: flex;
-    font-size: smaller;
-}
-.login-font-32{
-   font-size: 32px;
-}
+        .login-display{
+            display: flex;
+            font-size: smaller;
+        }
+        .login-font-32{
+           font-size: 32px;
+        }
 
-.login_frame-crad-1{
-    position:relative;
-    overflow: hidden;
-    height: 150px;
+        .login_frame-crad-1{
+            position:relative;
+            overflow: hidden;
+            height: 150px;
 
-}
-.login_card-img-top-2{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 100%
-}
-.login_col-form-label {
-    padding-top: calc(.375rem + 1px);
-    padding-bottom: calc(.375rem + 1px);
-    margin-bottom: 0;
-    font-size: smaller;
-    line-height: 1.5;
-}
-
-
-
+        }
+        .login_card-img-top-2{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            width: 100%
+        }
+        .login_col-form-label {
+            padding-top: calc(.375rem + 1px);
+            padding-bottom: calc(.375rem + 1px);
+            margin-bottom: 0;
+            font-size: smaller;
+            line-height: 1.5;
+        }
 
 /*---------------------------------------
 ----------------login end----------------
@@ -446,52 +439,47 @@ border: 1px solid #3333334d;
 ---------------login-register------------
 ----------------------------------------*/
 
-.re-modal-content {
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 150%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
-    outline: 0;
-    margin-left: -118px;
-}
-
-.re-login-from {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: smaller;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.re-login-from-1 {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: smaller;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-
-
+        .re-modal-content {
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            width: 150%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: .3rem;
+            outline: 0;
+            margin-left: -118px;
+        }
+        .re-login-from {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: smaller;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .re-login-from-1 {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: smaller;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
 /*---------------------------------------
 ---------------login-register end--------
 ----------------------------------------*/
@@ -500,308 +488,328 @@ border: 1px solid #3333334d;
 --------------book---------------------
 ---------------------------------------*/
 
-.book_frame-crad{
-    position:relative;
-    overflow: hidden;
-    height: 95px;
-    width: 15%;
+        .book_frame-crad{
+            position:relative;
+            overflow: hidden;
+            height: 95px;
+            width: 15%;
 
-}
-.book_card-img-top {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 100%
-}
-.book-shado{
-    padding: 12px;
-    border: 2px solid;
-    border-color: #dee2e6;
-    box-shadow: 0px 0px 20px #dee2e6;
-}
+        }
+        .book_card-img-top {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            width: 100%
+        }
+        .book-shado{
+            padding: 12px;
+            border: 2px solid;
+            border-color: #dee2e6;
+            box-shadow: 0px 0px 20px #dee2e6;
+        }
 
-.book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-inline-box;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 35%;
-    margin-right: -190px;
-}
-.book-btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    /* border-radius: .25rem; */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    border: 1px solid;
-    margin-right: 1px;
-}
-.book-btn-daw {
-    color: #fff;
-    border-color: #123CB2;
-    background-color: #123CB2;
-    border-radius: 0px;
-    font-size: 17px;
-        height: 36px;
+        .book-input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-inline-box;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 35%;
+            margin-right: -190px;
+        }
+        .book-btn {
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            /* border-radius: .25rem; */
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            border: 1px solid;
+            margin-right: 1px;
+        }
+        .book-btn-daw {
+            color: #fff;
+            border-color: #123CB2;
+            background-color: #123CB2;
+            border-radius: 0px;
+            font-size: 17px;
+            height: 36px;
 
-}
-.book-btn-100 {
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    color: #333333;
-    background-color: #ffc526;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 17px;
-}
-.book-btn-100:hover{
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    color: #fff;
-    background-color: #123cb2;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 17px;
-}
-.book-login-from {
-    display: block;
-    width: 110%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.book-color{
-    color: #133db2 !important;
-}
+        }
+        .book-btn-100 {
+            width: 100%;
+            height: 50px;
+            border-radius: 0px;
+            color: #333333;
+            background-color: #ffc526;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 17px;
+        }
+        .book-btn-100:hover{
+            width: 100%;
+            height: 50px;
+            border-radius: 0px;
+            color: #fff;
+            background-color: #123cb2;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 17px;
+        }
+        .book-login-from {
+            display: block;
+            width: 110%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .book-color{
+            color: #133db2 !important;
+        }
 
-.b-form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 14px;
-    line-height: 2.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.book-pad{
-    position: absolute;
-    padding: 0px 0px 0px 64px;
-    margin-top: -22px;
-}
+        .b-form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 14px;
+            line-height: 2.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .book-pad{
+            position: absolute;
+            padding: 0px 0px 0px 64px;
+            margin-top: -22px;
+        }
 
-.book-icon-add:hover{
-    color: #ffc526;
-    text-shadow: 0px 0px 8px black;
-    transition: 0.5s;
-}
-.book-icon-add{
-    color: #333;
-}
-    
+        .book-icon-add:hover{
+            color: #ffc526;
+            text-shadow: 0px 0px 8px black;
+            transition: 0.5s;
+        }
+        .book-icon-add{
+            color: #333;
+        }
+
 
 /*--------------------------------------
---------------book end-------------------
+--------------book end------------------
 ---------------------------------------*/
 
 
 @media(max-width: 1366px){
-  .book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-inline-box;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 40%;
-    margin-right: -205px;
-}
-    /*-----------------------------
-    ------------re-login 1366--------
-    -------------------------------*/
-    .re-modal-content {
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 150%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
-    outline: 0;
-    margin-left: -140px;
-    }
- /*-----------------------------
-    ------------re-login 1366--------
-    -------------------------------*/
+
+/*----------------------------------
+---------------Book 1366------------
+------------------------------------*/
+
+        .book-input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-inline-box;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 40%;
+            margin-right: -205px;
+        }
+/*----------------------------------
+---------------Book 1366- end---------
+-----------------------------------*/
+
+
+/*----------------------------------
+------------re-login 1366-----------
+----------------------------------*/
+        .re-modal-content {
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            width: 150%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: .3rem;
+            outline: 0;
+            margin-left: -140px;
+        }
+/*--------------------------------------
+------------re-login 1366 end-----------
+---------------------------------------*/
 
 }
 
 
 @media(max-width: 1024px){
-    
-    .font-all-ting{
-    font-size: 14px;
-}
 
-    .book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 30%;
-    margin-right: -200px;
-}
+        .font-all-ting{
+            font-size: 14px;
+        }
 
-.book-btn-daw {
-    color: #fff;
-    border-color: #123CB2;
-    background-color: #123CB2;
-    border-radius: 0px;
-    font-size: 17px;
+/*----------------------------------
+---------------Book 1024------------
+------------------------------------*/
 
-}
-.book_frame-crad {
-    position: relative;
-    overflow: hidden;
-    height: 95px;
-    width: 17%;
-}
-    /*--------------------------------
-    ------------login 1024-------------
-    ----------------------------------*/
-    .login-btn {
-    font-size: 17px;
-}
+        .book-input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 30%;
+            margin-right: -200px;
+        }
 
-.login-btn:hover{
-    font-size: 17px;
-}
-.login-btn2 {
-    font-size: 17px;
-}
+        .book-btn-daw {
+            color: #fff;
+            border-color: #123CB2;
+            background-color: #123CB2;
+            border-radius: 0px;
+            font-size: 17px;
 
-   .login_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 106%;
-    height: 460px;
-}
-    .login-position-a {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 70px;
-    font-size: 14px;
-}
-.login-display {
-    display: flex;
-    font-size: smaller;
-}
-.login-from {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+        }
+        .book_frame-crad {
+            position: relative;
+            overflow: hidden;
+            height: 95px;
+            width: 17%;
+        }
 
-    /*---------------------------------
-    -------------login end 1024--------
-    ----------------------------------*/
+/*----------------------------------
+---------------Book 1024 end--------
+------------------------------------*/
 
-    /*---------------------------------
-    -------------re-login 1024---------
-    ----------------------------------*/
-    .re-modal-content {
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 150%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
-    outline: 0;
-    margin-left: -115px;
-    }
-    /*---------------------------------
-    -------------re-login 1024---------
-    ----------------------------------*/
 
-    /*---------------------------------
-    --------------contact 1024---------
-    ----------------------------------*/
-    .contact-form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #808080;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+/*-----------------------------------
+------------login 1024---------------
+----------------------------------*/
+        .login-btn {
+            font-size: 17px;
+        }
 
-.contact-btn{
-    background-color: #ffc526;
-    border-radius: 0px;
-    color: #333;
-    padding: 10px 50px 10px 50px;
-    font-size: 17px;
-    font-family: "kanitlight";
-}
- /*---------------------------------
-    --------------contact 1024---------
-    ----------------------------------*/
+        .login-btn:hover{
+            font-size: 17px;
+        }
+        .login-btn2 {
+            font-size: 17px;
+        }
+
+        .login_frame-crad {
+            position: relative;
+            overflow: hidden;
+            width: 106%;
+            height: 460px;
+        }
+        .login-position-a {
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 70px;
+            font-size: 14px;
+        }
+        .login-display {
+            display: flex;
+            font-size: smaller;
+        }
+        .login-from {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+/*---------------------------------
+-------------login end 1024--------
+----------------------------------*/
+
+/*---------------------------------
+-------------re-login 1024---------
+----------------------------------*/
+        .re-modal-content {
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            width: 150%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: .3rem;
+            outline: 0;
+            margin-left: -115px;
+        }
+/*-------------------------------------
+-------------re-login 1024 end---------
+--------------------------------------*/
+
+/*---------------------------------
+--------------contact 1024---------
+----------------------------------*/
+        .contact-form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #808080;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+        .contact-btn{
+            background-color: #ffc526;
+            border-radius: 0px;
+            color: #333;
+            padding: 10px 50px 10px 50px;
+            font-size: 17px;
+            font-family: "kanitlight";
+        }
+ /*---------------------------------------
+    --------------contact 1024 end---------
+    -------------------------------------*/
 
 }
 
@@ -809,189 +817,180 @@ border: 1px solid #3333334d;
 
 @media(max-width: 768px){
 
+        .about_pad_frame {
+            padding: 0px 0px 0px 0px;
+        }
+        .font-all-ting{
+            font-size: 12px;
+        }
 
-    .font-all-ting{
-    font-size: 12px;
-}
+        .gray-btn {
+            width: 136px;
+            height: 40px;
+            border-radius: 0px;
+            color: #333333;
+            background-color: #33333326;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 11px;
+        }
 
-    .gray-btn {
-    width: 136px;
-    height: 40px;
-    border-radius: 0px;
-    color: #333333;
-    background-color: #33333326;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 11px;
-}
+/*------------------------------
+-------------book 768----------
+-------------------------------*/
 
- /*------------------------------
- -------------book 768----------
- -------------------------------*/
+        .book-login-from {
+            width: 100%;
+            font-size: 15px;
+        }
 
-.book-login-from {
-    width: 100%;
-    font-size: 15px;
-}
+        .book-input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-inline-box;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 55px;
+            margin-right: 20px;
+        }
+        .book-btn-100 {
+            width: 100%;
+            height: 50px;
+            border-radius: 0px;
+            color: #333333;
+            background-color: #ffc526;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 11px;
+        }
+        .book-btn-100:hover{
+            width: 100%;
+            height: 50px;
+            border-radius: 0px;
+            color: #fff;
+            background-color: #123cb2;
+            transition: all 0.5s;
+            font-family: "kanitlight";
+            font-size: 11px;
+        }
+        .book-btn-daw {
+            color: #fff;
+            border-color: #123CB2;
+            background-color: #123CB2;
+            border-radius: 0px;
+            font-size: 11px;
 
-.book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-inline-box;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 55px;
-    margin-right: 20px;
-}
-.book-btn-100 {
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    color: #333333;
-    background-color: #ffc526;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 11px;
-}
-.book-btn-100:hover{
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    color: #fff;
-    background-color: #123cb2;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 11px;
-}
-.book-btn-daw {
-    color: #fff;
-    border-color: #123CB2;
-    background-color: #123CB2;
-    border-radius: 0px;
-    font-size: 11px;
+        }
+/*-------------------------------
+-------------book 768 end------------
+-------------------------------*/
 
-}
-
- /*------------------------------
- -------------book 768----------
- -------------------------------*/
-
-    /*-----------------------
-    --------re-login 768---------
-    ------------------------*/
-    .re-modal-content {
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 150%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
-    outline: 0;
-    margin-left: -125px;
-}
-    /*-----------------------
-    --------re-login 768---------
-    ------------------------*/
-
-
-
-
-    /*--------------------------------
-    ------------login 768-------------
-    ----------------------------------*/
-    .login_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 104%;
-    height: 600px;
-}
-    .login-position-a {
-        position: absolute;
-        margin-top: 200px;
-        margin-left: 140px;
-        font-size: 12px;
-    }
- .login-from {
-    display: block;
-    width: 85%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-left: -17px;
-}
-.login_col-form-label {
-    padding-top: calc(.375rem + 1px);
-    padding-bottom: calc(.375rem + 1px);
-    margin-bottom: 0;
-    font-size: smaller;
-    line-height: 1.5;
-    text-align: center;
-}
-    .login-btn {
-    font-size: 11px;
-}
-
-.login-btn:hover{
-    font-size: 11px;
-}
-.login-btn2 {
-    font-size: 11px;
-}
+/*-------------------------------
+--------re-login 768-------------
+--------------------------------*/
+        .re-modal-content {
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            width: 150%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: .3rem;
+            outline: 0;
+            margin-left: -125px;
+        }
+/*-----------------------------------
+--------re-login 768 end--------------
+------------------------------------*/
 
 
+/*--------------------------------
+------------login 768-------------
+----------------------------------*/
+        .login_frame-crad {
+            position: relative;
+            overflow: hidden;
+            width: 104%;
+            height: 600px;
+        }
+        .login-position-a {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 140px;
+            font-size: 12px;
+        }
+       .login-from {
+            display: block;
+            width: 85%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            margin-left: -17px;
+        }
+        .login_col-form-label {
+            padding-top: calc(.375rem + 1px);
+            padding-bottom: calc(.375rem + 1px);
+            margin-bottom: 0;
+            font-size: smaller;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .login-btn {
+            font-size: 11px;
+        }
 
+        .login-btn:hover{
+            font-size: 11px;
+        }
+        .login-btn2 {
+            font-size: 11px;
+        }
 
-    /*---------------------------------
-    -------------login end 768--------
-    ----------------------------------*/
+/*---------------------------------
+-------------login end 768--------
+----------------------------------*/
 
- /*---------------------------------
-    --------------contact 768---------
-    ----------------------------------*/
-    .contact-form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #808080;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+/*---------------------------------
+--------------contact 768---------
+----------------------------------*/
+        .contact-form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #808080;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
 
-.contact-btn{
-    background-color: #ffc526;
-    border-radius: 0px;
-    color: #333;
-    padding: 10px 50px 10px 50px;
-    font-size: 11px;
-    font-family: "kanitlight";
-}
- /*---------------------------------
-    --------------contact 768---------
-    ----------------------------------*/
-
-
-	.about_pad_frame {
-    	padding: 0px 0px 0px 0px; 
-}
+        .contact-btn{
+            background-color: #ffc526;
+            border-radius: 0px;
+            color: #333;
+            padding: 10px 50px 10px 50px;
+            font-size: 11px;
+            font-family: "kanitlight";
+        }
+/*---------------------------------
+--------------contact 768---------
+----------------------------------*/
 
 
 }
@@ -999,127 +998,125 @@ border: 1px solid #3333334d;
 
 @media(max-width: 414px){
 
-    .checkmark {
-    position: absolute;
-    top: 0;
-    left: 10px;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-}
+        .checkmark01 {
+            position: absolute;
+            top: 0;
+            left: 11px;
+            height: 21px;
+            width: 22px;
+            background-color: #d6d6d6;
+            border: 1px solid #3333334d;
+        }
 
-    .font-all-ting{
-    font-size: 12px;
-}
-    .re-modal-content {
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
-    outline: 0;
-    margin-left: 0px;
-}
- 
+
+        .font-all-ting{
+            font-size: 12px;
+        }
+        .re-modal-content {
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            width: 100%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: .3rem;
+            outline: 0;
+            margin-left: 0px;
+       }
+
+/*------------------------------
+-------------book 414----------
+-------------------------------*/
+        .book-414-font{
+            padding-top: 42px !important;
+        }
+
+        .book-input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 39px;
+            margin-right: 4px;
+        }
+        .book-login-from {
+            width: 100%;
+            font-size: 12px;
+        }
  /*------------------------------
- -------------book 414----------
- -------------------------------*/
-.book-414-font{
-    padding-top: 42px !important;
-}
-
-   .book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 39px;
-    margin-right: 4px;
-}
-.book-login-from {
-    width: 100%;
-    font-size: 12px;
-}
- /*------------------------------
- -------------book 414----------
+ -------------book 414 end----------
  -------------------------------*/
 
 
+/*--------------------------------
+--------login 414-----------------
+---------------------------------*/
+        .login-font-32 {
+            font-size: 22px;
+        }
+        .login_col-form-label {
+            padding-top: calc(.375rem + 1px);
+            padding-bottom: calc(.375rem + 1px);
+            margin-bottom: 0;
+            font-size: smaller;
+            line-height: 1.5;
+            text-align: left;
+       }
 
-
-
-
-    /*-----------------------
-    --------login 414--------
-    -------------------------*/
-    .login-font-32 {
-    font-size: 22px;
-}
-    .login_col-form-label {
-    padding-top: calc(.375rem + 1px);
-    padding-bottom: calc(.375rem + 1px);
-    margin-bottom: 0;
-    font-size: smaller;
-    line-height: 1.5;
-    text-align: left;
-}
-
-.login-position-a {
-    position: absolute;
-    margin-top: 60px;
-    margin-left: 70px;
-    font-size: 12px;
-}
-.login_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 108%;
-    height: 350px;
-}
-.login-from {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-left: 0px;
-}
-.login-btn{
-    width: 100%;
-    font-size: 11px;
-}
-.login-btn:hover {
-    width: 100%;
-    font-size: 11px;
-}
-.login-btn2{
-    width: 100%;
-    font-size: 11px;
-}
-.login-display {
-    display: flex;
-    font-size: smaller;
-}
-   /*-----------------------
-    --------login 414 end--------
-    -------------------------*/
+        .login-position-a {
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 70px;
+            font-size: 12px;
+        }
+        .login_frame-crad {
+            position: relative;
+            overflow: hidden;
+            width: 108%;
+            height: 350px;
+        }
+        .login-from {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            margin-left: 0px;
+        }
+        .login-btn{
+            width: 100%;
+            font-size: 11px;
+        }
+        .login-btn:hover {
+            width: 100%;
+            font-size: 11px;
+        }
+        .login-btn2{
+            width: 100%;
+            font-size: 11px;
+        }
+        .login-display {
+            display: flex;
+            font-size: smaller;
+        }
+/*------------------------------
+--------login 414 end-----------
+-------------------------------*/
 
 
 
@@ -1127,214 +1124,225 @@ border: 1px solid #3333334d;
 ---------about 414---------------
 --------------------------------*/
 
-.about_pad_frame {
-    padding: 0px 0px 0px 0px; 
-}
-.about_row_bg {
-        margin: -10px 0px -10px 0px;
-}
-.about-size {
-    font-size: 25px;
-}
-.about-hr-y {
-    margin-top: 0px;
-}
+        .about_pad_frame {
+            padding: 0px 0px 0px 0px;
+        }
+        .about_row_bg {
+            margin: -10px 0px -10px 0px;
+        }
+        .about-size {
+            font-size: 25px;
+        }
+        .about-hr-y {
+            margin-top: 0px;
+        }
 /*-------------------------------
 ---------about 414 end-----------
 --------------------------------*/
 
 
-/*-------------------------------
--------------book 414---------------
----------------------------------*/
-.input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 58%;
-    margin-right: -200px;
-}
+/*-------------------------------------
+-------------book 414------------------
+--------------------------------------*/
+        .input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 58%;
+            margin-right: -200px;
+        }
 
-/*-------------------------------
+/*--------------------------------------
 -------------book 414 end---------------
----------------------------------*/
+---------------------------------------*/
 
- /*---------------------------------
-    --------------contact 414---------
-    ----------------------------------*/
-    .contact-form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #808080;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+/*---------------------------------
+--------------contact 414---------
+----------------------------------*/
+        .contact-form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #808080;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
 
-.contact-btn{
-    background-color: #ffc526;
-    border-radius: 0px;
-    color: #333;
-    padding: 10px 50px 10px 50px;
-    font-size: 11px;
-    font-family: "kanitlight";
-}
- /*---------------------------------
-    --------------contact 414---------
-    ----------------------------------*/
+        .contact-btn{
+            background-color: #ffc526;
+            border-radius: 0px;
+            color: #333;
+            padding: 10px 50px 10px 50px;
+            font-size: 11px;
+            font-family: "kanitlight";
+        }
+/*------------------------------------
+--------------contact 414 end---------
+------------------------------------*/
 
 
 }
 
 
 @media(max-width: 375px){
-    .login-font-32 {
-    font-size: 20px;
-}
-
-    .font-all-ting{
-    font-size: 12px;
-}
-
-    .book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 39px;
-    margin-right: 0px;
-}
-.book_frame-crad {
-    position: relative;
-    overflow: hidden;
-    height: 95px;
-    width: 20%;
-}
-/*-------------------------------
----------about 375---------------
---------------------------------*/
-	.about_pad_frame {
-     	padding: 0px 0px 0px 0px; 
-}
-.about-size {
-    font-size: 20px;
-}
-.about-hr-y {
-    border-bottom: 3px solid #ffcc2b;
-    width: 170px;
-    margin-left: 15px;
-}
-
-/*-------------------------------
----------about 375 end------------
---------------------------------*/
-
-    /*-----------------------
-    --------login 375--------
-    -------------------------*/
-    .login-from {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-left: 0px;
-}
 
 
-.login_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 109%;
-    height: 340px;
-}
-.login-position-a {
-    position: absolute;
-    margin-top: 45px;
-    margin-left: 60px;
-    font-size: 12px;
-}
-.login-font-32 {
-    font-size: 25px;
-}
-.login-display {
-    display: flex;
-    font-size: smaller;
-}
+        .login-font-32 {
+            font-size: 20px;
+        }
 
-   /*-----------------------
-    --------login 375 end--------
-    -------------------------*/
+        .font-all-ting{
+            font-size: 12px;
+        }
 
-/*-------------------------------
--------------book 375---------------
----------------------------------*/
-.input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 76%;
-    margin-right: -200px;
-}
 
-/*-------------------------------
--------------book 375 end---------------
----------------------------------*/
+/*-----------------------------------
+----------------book 375-------------
+------------------------------------*/
+        .book-input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 39px;
+            margin-right: 0px;
+        }
+        .book_frame-crad {
+            position: relative;
+            overflow: hidden;
+            height: 95px;
+            width: 20%;
+        }
+/*--------------------------------------
+----------------book 375 end-------------
+----------------------------------------*/
 
-        /*---------------------------------
-    --------------contact 375---------
-    ----------------------------------*/
-    .contact-form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #808080;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
 
-.contact-btn{
-    background-color: #ffc526;
-    border-radius: 0px;
-    color: #333;
-    padding: 10px 50px 10px 50px;
-    font-size: 11px;
-    font-family: "kanitlight";
-}
- /*---------------------------------
-    --------------contact 375---------
-    ----------------------------------*/
+/*---------------------------------------
+---------about 375----------------------
+-----------------------------------------*/
+        .about_pad_frame {
+            padding: 0px 0px 0px 0px;
+        }
+        .about-size {
+            font-size: 20px;
+        }
+        .about-hr-y {
+            border-bottom: 3px solid #ffcc2b;
+            width: 170px;
+            margin-left: 15px;
+        }
+
+/*-----------------------------------------
+---------about 375 end--------------------
+-------------------------------------------*/
+
+/*-------------------------------------------
+--------login 375---------------------------
+-------------------------------------------*/
+        .login-from {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            margin-left: 0px;
+        }
+
+
+        .login_frame-crad {
+            position: relative;
+            overflow: hidden;
+            width: 109%;
+            height: 340px;
+        }
+        .login-position-a {
+            position: absolute;
+            margin-top: 45px;
+            margin-left: 60px;
+            font-size: 12px;
+        }
+        .login-font-32 {
+            font-size: 25px;
+        }
+        .login-display {
+            display: flex;
+            font-size: smaller;
+        }
+
+/*-----------------------------------------
+--------login 375 end---------------------
+-----------------------------------------*/
+
+/*---------------------------------------------
+-------------book 375----------------------
+--------------------------------------------*/
+        .input-group {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 76%;
+            margin-right: -200px;
+        }
+
+/*---------------------------------------
+-------------book 375 end----------------
+------------------------------------------*/
+
+/*---------------------------------
+--------------contact 375---------
+----------------------------------*/
+          .contact-form-control {
+              display: block;
+              width: 100%;
+              padding: .375rem .75rem;
+              font-size: 12px;
+              line-height: 1.5;
+              color: #808080;
+              background-color: #fff;
+              background-clip: padding-box;
+              border: 1px solid #ced4da;
+              transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+          }
+
+          .contact-btn{
+              background-color: #ffc526;
+              border-radius: 0px;
+              color: #333;
+              padding: 10px 50px 10px 50px;
+              font-size: 11px;
+              font-family: "kanitlight";
+          }
+/*---------------------------------
+--------------contact 375---------
+----------------------------------*/
 
 }
 
@@ -1343,165 +1351,165 @@ border: 1px solid #3333334d;
 @media (max-width: 320px ){
 
 
-    .login-font-32 {
-    font-size: 18px;
-}
+          .login-font-32 {
+              font-size: 18px;
+          }
 
-    .font-all-ting{
-    font-size: 9px;
-}
+          .font-all-ting{
+              font-size: 9px;
+          }
 
-    .gray-btn {
-    width: 122px;
-    height: 35px;
-    border-radius: 0px;
-    color: #333333;
-    background-color: #33333326;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 10px;
-}
-.font-size-13{
-    font-size: 13px;
-}
-
-/*-------------------------------
----------about 320---------------
---------------------------------*/
-	.about_pad_frame {
-    	padding: 0px 0px 0px 0px; 
-}
+          .gray-btn {
+              width: 122px;
+              height: 35px;
+              border-radius: 0px;
+              color: #333333;
+              background-color: #33333326;
+              transition: all 0.5s;
+              font-family: "kanitlight";
+              font-size: 10px;
+          }
+          .font-size-13{
+              font-size: 13px;
+          }
 
 /*-------------------------------
 ---------about 320---------------
 --------------------------------*/
+        	.about_pad_frame {
+            	padding: 0px 0px 0px 0px;
+          }
 
-/*---------------------------
-----------login 320----------
-----------------------------*/
-.login-display {
-    display: flex;
-    font-size: 11px;
-}
-.login_frame-crad {
-    position: relative;
-    overflow: hidden;
-    width: 112%;
-    height: 284px;
-}
-.login-position-a {
-    position: absolute;
-    margin-top:30px;
-    font-size: 9px;
-}
-.login-font-32 {
-    font-size: 20px;
-}
-.login-from {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-left: 0px;
-}
-/*---------------------------
-----------login 320----------
-----------------------------*/
+/*----------------------------------
+---------about 320 end---------------
+--------------------------------*/
 
-/*--------------------------
+/*--------------------------------
+----------login 320----------------
+--------------------------------*/
+          .login-display {
+              display: flex;
+              font-size: 11px;
+          }
+          .login_frame-crad {
+              position: relative;
+              overflow: hidden;
+              width: 112%;
+              height: 284px;
+          }
+          .login-position-a {
+              position: absolute;
+              margin-top:30px;
+              font-size: 9px;
+          }
+          .login-font-32 {
+              font-size: 20px;
+          }
+          .login-from {
+              display: block;
+              width: 100%;
+              padding: .375rem .75rem;
+              font-size: 12px;
+              line-height: 1.5;
+              color: #333;
+              background-color: #fff;
+              background-clip: padding-box;
+              border: 1px solid #ced4da;
+              border-radius: 0px;
+              transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+              margin-left: 0px;
+          }
+/*------------------------------
+----------login 320 end---------
+-------------------------------*/
+
+/*------------------------------
 ------------book 320-----------
----------------------------*/
-.book-btn-100 {
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    color: #333333;
-    background-color: #ffc526;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 10px;
-}
-.book-btn-100:hover{
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    color: #fff;
-    background-color: #123cb2;
-    transition: all 0.5s;
-    font-family: "kanitlight";
-    font-size: 10px;
-}
+------------------------------*/
+          .book-btn-100 {
+              width: 100%;
+              height: 50px;
+              border-radius: 0px;
+              color: #333333;
+              background-color: #ffc526;
+              transition: all 0.5s;
+              font-family: "kanitlight";
+              font-size: 10px;
+          }
+          .book-btn-100:hover{
+              width: 100%;
+              height: 50px;
+              border-radius: 0px;
+              color: #fff;
+              background-color: #123cb2;
+              transition: all 0.5s;
+              font-family: "kanitlight";
+              font-size: 10px;
+          }
 
-.book_frame-crad {
-    position: relative;
-    overflow: hidden;
-    height: 120px;
-}
-.input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 104%;
-    margin-right: -200px;
-}
-.book-btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    /* border-radius: .25rem; */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    border: 1px solid;
-    margin-right: 1px;
-    width: 88%;
-    height: 35px;
-}
-.book-input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 35px;
-    margin-right: 10px;
-}
-.book-btn-daw {
-    color: #fff;
-    border-color: #123CB2;
-    background-color: #123CB2;
-    border-radius: 0px;
-    font-size: 10px;
+          .book_frame-crad {
+              position: relative;
+              overflow: hidden;
+              height: 120px;
+          }
+          .input-group {
+              position: relative;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              -webkit-box-align: stretch;
+              -ms-flex-align: stretch;
+              align-items: stretch;
+              width: 104%;
+              margin-right: -200px;
+          }
+          .book-btn {
+              display: inline-block;
+              font-weight: 400;
+              text-align: center;
+              white-space: nowrap;
+              vertical-align: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              border: 1px solid transparent;
+              padding: .375rem .75rem;
+              font-size: 1rem;
+              line-height: 1.5;
+              /* border-radius: .25rem; */
+              transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+              border: 1px solid;
+              margin-right: 1px;
+              width: 88%;
+              height: 35px;
+          }
+          .book-input-group {
+              position: relative;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              -webkit-box-align: stretch;
+              -ms-flex-align: stretch;
+              align-items: stretch;
+              width: 35px;
+              margin-right: 10px;
+          }
+          .book-btn-daw {
+              color: #fff;
+              border-color: #123CB2;
+              background-color: #123CB2;
+              border-radius: 0px;
+              font-size: 10px;
 
-}
-/*--------------------------
-------------book 320-----------
----------------------------*/
+          }
+/*---------------------------------
+------------book 320-----------------
+----------------------------------*/
 
         /*---------------------------------
     --------------contact 320---------

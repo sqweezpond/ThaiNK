@@ -13,7 +13,7 @@
 
     <div class="wrapper">
        <!-- CONTENT -->
-        
+
 
                     <div class="container fadeIn animated">
                       <div class="row mt-5">
@@ -38,7 +38,7 @@
 
                           <table class=" table  book-shado " >
                             <thead>
-                             <tbody>
+                              <tbody>
                                 <tr>
                                   <td>
                                     <div>
@@ -116,7 +116,7 @@
                             <div class="col-lg-12">
                               <p class="ml-1 mt-3 font-all-ting">180/2 ม.3 ซ.โยกย้าย ซอย 6 ถนน.บางกรวย-ไทรน้อย ต.บางใหญ่ อ.เมือง จ.นนทบุรี 11000</p>
                             </div>
-                          </div>  
+                          </div>
 
                           <div class="row book-shado my-4 m-0" >
                             <div class="col-lg-12">
@@ -130,7 +130,6 @@
                               <p>ยอดรวม</p>
                               <p>ค่าจัดส่ง</p>
                               <p>ส่วนลด</p>
-
                             </div>
                             <div class="col-lg-3 col-md-6 col-6 text-right mt-3 font-all-ting" style="line-height: 10px;">
                               <p>4</p>
@@ -145,13 +144,13 @@
                                     <input type="email" class="book-login-from" id="exampleFormControlInput1" placeholder="กรุณาระบุโค้ดส่วนลด">
                                 </div>
                               </div>
-                              <div class="col-lg-4 col-md-12 col-12 text-center">
-                                <button type="submit" class="btn book-btn-daw">Submit</button>
-                              </div>
+                                <div class="col-lg-4 col-md-12 col-12 text-center">
+                                  <button type="submit" class="btn book-btn-daw">Submit</button>
+                                </div>
                               <div class="col-lg-12">
                                  <hr>
                               </div>
-                             
+
 
                               <div class="col-lg-7  col-md-7 col-6 ">
                                 <p>ยอดรวมทั้งหมด</p>
@@ -166,15 +165,9 @@
                                 <button type="button" class="btn book-btn-100 ">ชำระเงิน</button>
                               </div>
                             </div>
-                          </div>     
+                          </div>
                         </div>
-                        
-
-
-                              
-
-
-    
+                      </div>
 
 
 
@@ -188,10 +181,15 @@
 
 
 
-        
+
+
+
+
+
+
 
             <!-- END CONTANER ------>
-        </div>
+
         <!-- END CONTENT ---------->
     </div>
 
@@ -206,6 +204,3 @@
 
   </body>
 </html>
-
-
-  

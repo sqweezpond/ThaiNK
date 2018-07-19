@@ -26,8 +26,8 @@
                               <p><i class="fa fa-check-circle mr-4 login-color-green" aria-hidden="true"></i>สิ่งสินค้าผ่านระบบออนไลน์ตั้งแต่ 999 บาท ขึ้นไปรับ<span class="login-color-org">ส่วนลดทันที 10%</span></p>
                               <p><i class="fa fa-check-circle mr-4 login-color-green" aria-hidden="true"></i>สั่นสินค้าผ่านระบบออนไลน์ได้ตลอด 24 ชม.</p>
                           </div>
-                        </div>
-                     </div>
+                      </div>
+                    </div>
 
             <!-- ส่วนรูป จบ -->
 
@@ -38,23 +38,23 @@
                             <form class="my-4">
                               <div class="form-group row">
                                 <label for="inputPassword" class="col-sm-2 login_col-form-label">อีเมล์</label>
-                                <div class="col-sm-10">
-                                  <input type="text" class="login-from" id="inputPassword" placeholder="example@mail.com">
-                                </div>
+                                  <div class="col-sm-10">
+                                    <input type="text" class="login-from" id="inputPassword" placeholder="example@mail.com">
+                                  </div>
                               </div>
-                               <div class="form-group row mt-lg-4">
-                                  <label for="inputPassword" class="col-sm-2 login_col-form-label">รหัสผ่าน</label>
-                                <div class="col-sm-10">
-                                  <input type="password" class="login-from" id="inputPassword" placeholder="********">
+                                 <div class="form-group row mt-lg-4">
+                                    <label for="inputPassword" class="col-sm-2 login_col-form-label">รหัสผ่าน</label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="login-from" id="inputPassword" placeholder="********">
+                                  </div>
                                 </div>
-                              </div>
                             </form>
-                        <div class="mt-lg-5 text-center">
-                          <button type="button" class="btn login-btn ">เข้าสู่ระบบ</button>
-                        </div>
-                        <div class="my-3  text-center">
-                          <button type="button" class="btn login-btn2"><i class="fa fa-facebook-official mr-4" aria-hidden="true"></i>Login with Facebook</button>
-                        </div>
+                              <div class="mt-lg-5 text-center">
+                                <button type="button" class="btn login-btn ">เข้าสู่ระบบ</button>
+                              </div>
+                              <div class="my-3  text-center">
+                                <button type="button" class="btn login-btn2"><i class="fa fa-facebook-official mr-4" aria-hidden="true"></i>Login with Facebook</button>
+                              </div>
 
 
 
@@ -72,25 +72,25 @@
                                 <span aria-hidden="true">&times;</span>
                               </button>
                             </div>
-                            <div class="modal-body">
-                              <div class="text-center my-5 login-font-32">
-                                <h4>Forget Password</h4>
-                              </div>
+                          <div class="modal-body">
+                            <div class="text-center my-5 login-font-32">
+                              <h4>Forget Password</h4>
+                            </div>
                               <div class="text-center letter font-all-ting">
                                 <p>ในการรัเซ็ตรหัสผ่านของคุณให้ป้อนอีเมลของคุณเราจะส่งลิ้งค์เพื่อรีเซ็ตรหัสผ่านของคุณ</p>
                               </div>
-                              <form>
-                                <div class="form-group row">
-                                  <label for="inputPassword3" class="col-sm-2 login_col-form-label text-center">อีเมล</label>
-                                    <div class="col-sm-10">
-                                      <input type="email" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
-                                    </div>
-                                </div>
-                              </form>
-                                <div class="mt-4 text-center">
-                                  <button type="button" class="btn profile-btn ">ยืนยัน</button>
-                                </div>
-                            </div>
+                            <form>
+                              <div class="form-group row">
+                                <label for="inputPassword3" class="col-sm-2 login_col-form-label text-center">อีเมล</label>
+                                  <div class="col-sm-10">
+                                    <input type="email" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
+                                  </div>
+                              </div>
+                            </form>
+                              <div class="mt-4 text-center">
+                                <button type="button" class="btn profile-btn ">ยืนยัน</button>
+                              </div>
+                          </div>
                               <div class="modal-footer" style="padding-top: 35px;">
                               </div>
                           </div>
@@ -119,37 +119,37 @@
                         </div>
                         <form>
                           <div class="form-group row">
-                            <label for="inputEmail3" class="col-sm-2 login_col-form-label">ชื่อ-นามสกุล</label>
+                              <label for="inputEmail3" class="col-sm-2 login_col-form-label">ชื่อ-นามสกุล</label>
                             <div class="col-sm-10">
                               <input type="email" class="re-login-from" id="inputEmail3" placeholder="สมปอง สมปอง">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">อีเมล</label>
+                              <label for="inputPassword3" class="col-sm-2 login_col-form-label">อีเมล</label>
                             <div class="col-sm-10">
                               <input type="email" class="re-login-from" id="inputPassword3" placeholder="example@gmail.com">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">รหัสผ่าน</label>
+                              <label for="inputPassword3" class="col-sm-2 login_col-form-label">รหัสผ่าน</label>
                             <div class="col-sm-10">
                               <input type="password" class="re-login-from" id="inputPassword3" placeholder="************">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">ยืนยันรหัสผ่าน</label>
+                              <label for="inputPassword3" class="col-sm-2 login_col-form-label">ยืนยันรหัสผ่าน</label>
                             <div class="col-sm-10">
                               <input type="password" class="re-login-from" id="inputPassword3" placeholder="************">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">ที่อยู่</label>
+                              <label for="inputPassword3" class="col-sm-2 login_col-form-label">ที่อยู่</label>
                             <div class="col-sm-10">
                                <textarea type="text" class="re-login-from" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 login_col-form-label">captcha</label>
+                              <label for="inputPassword3" class="col-sm-2 login_col-form-label">captcha</label>
                             <div class="col-sm-10">
                               <div class="login_frame-crad-1">
                                  <img class="login_card-img-top-2" src="http://www.onion-sec.com/wp-content/uploads/2018/05/recap.gif">
@@ -173,9 +173,9 @@
 
 
 
-</div>
-       <!-- END CONTENT -->
 
+       <!-- END CONTENT -->
+</div>
     <!-- START FOOTER -->
     <?php include_once('inc/footer.php'); ?>
     <!-- END FOOTER -->
