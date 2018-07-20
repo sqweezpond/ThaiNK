@@ -354,7 +354,7 @@ a,p{
             color: #f36006e8;
         }
         .login-color-green{
-            font-size: 25px;
+            font-size: 23px;
             color: #50b23f;
         }
         .login-from {
@@ -1113,6 +1113,10 @@ a,p{
             display: flex;
             font-size: smaller;
         }
+        .login-color-green {
+            font-size: 18px;
+            color: #50b23f;
+        }
 /*------------------------------
 --------login 414 end-----------
 -------------------------------*/
@@ -1290,7 +1294,10 @@ a,p{
             display: flex;
             font-size: smaller;
         }
-
+        .login-color-green {
+            font-size: 20px;
+            color: #50b23f;
+        }
 /*-----------------------------------------
 --------login 375 end---------------------
 -----------------------------------------*/
@@ -1418,6 +1425,10 @@ a,p{
               border-radius: 0px;
               transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
               margin-left: 0px;
+          }
+          .login-color-green {
+              font-size: 15px;
+              color: #50b23f;
           }
 /*------------------------------
 ----------login 320 end---------
