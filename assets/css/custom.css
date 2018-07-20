@@ -3883,14 +3883,14 @@ body {
   }
   .home-overlay-coulasel {
       position: relative;
-      height: 107px;
+      height: 102px;
       width: 100%;
       overflow: hidden;
       background-color: white;
   }
   .home-coulasel{
       box-shadow: 0px 1px 15px -6px;
-      height: 216px;
+      height: 211px;
   }
   .home-overlay-card {
       position: relative;
