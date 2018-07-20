@@ -30,7 +30,7 @@
 														 </button>
 														 <div class="dropdown-content">
 																	<a href="#">
-																			<img src="/thaink/assets/images/logo/thai.png" width="22" height="15">Thai
+																			<img src="/thaink/assets/images/logo/thai.png" class="mr-1" width="22" height="15">Thai
 																	</a>
 																	<a href="#">
 																			<img src="/thaink/assets/images/logo/eng.jpg" class="mr-2" width="22" height="15">Eng
