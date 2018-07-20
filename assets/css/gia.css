@@ -1227,7 +1227,7 @@ a,p{
             position: relative;
             overflow: hidden;
             height: 95px;
-            width: 20%;
+            width: 30%;
         }
 /*--------------------------------------
 ----------------book 375 end-------------
@@ -1453,6 +1453,7 @@ a,p{
               position: relative;
               overflow: hidden;
               height: 120px;
+              width: 30%;
           }
           .input-group {
               position: relative;
