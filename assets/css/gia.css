@@ -1099,15 +1099,15 @@ a,p{
         }
         .login-btn{
             width: 100%;
-            font-size: 11px;
+            font-size: 12px;
         }
         .login-btn:hover {
             width: 100%;
-            font-size: 11px;
+            font-size: 12px;
         }
         .login-btn2{
             width: 100%;
-            font-size: 11px;
+            font-size: 12px;
         }
         .login-display {
             display: flex;
