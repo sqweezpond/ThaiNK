@@ -129,7 +129,7 @@
                             </div>
 
 
-<!-------------------------เลขหน้า  --------------------------------->
+<!---เลขหน้า  --------------------------------->
 
                           <div class="container mt-5">
                             <div class="row">
@@ -168,7 +168,19 @@
     <!-- START FOOTER SCRIPT -->
     <?php include_once('inc/footer-script.php'); ?>
     <!-- END FOOOTER SCRIPT -->
-
+    
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("filter-page");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+    </script>
 
   </body>
 </html>
