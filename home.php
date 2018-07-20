@@ -579,7 +579,7 @@
                       </div>
                     </a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-lg-4">
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                    <div class="home-font12 pt-3 home-overflow-h2">ขวดน้ำพลาสติกใสดีกว่าพลาสติกขุ่นหรือไม่ ? ขวดน้ำพลาสติกใสดีกว่าพลาสติกขุ่นหรือไม่ ?</div>
                    <div class="pt-3 home-font7 txt-indent home-overflow2">
                        Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
@@ -598,7 +598,7 @@
                       </div>
                     </a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-lg-4">
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <div class="home-font12 pt-3 home-overflow-h2">เม็ดพลาสติก เศษพลาสติก ทำถนนได้ ?</div>
                     <div class="pt-3 home-font7 txt-indent home-overflow2">
                         Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
@@ -608,16 +608,14 @@
                       <a href="new-detail.php" class="home-font13">ดูรายละเอียด</a>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-lg-4">
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <a href="new-detail.php">
                       <div class="new-overlay-image">
                          <img src = "assets/images/banner/plastic.png" class="new-image-full">
                       </div>
                     </a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-lg-4">
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                    <div class="home-font12 pt-3 home-overflow-h2">เม็ดพลาสติก มีกี่ประเภท แต่ละชนิดใช้งานต่างกันอย่างไร</div>
                    <div class="pt-3 home-font7 txt-indent home-overflow2">
                        Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
@@ -634,7 +632,7 @@
                       </div>
                     </a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-lg-4">
+                <div class="col-xl-3 col-lg-3 col-md-6 mt-4">
                     <div class="home-font12 pt-3 home-overflow-h2">ราคารับซื้อถุงพลาสติกเข้าโรงหลอม</div>
                     <div class="pt-3 home-font7 txt-indent home-overflow2">
                         Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
