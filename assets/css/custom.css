@@ -2346,7 +2346,7 @@ body {
       line-height: 1;
   }
   .home-font6 {
-      font-size: 19px;
+      font-size: 16px;
       color: #333333;
   }
   .home-font7 {
@@ -3152,7 +3152,7 @@ body {
       line-height: 2.6;
   }
   .home-font6 {
-      font-size: 12px;
+      font-size: 15px;
       color: #333333;
   }
   .home-font7 {
@@ -3320,7 +3320,7 @@ body {
       height: 30px;
       border: 2px solid #ffcc2b;
       color: #fff;
-      font-size: 10px;
+      font-size: 11px;
       background: #ffcc2b;
       font-family: 'kanitlight';
       border-radius: 0px;
@@ -3333,7 +3333,7 @@ body {
       height: 30px;
       border: 2px solid #ffcc2b;
       color: #ffcc2b;
-      font-size: 10px;
+      font-size: 11px;
       background: transparent;
       font-family: 'kanitlight';
       border-radius: 0px;
@@ -4259,7 +4259,7 @@ body {
   .home-position-a11 {
       position: absolute;
       margin-top: 5px;
-      margin-left: 36px;
+      margin-left: 43px;
       z-index: 1;
   }
   .home-overlay-coulasel {
